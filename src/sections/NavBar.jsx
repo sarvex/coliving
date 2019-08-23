@@ -14,7 +14,7 @@ const SectionHeaders = ({ ...props }) => {
     <div className="cd-section" {...rest}>
       <Header
         fixed
-        brand={<img src={Logo} height={35} alt="Housr"/>}
+        brand="Coliving.ai"
         color="transparent"
         links={<HeaderLinks dropdownHoverColor="primary"/>}
         changeColorOnScroll={{

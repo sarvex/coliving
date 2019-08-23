@@ -9,7 +9,7 @@ import GridItem from '../../../components/Grid/GridItem';
 
 import headersStyle from '../../../assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle';
 
-import cover from '../../../assets/img/cover.webp';
+import cover from '../../../assets/img/examples/city.jpg';
 
 function SectionHeaders({ ...props }) {
   const { classes, ...rest } = props;
