@@ -45,7 +45,7 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Info>
-                      <h6>HOUSR SUITES</h6>
+                      <h6>SUITES</h6>
                     </Info>
                     <h4 className={classes.cardTitle}>
                       <a href="#pablo">
@@ -78,7 +78,7 @@ function SectionSimilarStories({ ...props }) {
                   </CardHeader>
                   <CardBody>
                     <Success>
-                      <h6>HOUSR</h6>
+                      <h6>HOUSE</h6>
                     </Success>
                     <h4 className={classes.cardTitle}>
                       <a href="#pablo">
@@ -113,7 +113,7 @@ function SectionSimilarStories({ ...props }) {
                       <h6>
                         <TrendingUp/>
                         {' '}
-                        HOUSR STUDENTS
+                        STUDENTS
                       </h6>
                     </Danger>
                     <h4 className={classes.cardTitle}>

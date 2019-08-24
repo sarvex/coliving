@@ -20,7 +20,7 @@ const SectionAbout = (props) => {
           >
             <div className={classes.sectionDescription}>
               <h2 className={classes.title}>
-                When you open a Housr door, you open to a community way of
+                When you open a door, you open to a community way of
                 living
               </h2>
               <h5 className={classes.description}>
@@ -31,7 +31,7 @@ const SectionAbout = (props) => {
                 requests, like posts and share fun stuff. Now, imagine all of
                 that, in a beautifully designed, tech enabled, co-living
                 space. You finish a day at college, or work. Come home to your
-                clan, and you pretty much be yourself. That’s Housr.
+                clan, and you pretty much be yourself. That’s Coliving.
               </h5>
               <Link to="/story">
                 <Button color="danger" size="lg" round>

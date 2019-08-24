@@ -74,7 +74,7 @@ class Marketing extends React.Component {
                             </a>
                           </h4>
                           <ul className={classes.cardDescription}>
-                            <li>An inclination towards curating new events to bring Housr residents together and creating a sense of community</li>
+                            <li>An inclination towards curating new events to bring residents together and creating a sense of community</li>
                             <li>An endless appetite for networking and communicating with people</li>
                             <li>A social media virtuoso, adept with all the channels of online communications, helping us to express ourselves to the right people</li>
                             <li>An entrepreneurial mindset and a blazing hustle for bringing new ideas to the table every now and then</li>
@@ -92,7 +92,7 @@ class Marketing extends React.Component {
                             <li>You can identify new opportunities of growth and take strategic initiatives for business growth</li>
                             <li>Successful track record in building strong relationships with Brand and Venue Partners</li>
                             <li>A graduate degree in any specialization. Prior experience in developing community engagement programs is highly desirable.</li>
-                            <li>This role will require active engagement with the Housr members during the events and will be a demanding role considering the events shall be conducted intermittently across the month.</li>
+                            <li>This role will require active engagement with the members during the events and will be a demanding role considering the events shall be conducted intermittently across the month.</li>
                           </p>
                           <div className={classes.textCenter}>
                             <Button round color="rose">

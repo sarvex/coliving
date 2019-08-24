@@ -28,7 +28,7 @@ class AboutUsPage extends React.Component {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={12} sm={12} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>
-                <h1 className={classes.title}>Housr is a social hub of mega co-living spaces that fosters
+                <h1 className={classes.title}>Coliving.ai is a social hub of mega co-living spaces that fosters
                   communities</h1>
               </GridItem>
             </GridContainer>

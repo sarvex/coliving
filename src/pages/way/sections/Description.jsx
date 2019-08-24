@@ -24,7 +24,7 @@ const SectionAbout = (props) => {
                 have the building, we convert it to this really interesting space
                 that you’d actually want to come home to. We host fun stuff like
                 gaming nights, food evenings, stand up comedy night and a whole lot
-                more. So you aren’t just living at Housr. You’re living the Housr life.
+                more. So you aren’t just living at Coliving. You’re living the Coliving life.
               </h3>
             </div>
           </GridItem>

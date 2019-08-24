@@ -40,7 +40,7 @@ function SectionHeaders({ ...props }) {
                   src="https://www.youtube.com/embed/22oePt94TeU"
                   frameBorder="0"
                   allow="encrypted-media"
-                  title="Housr"
+                  title="Coliving.ai"
                   allowFullScreen
                 />
               </div>

@@ -28,7 +28,7 @@ class AboutUsPage extends React.Component {
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={8} sm={8} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>
-                <h1 className={classes.title}>Housr Credits</h1>
+                <h1 className={classes.title}> Credits</h1>
               </GridItem>
             </GridContainer>
           </div>

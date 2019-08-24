@@ -32,10 +32,10 @@ const SectionFooter = (props) => {
                   <a href="/apps" className={classes.block}>Apps</a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/news" className={classes.block}>Housr In News</a>
+                  <a href="/news" className={classes.block}>In News</a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/hacks" className={classes.block}>Housr Hacks</a>
+                  <a href="/hacks" className={classes.block}>Hacks</a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
                   <a href="/faqs" className={classes.block}>FAQs</a>
@@ -53,7 +53,7 @@ const SectionFooter = (props) => {
               {' '}
               {1900 + new Date().getYear()}
               {' '}
-              <a href="/" className={classes.aClasses}>Housr</a>
+              <a href="/" className={classes.aClasses}>Coliving.ai</a>
               {' '}
               All Rights Reserved.
             </div>
@@ -63,7 +63,7 @@ const SectionFooter = (props) => {
         <GridContainer>
           <GridItem xs={12} sm={4} md={4}>
             <h5>About Us</h5>
-            <p>Housr is a social hub of mega co-living spaces that fosters communities.</p>
+            <p>Coliving is a social hub of mega co-living spaces that fosters communities.</p>
             <p>
               We begin by owning living spaces. And when we own them, we own the whole building, not just scattered
               flats here and there.

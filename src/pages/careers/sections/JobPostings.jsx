@@ -209,7 +209,7 @@ class SectionCards extends React.Component {
                       <CardBody className={classes.cardBodyRotate}>
                         <h5 className={classes.cardTitle}>COMMUNITY MANAGER</h5>
                         <p className={classes.cardDescription}>
-                          This role will require active engagement with the Housr members
+                          This role will require active engagement with the Coliving members
                           during the events and will be a demanding role considering the
                           events shall be conducted intermittently across the month. ...
                         </p>
@@ -635,7 +635,7 @@ class SectionCards extends React.Component {
                         </Success>
                         <h4 className={classes.cardTitle}>
                           <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                            HOUSR OFFICER
+                            OFFICER
                           </a>
                         </h4>
                         <p className={classes.cardDescription}>
@@ -646,7 +646,7 @@ class SectionCards extends React.Component {
                     </div>
                     <div className={classes.back}>
                       <CardBody className={classes.cardBodyRotate}>
-                        <h5 className={classes.cardTitle}>HOUSR OFFICER</h5>
+                        <h5 className={classes.cardTitle} OFFICER</h5>
                         <p className={classes.cardDescription}>
                           A degree in the subject awarded by a University college dedicated to
                           the studies of hospitality management or a business school with a

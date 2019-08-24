@@ -23,7 +23,7 @@ function SectionOffice(props) {
           sm={8}
           className={classNames(classes.mrAuto, classes.mlAuto)}
         >
-          <h2 className={classes.title}>Glimpses of Housr Life</h2>
+          <h2 className={classes.title}>Glimpses of Coliving Life</h2>
         </GridItem>
       </GridContainer>
       <GridContainer>

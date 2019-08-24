@@ -5,7 +5,6 @@ import Header from '../components/Header/Header';
 import HeaderLinks from '../components/Header/HeaderLinks';
 
 import headersStyle from '../assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle';
-import Logo from '../assets/img/housr.svg';
 
 const SectionHeaders = ({ ...props }) => {
   const { ...rest } = props;
@@ -20,7 +19,7 @@ const SectionHeaders = ({ ...props }) => {
         changeColorOnScroll={{
           height: 400,
           color: 'none',
-          brand: <img src={Logo} height={35} alt="Housr" />
+          brand: "Coliving.ai"
         }}
       />
     </div>

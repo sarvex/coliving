@@ -24,7 +24,7 @@ function SectionFeatures({ ...props }) {
                 Experience it with people like you
               </h2>
               <h4>
-                Communities are all about experiences. At Housr, we bring alive experiences that bring people closer. So
+                Communities are all about experiences. We bring alive experiences that bring people closer. So
                 you don’t come back home to a neighbour. You come home to a friend.
               </h4>
             </GridItem>
@@ -38,7 +38,7 @@ function SectionFeatures({ ...props }) {
               </h2>
               <h4>
                 We love diversity. So come as you are, whoever you are. What you eat, who you love and who you
-                worship doesn’t matter to us. At Housr, no judgements are passed. As Housr
+                worship doesn’t matter to us. No judgements are passed. As Coliving
                 buildings host hundreds of residents, chances are you will find people who are just like you.
               </h4>
             </GridItem>

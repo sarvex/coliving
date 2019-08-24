@@ -23,14 +23,13 @@ const SectionAbout = (props) => {
             >
               <div className={classes.sectionDescription}>
                 <h2 className={classes.title}>
-                  It’s happening at Housr
+                  It’s happening
                 </h2>
                 <h5 className={classes.description}>
                   Whether you are a social butterfly or a lone wolf, you will always find something that will excite you
-                  at Housr. We bring alive experiences. A stand up comedy night here, a soccer evening there, a
+                  . We bring alive experiences. A stand up comedy night here, a soccer evening there, a
                   kickboxing
-                  session, a Shark Tank inspired event where you bring your world-changing ideas. It’s all happening at
-                  Housr. And, if you’d like something else, hey, we’re always open to ideas. So bring them on!
+                  session, a Shark Tank inspired event where you bring your world-changing ideas. It’s all happening. And, if you’d like something else, hey, we’re always open to ideas. So bring them on!
                 </h5>
                 <Link to="/story">
                   <Button color="danger" size="lg" round>

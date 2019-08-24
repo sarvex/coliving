@@ -24,11 +24,11 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={6} md={6}>
-                <h1 className={classes.title}>Your big fat Housr wallet</h1>
+                <h1 className={classes.title}>Your big fat wallet</h1>
                 <h4>
-                  When you join the Housr community, your Housr wallet is loaded with a hefty number of points. As you
-                  keep doing stuff around Housr, your points increase. Help us with an event, host an evening, and your
-                  Housr points shoot up. Use these points to buy yourself dinner, tip housekeeping, buy Housr
+                  When you join the community, your wallet is loaded with a hefty number of points. As you
+                  keep doing stuff around, your points increase. Help us with an event, host an evening, and your
+                  points shoot up. Use these points to buy yourself dinner, tip housekeeping, buy
                   merchandise. It’s a pretty cool economy here! All credit goes to you, you and only you.
                 </h4>
                 <br/>
