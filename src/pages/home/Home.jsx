@@ -11,6 +11,9 @@ import Credits from './sections/Credits';
 import PreFooter from './sections/PreFooter';
 import NavBar from '../../sections/NavBar';
 import Footer from '../../sections/Footer';
+import Parallax from "../../components/Parallax/Parallax";
+import GridContainer from "../../components/Grid/GridContainer";
+import GridItem from "../../components/Grid/GridItem";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -23,7 +26,16 @@ class Home extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Header/>
+        <Parallax image={require('assets/img/story.webp')} filter="dark" small>
+          <div className={classes.container}>
+            <GridContainer justify="center">
+              <GridItem md={12} sm={12} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>
+                <h1 className={classes.title}>Housr is a social hub of mega co-living spaces that fosters
+                  communities</h1>
+              </GridItem>
+            </GridContainer>
+          </div>
+        </Parallax>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <About/>
         </div>
