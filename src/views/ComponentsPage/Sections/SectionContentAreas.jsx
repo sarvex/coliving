@@ -17,15 +17,15 @@ import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
 import Reply from "@material-ui/icons/Reply";
 import Favorite from "@material-ui/icons/Favorite";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Table from "components/Table/Table.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import Media from "components/Media/Media.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import Paginations from "components/Pagination/Pagination.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Table from "components/Table/Table";
+import Button from "components/CustomButtons/Button";
+import Media from "components/Media/Media";
+import CustomInput from "components/CustomInput/CustomInput";
+import Paginations from "components/Pagination/Pagination";
 
-import style from "assets/jss/material-kit-pro-react/views/componentsSections/contentAreas.jsx";
+import style from "assets/jss/material-kit-pro-react/views/componentsSections/contentAreas";
 
 import avatar from "assets/img/faces/avatar.jpg";
 import kendall from "assets/img/faces/kendall.jpg";
@@ -43,6 +43,7 @@ class SectionContentAreas extends React.Component {
     };
     this.handleToggle = this.handleToggle.bind(this);
   }
+
   handleToggle(value) {
     const { checked } = this.state;
     const currentIndex = checked.indexOf(value);
@@ -56,6 +57,7 @@ class SectionContentAreas extends React.Component {
       checked: newChecked
     });
   }
+
   render() {
     const { classes, ...rest } = this.props;
     const fillButtons = [
@@ -106,7 +108,7 @@ class SectionContentAreas extends React.Component {
               xs={12}
               sm={10}
               md={8}
-              className={classes.mrAuto + " " + classes.mlAuto}
+              className={`${classes.mrAuto  } ${  classes.mlAuto}`}
             >
               <h4>
                 <small>Simple With Actions</small>
@@ -518,9 +520,9 @@ class SectionContentAreas extends React.Component {
                   classes.tdName,
                   classes.customFont,
                   classes.customFont,
-                  classes.tdNumber + " " + classes.textCenter,
-                  classes.tdNumber + " " + classes.tdNumberAndButtonGroup,
-                  classes.tdNumber + " " + classes.textCenter
+                  `${classes.tdNumber  } ${  classes.textCenter}`,
+                  `${classes.tdNumber  } ${  classes.tdNumberAndButtonGroup}`,
+                  `${classes.tdNumber  } ${  classes.textCenter}`
                 ]}
                 customClassesForCells={[1, 2, 3, 4, 5, 6]}
               />
@@ -537,10 +539,10 @@ class SectionContentAreas extends React.Component {
               xs={12}
               sm={8}
               md={8}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <div>
-                <h3 className={classes.title + " " + classes.textCenter}>
+                <h3 className={`${classes.title  } ${  classes.textCenter}`}>
                   10 Comments
                 </h3>
                 <Media
@@ -755,7 +757,7 @@ class SectionContentAreas extends React.Component {
                 <div>
                   <Paginations
                     className={
-                      classes.textCenter + " " + classes.justifyContentCenter
+                      `${classes.textCenter  } ${  classes.justifyContentCenter}`
                     }
                     pages={[
                       { text: "«" },

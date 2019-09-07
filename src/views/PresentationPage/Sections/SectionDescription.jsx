@@ -2,9 +2,9 @@ import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
 
 // @material-ui icons
 import Apps from "@material-ui/icons/Apps";
@@ -13,7 +13,7 @@ import ViewCarousel from "@material-ui/icons/ViewCarousel";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-import descriptionStyle from "assets/jss/material-kit-pro-react/views/presentationSections/descriptionStyle.jsx";
+import descriptionStyle from "assets/jss/material-kit-pro-react/views/presentationSections/descriptionStyle";
 
 class SectionDescription extends React.Component {
   render() {
@@ -40,7 +40,7 @@ class SectionDescription extends React.Component {
                   description="Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour."
                   icon={Apps}
                   iconColor="danger"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
               <GridItem md={4} sm={4}>
@@ -49,7 +49,7 @@ class SectionDescription extends React.Component {
                   description="Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customise and built your pages."
                   icon={ViewDay}
                   iconColor="primary"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
               <GridItem md={4} sm={4}>
@@ -58,7 +58,7 @@ class SectionDescription extends React.Component {
                   description="If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages."
                   icon={ViewCarousel}
                   iconColor="success"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
             </GridContainer>

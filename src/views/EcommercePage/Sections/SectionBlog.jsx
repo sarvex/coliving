@@ -4,11 +4,11 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
@@ -16,7 +16,7 @@ import dg6 from "assets/img/dg6.jpg";
 import dg10 from "assets/img/dg10.jpg";
 import dg9 from "assets/img/dg9.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle.jsx";
+import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle";
 
 const SectionBlog = props => {
   const { classes } = props;

@@ -13,18 +13,20 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 
 // core components
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import customTabsStyle from "assets/jss/material-kit-pro-react/components/customTabsStyle.jsx";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import CardHeader from "components/Card/CardHeader";
+import customTabsStyle from "assets/jss/material-kit-pro-react/components/customTabsStyle";
 
 class CustomTabs extends React.Component {
   state = {
     value: 0
   };
+
   handleChange = (event, value) => {
     this.setState({ value });
   };
+
   render() {
     const {
       classes,
@@ -46,7 +48,7 @@ class CustomTabs extends React.Component {
       <Card plain={plainTabs}>
         <CardHeader color={headerColor} plain={plainTabs}>
           {title !== undefined ? (
-            <div className={cardTitle}>{"title"}</div>
+            <div className={cardTitle}>title</div>
           ) : null}
           <Tabs
             classes={{
@@ -59,7 +61,7 @@ class CustomTabs extends React.Component {
             textColor="inherit"
           >
             {tabs.map((prop, key) => {
-              var icon = {};
+              let icon = {};
               if (prop.tabIcon !== undefined) {
                 icon = {
                   icon: <prop.tabIcon className={classes.tabIcon} />

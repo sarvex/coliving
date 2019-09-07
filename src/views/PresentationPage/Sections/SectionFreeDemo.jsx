@@ -9,13 +9,13 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Close from "@material-ui/icons/Close";
 import Check from "@material-ui/icons/Check";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import Button from "components/CustomButtons/Button";
 
-import freeDemoStyle from "assets/jss/material-kit-pro-react/views/presentationSections/freeDemoStyle.jsx";
+import freeDemoStyle from "assets/jss/material-kit-pro-react/views/presentationSections/freeDemoStyle";
 
 class SectionFreeDemo extends React.Component {
   render() {
@@ -27,7 +27,7 @@ class SectionFreeDemo extends React.Component {
             <GridItem
               md={5}
               sm={8}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <div className={classes.iconGithub}>
                 <div className="fab fa-github" />

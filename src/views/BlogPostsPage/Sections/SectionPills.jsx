@@ -7,18 +7,18 @@ import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui/icons
 import FormatAlignLeft from "@material-ui/icons/FormatAlignLeft";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import NavPills from "components/NavPills/NavPills";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import Button from "components/CustomButtons/Button";
 
 import office2 from "assets/img/examples/office2.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import cardProject6 from "assets/img/examples/card-project6.jpg";
 
-import sectionPillsStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle.jsx";
+import sectionPillsStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle";
 
 function SectionPills({ ...props }) {
   const { classes } = props;
@@ -59,7 +59,7 @@ function SectionPills({ ...props }) {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + office2 + ")" }}
+            style={{ backgroundImage: `url(${  office2  })` }}
           >
             <CardBody background>
               <h6 className={classes.category}>WORLDS</h6>
@@ -83,7 +83,7 @@ function SectionPills({ ...props }) {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + blog8 + ")" }}
+            style={{ backgroundImage: `url(${  blog8  })` }}
           >
             <CardBody background>
               <h6 className={classes.category}>BUSINESS</h6>
@@ -107,7 +107,7 @@ function SectionPills({ ...props }) {
           <Card
             raised
             background
-            style={{ backgroundImage: "url(" + cardProject6 + ")" }}
+            style={{ backgroundImage: `url(${  cardProject6  })` }}
           >
             <CardBody background>
               <h6 className={classes.category}>MARKETING</h6>

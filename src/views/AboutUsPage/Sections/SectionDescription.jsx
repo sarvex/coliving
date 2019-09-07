@@ -4,12 +4,12 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-import descriptionStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/descriptionStyle.jsx";
+import descriptionStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/descriptionStyle";
 
 function SectionDescription(props) {
   const { classes } = props;

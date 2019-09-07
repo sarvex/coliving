@@ -9,11 +9,11 @@ import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
 
-import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle.jsx";
+import productStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/productStyle";
 
 class SectionProduct extends React.Component {
   render() {

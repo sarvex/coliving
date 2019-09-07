@@ -22,21 +22,21 @@ import Bookmark from "@material-ui/icons/Bookmark";
 import Refresh from "@material-ui/icons/Refresh";
 import Receipt from "@material-ui/icons/Receipt";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import Info from "components/Typography/Info.jsx";
-import Danger from "components/Typography/Danger.jsx";
-import Success from "components/Typography/Success.jsx";
-import Warning from "components/Typography/Warning.jsx";
-import Rose from "components/Typography/Rose.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import CardAvatar from "components/Card/CardAvatar";
+import Info from "components/Typography/Info";
+import Danger from "components/Typography/Danger";
+import Success from "components/Typography/Success";
+import Warning from "components/Typography/Warning";
+import Rose from "components/Typography/Rose";
+import Button from "components/CustomButtons/Button";
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.jsx";
+import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards";
 
 import cardBlog1 from "assets/img/examples/card-blog1.jpg";
 import cardBlog2 from "assets/img/examples/card-blog2.jpg";
@@ -65,35 +65,39 @@ class SectionCards extends React.Component {
       activeRotate2: ""
     };
   }
+
   componentDidMount() {
     if (window) {
       window.addEventListener("resize", this.addStylesForRotatingCards);
     }
     this.addStylesForRotatingCards();
   }
+
   componentWillUnmount() {
     if (window) {
       window.removeEventListener("resize", this.addStylesForRotatingCards);
     }
   }
+
   addStylesForRotatingCards = () => {
     const { classes } = this.props;
-    var rotatingCards = document.getElementsByClassName(classes.cardRotate);
+    const rotatingCards = document.getElementsByClassName(classes.cardRotate);
     for (let i = 0; i < rotatingCards.length; i++) {
-      var rotatingCard = rotatingCards[i];
-      var rotatingWrapper = rotatingCard.parentElement;
-      var cardWidth = rotatingCard.parentElement.offsetWidth;
-      var cardHeight = rotatingCard.children[0].children[0].offsetHeight;
-      rotatingWrapper.style.height = cardHeight + "px";
-      rotatingWrapper.style["margin-bottom"] = 30 + "px";
-      var cardFront = rotatingCard.getElementsByClassName(classes.front)[0];
-      var cardBack = rotatingCard.getElementsByClassName(classes.back)[0];
-      cardFront.style.height = cardHeight + 35 + "px";
-      cardFront.style.width = cardWidth + "px";
-      cardBack.style.height = cardHeight + 35 + "px";
-      cardBack.style.width = cardWidth + "px";
+      const rotatingCard = rotatingCards[i];
+      const rotatingWrapper = rotatingCard.parentElement;
+      const cardWidth = rotatingCard.parentElement.offsetWidth;
+      const cardHeight = rotatingCard.children[0].children[0].offsetHeight;
+      rotatingWrapper.style.height = `${cardHeight  }px`;
+      rotatingWrapper.style["margin-bottom"] = `${30  }px`;
+      const cardFront = rotatingCard.getElementsByClassName(classes.front)[0];
+      const cardBack = rotatingCard.getElementsByClassName(classes.back)[0];
+      cardFront.style.height = `${cardHeight + 35  }px`;
+      cardFront.style.width = `${cardWidth  }px`;
+      cardBack.style.height = `${cardHeight + 35  }px`;
+      cardBack.style.width = `${cardWidth  }px`;
     }
   };
+
   render() {
     const { classes, ...rest } = this.props;
     return (
@@ -157,14 +161,14 @@ class SectionCards extends React.Component {
                               src={avatar}
                               alt="..."
                               className={
-                                classes.imgRaised + " " + classes.avatar
+                                `${classes.imgRaised  } ${  classes.avatar}`
                               }
                             />
                             <span>Tania Andrew</span>
                           </a>
                         </div>
                         <div
-                          className={classes.statsWhite + " " + classes.mlAuto}
+                          className={`${classes.statsWhite  } ${  classes.mlAuto}`}
                         >
                           <Favorite />
                           2.4K ·
@@ -196,13 +200,13 @@ class SectionCards extends React.Component {
                               src={christian}
                               alt="..."
                               className={
-                                classes.imgRaised + " " + classes.avatar
+                                `${classes.imgRaised  } ${  classes.avatar}`
                               }
                             />
                             <span>Lord Alex</span>
                           </a>
                         </div>
-                        <div className={classes.stats + " " + classes.mlAuto}>
+                        <div className={`${classes.stats  } ${  classes.mlAuto}`}>
                           <Favorite />
                           345 ·
                           <ChatBubble />
@@ -247,13 +251,13 @@ class SectionCards extends React.Component {
                               src={marc}
                               alt="..."
                               className={
-                                classes.imgRaised + " " + classes.avatar
+                                `${classes.imgRaised  } ${  classes.avatar}`
                               }
                             />
                             <span>Mike John</span>
                           </a>
                         </div>
-                        <div className={classes.stats + " " + classes.mlAuto}>
+                        <div className={`${classes.stats  } ${  classes.mlAuto}`}>
                           <Schedule />5 min read
                         </div>
                       </CardFooter>
@@ -293,13 +297,13 @@ class SectionCards extends React.Component {
                               src={marc}
                               alt="..."
                               className={
-                                classes.imgRaised + " " + classes.avatar
+                                `${classes.imgRaised  } ${  classes.avatar}`
                               }
                             />
                             <span>Mike John</span>
                           </a>
                         </div>
-                        <div className={classes.stats + " " + classes.mlAuto}>
+                        <div className={`${classes.stats  } ${  classes.mlAuto}`}>
                           <Schedule />5 min read
                         </div>
                       </CardFooter>
@@ -323,7 +327,7 @@ class SectionCards extends React.Component {
                         </p>
                         <div
                           className={
-                            classes.stats + " " + classes.justifyContentCenter
+                            `${classes.stats  } ${  classes.justifyContentCenter}`
                           }
                         >
                           <Button color="white" round>
@@ -406,7 +410,7 @@ class SectionCards extends React.Component {
                         <h4 className={classes.cardTitle}>Alec Thompson</h4>
                         <h6
                           className={
-                            classes.cardCategory + " " + classes.cardDescription
+                            `${classes.cardCategory  } ${  classes.cardDescription}`
                           }
                         >
                           CEO / CO-FOUNDER
@@ -438,7 +442,7 @@ class SectionCards extends React.Component {
                       <CardBody>
                         <h6
                           className={
-                            classes.cardCategory + " " + classes.cardDescription
+                            `${classes.cardCategory  } ${  classes.cardDescription}`
                           }
                         >
                           CEO / CO-FOUNDER
@@ -536,11 +540,11 @@ class SectionCards extends React.Component {
                       <CardBody pricing>
                         <h6
                           className={
-                            classes.cardCategory +
-                            " " +
-                            classes.cardDescription +
-                            " " +
-                            classes.marginBottom20
+                            `${classes.cardCategory 
+                            } ${ 
+                            classes.cardDescription 
+                            } ${ 
+                            classes.marginBottom20}`
                           }
                         >
                           SMALL COMPANY
@@ -550,7 +554,7 @@ class SectionCards extends React.Component {
                         </div>
                         <h3
                           className={
-                            classes.cardTitle + " " + classes.marginTop30
+                            `${classes.cardTitle  } ${  classes.marginTop30}`
                           }
                         >
                           $29
@@ -570,14 +574,14 @@ class SectionCards extends React.Component {
                       <CardBody pricing>
                         <div
                           className={
-                            classes.iconWrapper + " " + classes.iconWrapperColor
+                            `${classes.iconWrapper  } ${  classes.iconWrapperColor}`
                           }
                         >
                           <Business className={classes.iconWhite} />
                         </div>
                         <h3
                           className={
-                            classes.cardTitleWhite + " " + classes.marginTop30
+                            `${classes.cardTitleWhite  } ${  classes.marginTop30}`
                           }
                         >
                           $69
@@ -683,7 +687,7 @@ class SectionCards extends React.Component {
                     <Card background className={classes.cardRotate}>
                       <div
                         className={
-                          classes.front + " " + classes.wrapperBackground
+                          `${classes.front  } ${  classes.wrapperBackground}`
                         }
                         style={{
                           backgroundImage: `url(${cardBlog5})`
@@ -708,7 +712,7 @@ class SectionCards extends React.Component {
                       </div>
                       <div
                         className={
-                          classes.back + " " + classes.wrapperBackground
+                          `${classes.back  } ${  classes.wrapperBackground}`
                         }
                         style={{
                           backgroundImage: `url(${cardBlog5})`
@@ -792,7 +796,7 @@ class SectionCards extends React.Component {
                   <div className={classes.rotatingCardContainer}>
                     <Card color="rose" className={classes.cardRotate}>
                       <div
-                        className={classes.front + " " + classes.wrapperRose}
+                        className={`${classes.front  } ${  classes.wrapperRose}`}
                       >
                         <CardBody color className={classes.cardBodyRotate}>
                           <h5 className={classes.cardCategorySocialWhite}>
@@ -818,7 +822,7 @@ class SectionCards extends React.Component {
                                 src={avatar}
                                 alt="..."
                                 className={
-                                  classes.imgRaised + " " + classes.avatar
+                                  `${classes.imgRaised  } ${  classes.avatar}`
                                 }
                               />
                               <span>Tania Andrew</span>
@@ -826,7 +830,7 @@ class SectionCards extends React.Component {
                           </div>
                           <div
                             className={
-                              classes.statsWhite + " " + classes.mlAuto
+                              `${classes.statsWhite  } ${  classes.mlAuto}`
                             }
                           >
                             <Favorite />
@@ -836,7 +840,7 @@ class SectionCards extends React.Component {
                           </div>
                         </CardFooter>
                       </div>
-                      <div className={classes.back + " " + classes.wrapperRose}>
+                      <div className={`${classes.back  } ${  classes.wrapperRose}`}>
                         <CardBody className={classes.cardBodyRotate}>
                           <h5 className={classes.cardCategorySocialWhite}>
                             <i className="fab fa-dribbble" /> Dribbble
@@ -868,11 +872,11 @@ class SectionCards extends React.Component {
                 <GridItem xs={12} sm={6} md={6} lg={4}>
                   <div
                     className={
-                      classes.rotatingCardContainer +
-                      " " +
-                      classes.manualRotate +
-                      " " +
-                      this.state.activeRotate1
+                      `${classes.rotatingCardContainer 
+                      } ${ 
+                      classes.manualRotate 
+                      } ${ 
+                      this.state.activeRotate1}`
                     }
                   >
                     <Card className={classes.cardRotate}>
@@ -947,17 +951,17 @@ class SectionCards extends React.Component {
                 <GridItem xs={12} sm={6} md={6} lg={4}>
                   <div
                     className={
-                      classes.rotatingCardContainer +
-                      " " +
-                      classes.manualRotate +
-                      " " +
-                      this.state.activeRotate2
+                      `${classes.rotatingCardContainer 
+                      } ${ 
+                      classes.manualRotate 
+                      } ${ 
+                      this.state.activeRotate2}`
                     }
                   >
                     <Card className={classes.cardRotate}>
                       <div
                         className={
-                          classes.front + " " + classes.wrapperBackground
+                          `${classes.front  } ${  classes.wrapperBackground}`
                         }
                         style={{ backgroundImage: `url(${cardBlog6})` }}
                       >
@@ -992,7 +996,7 @@ class SectionCards extends React.Component {
                       </div>
                       <div
                         className={
-                          classes.back + " " + classes.wrapperBackground
+                          `${classes.back  } ${  classes.wrapperBackground}`
                         }
                         style={{ backgroundImage: `url(${cardBlog6})` }}
                       >
@@ -1036,16 +1040,16 @@ class SectionCards extends React.Component {
                 <GridItem xs={12} sm={6} md={6} lg={4}>
                   <div
                     className={
-                      classes.rotatingCardContainer +
-                      " " +
-                      classes.manualRotate +
-                      " " +
-                      this.state.activeRotate3
+                      `${classes.rotatingCardContainer 
+                      } ${ 
+                      classes.manualRotate 
+                      } ${ 
+                      this.state.activeRotate3}`
                     }
                   >
                     <Card className={classes.cardRotate}>
                       <div
-                        className={classes.front + " " + classes.wrapperWarning}
+                        className={`${classes.front  } ${  classes.wrapperWarning}`}
                       >
                         <CardBody className={classes.cardBodyRotate}>
                           <h5 className={classes.cardCategorySocialWhite}>
@@ -1079,7 +1083,7 @@ class SectionCards extends React.Component {
                         </CardBody>
                       </div>
                       <div
-                        className={classes.back + " " + classes.wrapperWarning}
+                        className={`${classes.back  } ${  classes.wrapperWarning}`}
                       >
                         <CardBody className={classes.cardBodyRotate}>
                           <h5 className={classes.cardTitleWhite}>Do more...</h5>
@@ -1278,13 +1282,13 @@ class SectionCards extends React.Component {
                           <img
                             src={avatar}
                             alt="..."
-                            className={classes.imgRaised + " " + classes.avatar}
+                            className={`${classes.imgRaised  } ${  classes.avatar}`}
                           />
                           <span>Tania Andrew</span>
                         </a>
                       </div>
                       <div
-                        className={classes.statsWhite + " " + classes.mlAuto}
+                        className={`${classes.statsWhite  } ${  classes.mlAuto}`}
                       >
                         <Favorite />
                         2.4K ·
@@ -1330,12 +1334,12 @@ class SectionCards extends React.Component {
                           <img
                             src={marc}
                             alt="..."
-                            className={classes.imgRaised + " " + classes.avatar}
+                            className={`${classes.imgRaised  } ${  classes.avatar}`}
                           />
                           <span>Mike John</span>
                         </a>
                       </div>
-                      <div className={classes.stats + " " + classes.mlAuto}>
+                      <div className={`${classes.stats  } ${  classes.mlAuto}`}>
                         <Schedule />5 min read
                       </div>
                     </CardFooter>
@@ -1373,12 +1377,12 @@ class SectionCards extends React.Component {
                           <img
                             src={marc}
                             alt="..."
-                            className={classes.imgRaised + " " + classes.avatar}
+                            className={`${classes.imgRaised  } ${  classes.avatar}`}
                           />
                           <span>Mike John</span>
                         </a>
                       </div>
-                      <div className={classes.stats + " " + classes.mlAuto}>
+                      <div className={`${classes.stats  } ${  classes.mlAuto}`}>
                         <Schedule />5 min read
                       </div>
                     </CardFooter>
@@ -1401,7 +1405,7 @@ class SectionCards extends React.Component {
                       </p>
                       <div
                         className={
-                          classes.stats + " " + classes.justifyContentCenter
+                          `${classes.stats  } ${  classes.justifyContentCenter}`
                         }
                       >
                         <Button color="white" round>
@@ -1482,7 +1486,7 @@ class SectionCards extends React.Component {
                       <h4 className={classes.cardTitle}>Alec Thompson</h4>
                       <h6
                         className={
-                          classes.cardCategory + " " + classes.cardDescription
+                          `${classes.cardCategory  } ${  classes.cardDescription}`
                         }
                       >
                         CEO / CO-FOUNDER
@@ -1515,7 +1519,7 @@ class SectionCards extends React.Component {
                     <CardBody plain>
                       <h6
                         className={
-                          classes.cardCategory + " " + classes.cardDescription
+                          `${classes.cardCategory  } ${  classes.cardDescription}`
                         }
                       >
                         CEO / CO-FOUNDER

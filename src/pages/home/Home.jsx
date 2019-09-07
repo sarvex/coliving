@@ -26,7 +26,7 @@ class Home extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Parallax image={Cover} filter="dark" small>
+        <Parallax image={Cover} filter="dark">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={12} sm={12} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>

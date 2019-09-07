@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.scss';
-import Router from './Router';
+import React from 'react'
+import './App.scss'
+import Router from './Router'
 
 const App = () => (
   <div>
-    <Router />
+    <Router/>
   </div>
-);
+)
 
-export default App;
+export default App

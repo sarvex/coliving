@@ -7,12 +7,12 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import CustomInput from "components/CustomInput/CustomInput";
+import Button from "components/CustomButtons/Button";
 
-import workStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/workStyle.jsx";
+import workStyle from "assets/jss/material-kit-pro-react/views/landingPageSections/workStyle";
 
 class SectionWork extends React.Component {
   render() {
@@ -64,7 +64,7 @@ class SectionWork extends React.Component {
                   xs={12}
                   sm={4}
                   md={4}
-                  className={classes.mrAuto + " " + classes.mlAuto}
+                  className={`${classes.mrAuto  } ${  classes.mlAuto}`}
                 >
                   <Button color="primary">Send Message</Button>
                 </GridItem>

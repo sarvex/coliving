@@ -17,17 +17,17 @@ import PinDrop from "@material-ui/icons/PinDrop";
 import Phone from "@material-ui/icons/Phone";
 import Check from "@material-ui/icons/Check";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import CustomInput from "components/CustomInput/CustomInput";
+import Button from "components/CustomButtons/Button";
 
-import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.jsx";
+import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle";
 
 import city from "assets/img/examples/city.jpg";
 
@@ -113,6 +113,7 @@ class SectionContacts extends React.Component {
       checked: []
     };
   }
+
   handleToggle(value) {
     const { checked } = this.state;
     const currentIndex = checked.indexOf(value);
@@ -128,13 +129,14 @@ class SectionContacts extends React.Component {
       checked: newChecked
     });
   }
+
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div className="cd-section" {...rest}>
         {/* Contact us 1 START */}
         <div
-          className={classes.contacts + " " + classes.section}
+          className={`${classes.contacts  } ${  classes.section}`}
           style={{ backgroundImage: `url(${city})` }}
         >
           <div className={classes.container}>

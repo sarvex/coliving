@@ -6,20 +6,20 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import TrendingUp from "@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import Info from "components/Typography/Info.jsx";
-import Success from "components/Typography/Success.jsx";
-import Danger from "components/Typography/Danger.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import Info from "components/Typography/Info";
+import Success from "components/Typography/Success";
+import Danger from "components/Typography/Danger";
 
 import blog6 from "assets/img/examples/blog6.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import blog7 from "assets/img/examples/blog7.jpg";
 
-import sectionSimilarStoriesStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionSimilarStoriesStyle.jsx";
+import sectionSimilarStoriesStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionSimilarStoriesStyle";
 
 function SectionSimilarStories({ ...props }) {
   const { classes } = props;
@@ -28,7 +28,7 @@ function SectionSimilarStories({ ...props }) {
       <div className={classes.container}>
         <GridContainer>
           <GridItem md={12}>
-            <h2 className={classes.title + " " + classes.textCenter}>
+            <h2 className={`${classes.title  } ${  classes.textCenter}`}>
               Similar Stories
             </h2>
             <br />
@@ -42,7 +42,7 @@ function SectionSimilarStories({ ...props }) {
                     <div
                       className={classes.coloredShadow}
                       style={{
-                        backgroundImage: "url(" + blog6 + ")",
+                        backgroundImage: `url(${  blog6  })`,
                         opacity: "1"
                       }}
                     />
@@ -75,7 +75,7 @@ function SectionSimilarStories({ ...props }) {
                     <div
                       className={classes.coloredShadow}
                       style={{
-                        backgroundImage: "url(" + blog8 + ")",
+                        backgroundImage: `url(${  blog8  })`,
                         opacity: "1"
                       }}
                     />
@@ -107,7 +107,7 @@ function SectionSimilarStories({ ...props }) {
                     <div
                       className={classes.coloredShadow}
                       style={{
-                        backgroundImage: "url(" + blog7 + ")",
+                        backgroundImage: `url(${  blog7  })`,
                         opacity: "1"
                       }}
                     />

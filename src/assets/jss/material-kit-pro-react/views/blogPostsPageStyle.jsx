@@ -4,7 +4,7 @@ import {
   main,
   whiteColor,
   mainRaised
-} from '../../material-kit-pro-react.jsx';
+} from '../../material-kit-pro-react';
 
 const blogPostsPageStyle = {
   container: {

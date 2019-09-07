@@ -22,16 +22,16 @@ import People from "@material-ui/icons/People";
 import Check from "@material-ui/icons/Check";
 import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
-import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.jsx";
-import Paginations from "components/Pagination/Pagination.jsx";
-import Badge from "components/Badge/Badge.jsx";
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Button from "components/CustomButtons/Button";
+import CustomInput from "components/CustomInput/CustomInput";
+import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress";
+import Paginations from "components/Pagination/Pagination";
+import Badge from "components/Badge/Badge";
+import CustomDropdown from "components/CustomDropdown/CustomDropdown";
 
-import basicsStyle from "assets/jss/material-kit-pro-react/views/componentsSections/basicsStyle.jsx";
+import basicsStyle from "assets/jss/material-kit-pro-react/views/componentsSections/basicsStyle";
 
 class SectionBasics extends React.Component {
   constructor(props) {
@@ -48,6 +48,7 @@ class SectionBasics extends React.Component {
     this.slider1 = React.createRef();
     this.slider2 = React.createRef();
   }
+
   componentDidMount() {
     nouislider.create(this.slider1.current, {
       start: [40],
@@ -62,12 +63,15 @@ class SectionBasics extends React.Component {
       range: { min: 0, max: 100 }
     });
   }
+
   handleChange = name => event => {
     this.setState({ [name]: event.target.checked });
   };
+
   handleChangeEnabled = event => {
     this.setState({ selectedEnabled: event.target.value });
   };
+
   handleToggle = value => {
     const { checked } = this.state;
     const currentIndex = checked.indexOf(value);
@@ -83,15 +87,19 @@ class SectionBasics extends React.Component {
       checked: newChecked
     });
   };
+
   handleSimple = event => {
     this.setState({ [event.target.name]: event.target.value });
   };
+
   handleMultiple = event => {
     this.setState({ multipleSelect: event.target.value });
   };
+
   handleTags = regularTags => {
     this.setState({ tags: regularTags });
   };
+
   render() {
     const { classes } = this.props;
     return (
@@ -515,9 +523,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -539,9 +547,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -550,7 +558,7 @@ class SectionBasics extends React.Component {
                         tabIndex={-1}
                         onClick={() => this.handleToggle(22)}
                         checked={
-                          this.state.checked.indexOf(22) !== -1 ? true : false
+                          this.state.checked.indexOf(22) !== -1
                         }
                         checkedIcon={<Check className={classes.checkedIcon} />}
                         icon={<Check className={classes.uncheckedIcon} />}
@@ -566,9 +574,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -594,9 +602,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -605,7 +613,7 @@ class SectionBasics extends React.Component {
                       <Checkbox
                         tabIndex={-1}
                         checked={
-                          this.state.checked.indexOf(24) !== -1 ? true : false
+                          this.state.checked.indexOf(24) !== -1
                         }
                         checkedIcon={<Check className={classes.checkedIcon} />}
                         icon={<Check className={classes.uncheckedIcon} />}
@@ -630,9 +638,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -666,9 +674,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -702,9 +710,9 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
@@ -739,16 +747,16 @@ class SectionBasics extends React.Component {
                 </div>
                 <div
                   className={
-                    classes.checkboxAndRadio +
-                    " " +
-                    classes.checkboxAndRadioHorizontal
+                    `${classes.checkboxAndRadio 
+                    } ${ 
+                    classes.checkboxAndRadioHorizontal}`
                   }
                 >
                   <FormControlLabel
                     disabled
                     control={
                       <Radio
-                        checked={true}
+                        checked
                         value="b"
                         name="radio button disabled"
                         aria-label="B"
@@ -1040,7 +1048,7 @@ class SectionBasics extends React.Component {
                     sm={12}
                     md={8}
                     lg={6}
-                    className={classes.mlAuto + " " + classes.mrAuto}
+                    className={`${classes.mlAuto  } ${  classes.mrAuto}`}
                   >
                     <CustomDropdown
                       dropdownHeader="Dropdown header"

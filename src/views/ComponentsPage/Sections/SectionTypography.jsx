@@ -8,21 +8,22 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Small from "components/Typography/Small.jsx";
-import Danger from "components/Typography/Danger.jsx";
-import Warning from "components/Typography/Warning.jsx";
-import Success from "components/Typography/Success.jsx";
-import Info from "components/Typography/Info.jsx";
-import Primary from "components/Typography/Primary.jsx";
-import Muted from "components/Typography/Muted.jsx";
-import Quote from "components/Typography/Quote.jsx";
-import SectionContentAreas from "./SectionContentAreas.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Small from "components/Typography/Small";
+import Danger from "components/Typography/Danger";
+import Warning from "components/Typography/Warning";
+import Success from "components/Typography/Success";
+import Info from "components/Typography/Info";
+import Primary from "components/Typography/Primary";
+import Muted from "components/Typography/Muted";
+import Quote from "components/Typography/Quote";
 
-import typographyStyle from "assets/jss/material-kit-pro-react/views/componentsSections/typographyStyle.jsx";
+import typographyStyle from "assets/jss/material-kit-pro-react/views/componentsSections/typographyStyle";
 
 import image from "assets/img/faces/avatar.jpg";
+import SectionContentAreas from "./SectionContentAreas";
+
 class SectionTypography extends React.Component {
   render() {
     const { classes } = this.props;
@@ -157,7 +158,7 @@ class SectionTypography extends React.Component {
                 <img
                   src={image}
                   alt="..."
-                  className={classes.imgRounded + " " + classes.imgFluid}
+                  className={`${classes.imgRounded  } ${  classes.imgFluid}`}
                 />
               </GridItem>
               <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -165,7 +166,7 @@ class SectionTypography extends React.Component {
                 <img
                   src={image}
                   alt="..."
-                  className={classes.imgRoundedCircle + " " + classes.imgFluid}
+                  className={`${classes.imgRoundedCircle  } ${  classes.imgFluid}`}
                 />
               </GridItem>
               <GridItem xs={12} sm={2} className={classes.marginLeft}>
@@ -174,11 +175,11 @@ class SectionTypography extends React.Component {
                   src={image}
                   alt="..."
                   className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRounded +
-                    " " +
-                    classes.imgFluid
+                    `${classes.imgRaised 
+                    } ${ 
+                    classes.imgRounded 
+                    } ${ 
+                    classes.imgFluid}`
                   }
                 />
               </GridItem>
@@ -188,11 +189,11 @@ class SectionTypography extends React.Component {
                   src={image}
                   alt="..."
                   className={
-                    classes.imgRaised +
-                    " " +
-                    classes.imgRoundedCircle +
-                    " " +
-                    classes.imgFluid
+                    `${classes.imgRaised 
+                    } ${ 
+                    classes.imgRoundedCircle 
+                    } ${ 
+                    classes.imgFluid}`
                   }
                 />
               </GridItem>

@@ -11,17 +11,17 @@ import AccountBalance from "@material-ui/icons/AccountBalance";
 import Check from "@material-ui/icons/Check";
 import Close from "@material-ui/icons/Close";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
-import Success from "components/Typography/Success.jsx";
-import Danger from "components/Typography/Danger.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import Button from "components/CustomButtons/Button";
+import NavPills from "components/NavPills/NavPills";
+import Success from "components/Typography/Success";
+import Danger from "components/Typography/Danger";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle.jsx";
+import pricingStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle";
 
 import bg11 from "assets/img/bg11.jpg";
 import city from "assets/img/examples/city.jpg";
@@ -34,7 +34,7 @@ function SectionPricing({ ...props }) {
       {/* Pricing 1 START */}
       <div
         className={
-          classes.pricing + " " + classes.pricing1 + " " + classes.section
+          `${classes.pricing  } ${  classes.pricing1  } ${  classes.section}`
         }
         style={{ backgroundImage: `url(${bg11})` }}
       >
@@ -45,7 +45,7 @@ function SectionPricing({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Pick the best plan for you</h2>
@@ -62,7 +62,7 @@ function SectionPricing({ ...props }) {
                 <CardBody pricing plain>
                   <h6
                     className={
-                      classes.cardCategory + " " + classes.marginBottom20
+                      `${classes.cardCategory  } ${  classes.marginBottom20}`
                     }
                   >
                     Freelancer
@@ -72,7 +72,7 @@ function SectionPricing({ ...props }) {
                   </div>
                   <h3
                     className={
-                      classes.cardTitleWhite + " " + classes.marginTop30
+                      `${classes.cardTitleWhite  } ${  classes.marginTop30}`
                     }
                   >
                     FREE
@@ -92,7 +92,7 @@ function SectionPricing({ ...props }) {
                 <CardBody pricing>
                   <h6
                     className={
-                      classes.cardDescription + " " + classes.marginBottom20
+                      `${classes.cardDescription  } ${  classes.marginBottom20}`
                     }
                   >
                     SMALL COMPANY
@@ -100,7 +100,7 @@ function SectionPricing({ ...props }) {
                   <div className={classes.icon}>
                     <Home className={classes.iconRose} />
                   </div>
-                  <h3 className={classes.cardTitle + " " + classes.marginTop30}>
+                  <h3 className={`${classes.cardTitle  } ${  classes.marginTop30}`}>
                     $29
                   </h3>
                   <p className={classes.cardDescription}>
@@ -118,7 +118,7 @@ function SectionPricing({ ...props }) {
                 <CardBody pricing plain>
                   <h6
                     className={
-                      classes.cardCategory + " " + classes.marginBottom20
+                      `${classes.cardCategory  } ${  classes.marginBottom20}`
                     }
                   >
                     MEDIUM COMPANY
@@ -128,7 +128,7 @@ function SectionPricing({ ...props }) {
                   </div>
                   <h3
                     className={
-                      classes.cardTitleWhite + " " + classes.marginTop30
+                      `${classes.cardTitleWhite  } ${  classes.marginTop30}`
                     }
                   >
                     $69
@@ -148,7 +148,7 @@ function SectionPricing({ ...props }) {
                 <CardBody pricing plain>
                   <h6
                     className={
-                      classes.cardCategory + " " + classes.marginBottom20
+                      `${classes.cardCategory  } ${  classes.marginBottom20}`
                     }
                   >
                     ENTERPRISE
@@ -158,7 +158,7 @@ function SectionPricing({ ...props }) {
                   </div>
                   <h3
                     className={
-                      classes.cardTitleWhite + " " + classes.marginTop30
+                      `${classes.cardTitleWhite  } ${  classes.marginTop30}`
                     }
                   >
                     $159
@@ -185,7 +185,7 @@ function SectionPricing({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Pick the best plan for you</h2>
@@ -305,7 +305,7 @@ function SectionPricing({ ...props }) {
       {/* Pricing 2 END */}
       {/* Pricing 3 START */}
       <div
-        className={classes.pricing + " " + classes.section}
+        className={`${classes.pricing  } ${  classes.section}`}
         style={{ backgroundImage: `url(${city})` }}
       >
         <div className={classes.container}>
@@ -315,7 +315,7 @@ function SectionPricing({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Pick the best plan for you</h2>
@@ -361,7 +361,7 @@ function SectionPricing({ ...props }) {
                 <CardBody pricing>
                   <h6
                     className={
-                      classes.cardCategory + " " + classes.marginBottom30
+                      `${classes.cardCategory  } ${  classes.marginBottom30}`
                     }
                   >
                     PREMIUM
@@ -404,7 +404,7 @@ function SectionPricing({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Pick the best plan for you</h2>
@@ -573,14 +573,14 @@ function SectionPricing({ ...props }) {
       </div>
       {/* Pricing 4 END */}
       {/* Pricing 5 START */}
-      <div className={classes.pricing + " " + classes.sectionGray}>
+      <div className={`${classes.pricing  } ${  classes.sectionGray}`}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem
               xs={12}
               sm={4}
               md={4}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>
                 Choose a plan for your next project
@@ -597,7 +597,7 @@ function SectionPricing({ ...props }) {
               xs={12}
               sm={7}
               md={7}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <NavPills
                 alignCenter

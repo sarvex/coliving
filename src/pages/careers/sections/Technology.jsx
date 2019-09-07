@@ -124,7 +124,7 @@ class Technology extends React.Component {
                             <li>Taking lead on projects, as needed</li>
                           </ul>
                           <div className={classes.textCenter}>
-                            <Link to={'/backend'}>
+                            <Link to="/backend">
                               <Button round color="rose">
                                 <Subject/> Apply Now
                               </Button>

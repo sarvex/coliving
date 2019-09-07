@@ -10,12 +10,12 @@ import Select from "@material-ui/core/Select";
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import GridContainer from "../../../components/Grid/GridContainer.jsx";
-import GridItem from "../../../components/Grid/GridItem.jsx";
-import CustomInput from "../../../components/CustomInput/CustomInput.jsx";
-import Button from "../../../components/CustomButtons/Button.jsx";
+import GridContainer from "../../../components/Grid/GridContainer";
+import GridItem from "../../../components/Grid/GridItem";
+import CustomInput from "../../../components/CustomInput/CustomInput";
+import Button from "../../../components/CustomButtons/Button";
 
-import contactStyle from "../../../assets/jss/material-kit-pro-react/views/aboutUsSections/contactStyle.jsx";
+import contactStyle from "../../../assets/jss/material-kit-pro-react/views/aboutUsSections/contactStyle";
 
 class SectionContact extends React.Component {
   constructor(props) {
@@ -24,9 +24,11 @@ class SectionContact extends React.Component {
       specialitySelect: "1"
     };
   }
+
   handleSpeciality = event => {
     this.setState({ [event.target.name]: event.target.value });
   };
+
   render() {
     const { classes } = this.props;
     return (
@@ -67,9 +69,9 @@ class SectionContact extends React.Component {
                   <FormControl
                     fullWidth
                     className={
-                      classes.selectFormControl +
-                      " " +
-                      classes.selectUnderlineRoot
+                      `${classes.selectFormControl 
+                      } ${ 
+                      classes.selectUnderlineRoot}`
                     }
                   >
                     <Select

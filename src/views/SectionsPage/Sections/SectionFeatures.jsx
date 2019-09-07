@@ -20,11 +20,11 @@ import ViewCarousel from "@material-ui/icons/ViewCarousel";
 import AccessTime from "@material-ui/icons/AccessTime";
 import AttachMoney from "@material-ui/icons/AttachMoney";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.jsx";
+import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle";
 
 import iphone from "assets/img/sections/iphone.png";
 import iphone2 from "assets/img/sections/iphone2.png";
@@ -42,7 +42,7 @@ function FeaturesHome({ ...props }) {
               xs={12}
               sm={8}
               md={8}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>Why our product is the best</h2>
               <h5 className={classes.description}>
@@ -93,7 +93,7 @@ function FeaturesHome({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Why our product is the best</h2>
@@ -208,7 +208,7 @@ function FeaturesHome({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Your life will be much easier</h2>
@@ -268,7 +268,7 @@ function FeaturesHome({ ...props }) {
             sm={8}
             md={8}
             className={
-              classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+              `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
             }
           >
             <h2 className={classes.title}>Your life will be much easier</h2>

@@ -7,7 +7,7 @@ import {
   grayColor,
   section,
   hexToRgb
-} from '../../material-kit-pro-react.jsx';
+} from '../../material-kit-pro-react';
 
 const componentsStyle = {
   main,

@@ -1,8 +1,8 @@
 import React from 'react';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
 import classNames from 'classnames';
 import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from '../../../components/Grid/GridContainer';
+import GridItem from '../../../components/Grid/GridItem';
 
 import sectionsStyle from '../../../assets/jss/material-kit-pro-react/views/presentationSections/sectionsStyle';
 

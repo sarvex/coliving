@@ -1,11 +1,11 @@
 import React from "react";
 import classNames from "classnames";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
 import Grid from "@material-ui/icons/GridOn";
 import PhoneLink from "@material-ui/icons/Phonelink";
 import AccessTime from "@material-ui/icons/AccessTime";
@@ -20,7 +20,7 @@ import profilePic1 from "assets/img/assets-for-demo/test1.jpg";
 import profilePic2 from "assets/img/assets-for-demo/test2.jpg";
 import profilePic3 from "assets/img/assets-for-demo/test3.jpg";
 
-import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.jsx";
+import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle";
 
 class SectionOverview extends React.Component {
   render() {
@@ -53,7 +53,7 @@ class SectionOverview extends React.Component {
                   }
                   icon={Grid}
                   iconColor="gray"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
@@ -68,7 +68,7 @@ class SectionOverview extends React.Component {
                   }
                   icon={PhoneLink}
                   iconColor="gray"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
@@ -83,7 +83,7 @@ class SectionOverview extends React.Component {
                   }
                   icon={AccessTime}
                   iconColor="gray"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
               <GridItem sm={3} className={classes.featuresShow}>
@@ -98,7 +98,7 @@ class SectionOverview extends React.Component {
                   }
                   icon={AttachMoney}
                   iconColor="gray"
-                  vertical={true}
+                  vertical
                 />
               </GridItem>
             </GridContainer>
@@ -132,14 +132,14 @@ class SectionOverview extends React.Component {
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic1 + ")",
+                            backgroundImage: `url(${  profilePic1  })`,
                             opacity: "1"
                           }}
                         />
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic1 + ")",
+                            backgroundImage: `url(${  profilePic1  })`,
                             opacity: "1"
                           }}
                         />
@@ -169,14 +169,14 @@ class SectionOverview extends React.Component {
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic2 + ")",
+                            backgroundImage: `url(${  profilePic2  })`,
                             opacity: "1"
                           }}
                         />
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic2 + ")",
+                            backgroundImage: `url(${  profilePic2  })`,
                             opacity: "1"
                           }}
                         />
@@ -207,14 +207,14 @@ class SectionOverview extends React.Component {
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic3 + ")",
+                            backgroundImage: `url(${  profilePic3  })`,
                             opacity: "1"
                           }}
                         />
                         <div
                           className={classes.coloredShadow}
                           style={{
-                            backgroundImage: "url(" + profilePic3 + ")",
+                            backgroundImage: `url(${  profilePic3  })`,
                             opacity: "1"
                           }}
                         />

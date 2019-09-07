@@ -23,7 +23,7 @@ class AboutUsPage extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Parallax image={require('../../assets/img/hero-community.webp')} filter="dark" small>
+        <Parallax image={require('../../assets/img/hero-community.webp')} filter="dark">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem

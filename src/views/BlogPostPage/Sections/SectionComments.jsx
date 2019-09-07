@@ -8,17 +8,17 @@ import Tooltip from "@material-ui/core/Tooltip";
 import Reply from "@material-ui/icons/Reply";
 import Favorite from "@material-ui/icons/Favorite";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Media from "components/Media/Media.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import CustomInput from "components/CustomInput/CustomInput.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Media from "components/Media/Media";
+import Button from "components/CustomButtons/Button";
+import CustomInput from "components/CustomInput/CustomInput";
 
 import profile4 from "assets/img/faces/card-profile4-square.jpg";
 import profile1 from "assets/img/faces/card-profile1-square.jpg";
 import profile6 from "assets/img/faces/card-profile6-square.jpg";
 
-import sectionCommentsStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionCommentsStyle.jsx";
+import sectionCommentsStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionCommentsStyle";
 
 function SectionComments({ ...props }) {
   const { classes } = props;

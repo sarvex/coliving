@@ -17,15 +17,15 @@ import Cached from "@material-ui/icons/Cached";
 import Subject from "@material-ui/icons/Subject";
 import Check from "@material-ui/icons/Check";
 // core components
-import Accordion from "components/Accordion/Accordion.jsx";
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import Clearfix from "components/Clearfix/Clearfix.jsx";
+import Accordion from "components/Accordion/Accordion";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import Button from "components/CustomButtons/Button";
+import Clearfix from "components/Clearfix/Clearfix";
 
 import suit1 from "assets/img/examples/suit-1.jpg";
 import suit2 from "assets/img/examples/suit-2.jpg";
@@ -39,20 +39,24 @@ import color2 from "assets/img/examples/color2.jpg";
 import dg3 from "assets/img/dg3.jpg";
 import dg1 from "assets/img/dg1.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle.jsx";
+import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle";
 
 class SectionProducts extends React.Component {
   state = {
     checked: [1, 9, 27],
     priceRange: [101, 790]
   };
+
   slider1 = React.createRef();
+
   priceLow = React.createRef();
+
   priceHigh = React.createRef();
+
   componentDidMount() {
-    var slider = this.slider1.current;
-    var priceLow = this.priceLow.current;
-    var priceHigh = this.priceHigh.current;
+    const slider = this.slider1.current;
+    const priceLow = this.priceLow.current;
+    const priceHigh = this.priceHigh.current;
     nouislider
       .create(slider, {
         start: this.state.priceRange,
@@ -61,12 +65,13 @@ class SectionProducts extends React.Component {
         step: 1
       })
       .on("update", function(values) {
-        let currencyLow = priceLow.dataset.currency;
-        let currencyHigh = priceHigh.dataset.currency;
+        const currencyLow = priceLow.dataset.currency;
+        const currencyHigh = priceHigh.dataset.currency;
         priceLow.innerHTML = currencyLow + Math.round(values[0]);
         priceHigh.innerHTML = currencyHigh + Math.round(values[1]);
       });
   }
+
   handleToggle(value) {
     const { checked } = this.state;
     const currentIndex = checked.indexOf(value);
@@ -94,7 +99,7 @@ class SectionProducts extends React.Component {
             <GridItem md={3} sm={3}>
               <Card plain>
                 <CardBody className={classes.cardBodyRefine}>
-                  <h4 className={classes.cardTitle + " " + classes.textLeft}>
+                  <h4 className={`${classes.cardTitle  } ${  classes.textLeft}`}>
                     Refine
                     <Tooltip
                       id="tooltip-top"
@@ -107,7 +112,7 @@ class SectionProducts extends React.Component {
                         justIcon
                         size="sm"
                         className={
-                          classes.pullRight + " " + classes.refineButton
+                          `${classes.pullRight  } ${  classes.refineButton}`
                         }
                       >
                         <Cached />
@@ -155,9 +160,9 @@ class SectionProducts extends React.Component {
                           <div className={classes.customExpandPanel}>
                             <div
                               className={
-                                classes.checkboxAndRadio +
-                                " " +
-                                classes.checkboxAndRadioHorizontal
+                                `${classes.checkboxAndRadio 
+                                } ${ 
+                                classes.checkboxAndRadioHorizontal}`
                               }
                             >
                               <FormControlLabel
@@ -167,8 +172,6 @@ class SectionProducts extends React.Component {
                                     onClick={() => this.handleToggle(1)}
                                     checked={
                                       this.state.checked.indexOf(1) !== -1
-                                        ? true
-                                        : false
                                     }
                                     checkedIcon={
                                       <Check className={classes.checkedIcon} />
@@ -351,9 +354,9 @@ class SectionProducts extends React.Component {
                           <div className={classes.customExpandPanel}>
                             <div
                               className={
-                                classes.checkboxAndRadio +
-                                " " +
-                                classes.checkboxAndRadioHorizontal
+                                `${classes.checkboxAndRadio 
+                                } ${ 
+                                classes.checkboxAndRadioHorizontal}`
                               }
                             >
                               <FormControlLabel
@@ -363,8 +366,6 @@ class SectionProducts extends React.Component {
                                     onClick={() => this.handleToggle(9)}
                                     checked={
                                       this.state.checked.indexOf(9) !== -1
-                                        ? true
-                                        : false
                                     }
                                     checkedIcon={
                                       <Check className={classes.checkedIcon} />
@@ -767,9 +768,9 @@ class SectionProducts extends React.Component {
                           <div className={classes.customExpandPanel}>
                             <div
                               className={
-                                classes.checkboxAndRadio +
-                                " " +
-                                classes.checkboxAndRadioHorizontal
+                                `${classes.checkboxAndRadio 
+                                } ${ 
+                                classes.checkboxAndRadioHorizontal}`
                               }
                             >
                               <FormControlLabel
@@ -779,8 +780,6 @@ class SectionProducts extends React.Component {
                                     onClick={() => this.handleToggle(27)}
                                     checked={
                                       this.state.checked.indexOf(27) !== -1
-                                        ? true
-                                        : false
                                     }
                                     checkedIcon={
                                       <Check className={classes.checkedIcon} />

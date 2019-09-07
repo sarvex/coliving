@@ -4,16 +4,16 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import NavPills from "components/NavPills/NavPills.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import NavPills from "components/NavPills/NavPills";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import Button from "components/CustomButtons/Button";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/pricingSections/pricingStyle.jsx";
+import pricingStyle from "assets/jss/material-kit-pro-react/views/pricingSections/pricingStyle";
 
 function SectionPricing(props) {
   const { classes } = props;

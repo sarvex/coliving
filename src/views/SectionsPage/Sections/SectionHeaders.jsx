@@ -13,15 +13,15 @@ import ListItem from "@material-ui/core/ListItem";
 import Share from "@material-ui/icons/Share";
 import ShoppingCart from "@material-ui/icons/ShoppingCart";
 // core components
-import Header from "../../../components/Header/Header.jsx";
-import Button from "../../../components/CustomButtons/Button.jsx";
-import GridContainer from "../../../components/Grid/GridContainer.jsx";
-import GridItem from "../../../components/Grid/GridItem.jsx";
-import Card from "../../../components/Card/Card.jsx";
-import CardBody from "../../../components/Card/CardBody.jsx";
-import CustomInput from "../../../components/CustomInput/CustomInput.jsx";
+import Header from "../../../components/Header/Header";
+import Button from "../../../components/CustomButtons/Button";
+import GridContainer from "../../../components/Grid/GridContainer";
+import GridItem from "../../../components/Grid/GridItem";
+import Card from "../../../components/Card/Card";
+import CardBody from "../../../components/Card/CardBody";
+import CustomInput from "../../../components/CustomInput/CustomInput";
 
-import headersStyle from "../../../assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
+import headersStyle from "../../../assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle";
 
 import bg12 from "../../../assets/img/bg12.jpg";
 import office2 from "../../../assets/img/examples/office2.jpg";
@@ -51,7 +51,7 @@ function SectionHeaders({ ...props }) {
           color="transparent"
           links={
             <div className={classes.collapse}>
-              <List className={classes.list + " " + classes.mlAuto}>
+              <List className={`${classes.list  } ${  classes.mlAuto}`}>
                 <ListItem className={classes.listItem}>
                   <Button
                     href="#pablo"
@@ -93,15 +93,15 @@ function SectionHeaders({ ...props }) {
                   </Button>
                 </ListItem>
               </List>
-              <List className={classes.list + " " + classes.mlAuto}>
+              <List className={`${classes.list  } ${  classes.mlAuto}`}>
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
                     href="https://twitter.com/CreativeTim?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-twitter"} />
+                    <i className="fab fa-twitter" />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -109,9 +109,9 @@ function SectionHeaders({ ...props }) {
                     color="transparent"
                     href="https://www.facebook.com/CreativeTim?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-facebook"} />
+                    <i className="fab fa-facebook" />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -119,9 +119,9 @@ function SectionHeaders({ ...props }) {
                     color="transparent"
                     href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-instagram"} />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </ListItem>
               </List>
@@ -178,7 +178,7 @@ function SectionHeaders({ ...props }) {
           color="transparent"
           links={
             <div className={classes.collapse}>
-              <List className={classes.list + " " + classes.mlAuto}>
+              <List className={`${classes.list  } ${  classes.mlAuto}`}>
                 <ListItem className={classes.listItem}>
                   <Button
                     href="#pablo"
@@ -220,15 +220,15 @@ function SectionHeaders({ ...props }) {
                   </Button>
                 </ListItem>
               </List>
-              <List className={classes.list + " " + classes.mlAuto}>
+              <List className={`${classes.list  } ${  classes.mlAuto}`}>
                 <ListItem className={classes.listItem}>
                   <Button
                     color="transparent"
                     href="https://twitter.com/CreativeTim?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-twitter"} />
+                    <i className="fab fa-twitter" />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -236,9 +236,9 @@ function SectionHeaders({ ...props }) {
                     color="transparent"
                     href="https://www.facebook.com/CreativeTim?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-facebook"} />
+                    <i className="fab fa-facebook" />
                   </Button>
                 </ListItem>
                 <ListItem className={classes.listItem}>
@@ -246,9 +246,9 @@ function SectionHeaders({ ...props }) {
                     color="transparent"
                     href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
                     target="_blank"
-                    className={classes.navLink + " " + classes.navLinkJustIcon}
+                    className={`${classes.navLink  } ${  classes.navLinkJustIcon}`}
                   >
-                    <i className={"fab fa-instagram"} />
+                    <i className="fab fa-instagram" />
                   </Button>
                 </ListItem>
               </List>
@@ -355,7 +355,7 @@ function SectionHeaders({ ...props }) {
           brand="Creative Tim"
           color="transparent"
           links={
-            <List className={classes.list + " " + classes.mlAuto}>
+            <List className={`${classes.list  } ${  classes.mlAuto}`}>
               <ListItem className={classes.listItem}>
                 <Button
                   href="#pablo"

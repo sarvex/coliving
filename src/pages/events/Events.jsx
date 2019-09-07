@@ -24,7 +24,7 @@ class AboutUsPage extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Parallax image={require('assets/img/bg9.jpg')} filter="dark" small>
+        <Parallax image={require('assets/img/bg9.jpg')} filter="dark">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={8} sm={8} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>

@@ -9,16 +9,16 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import FormatQuote from "@material-ui/icons/FormatQuote";
 import Star from "@material-ui/icons/Star";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import Muted from "components/Typography/Muted.jsx";
-import Warning from "components/Typography/Warning.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import CardAvatar from "components/Card/CardAvatar";
+import Muted from "components/Typography/Muted";
+import Warning from "components/Typography/Warning";
 
-import testimonialsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.jsx";
+import testimonialsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle";
 
 import dg2 from "assets/img/dg2.jpg";
 import cardProfile1Square from "assets/img/faces/card-profile1-square.jpg";
@@ -42,7 +42,7 @@ function SectionTestimonials({ ...props }) {
     <div className="cd-section" {...rest}>
       {/* Testimonials 1 START */}
       <div
-        className={classes.testimonials + " " + classes.sectionImage}
+        className={`${classes.testimonials  } ${  classes.sectionImage}`}
         style={{ backgroundImage: `url(${dg2})` }}
       >
         <div className={classes.container}>
@@ -52,7 +52,7 @@ function SectionTestimonials({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Our Clients Love Us</h2>
@@ -140,11 +140,11 @@ function SectionTestimonials({ ...props }) {
       {/* Testimonials 2 START */}
       <div
         className={
-          classes.testimonials +
-          " " +
-          classes.sectionDark +
-          " " +
-          classes.testimonial2
+          `${classes.testimonials 
+          } ${ 
+          classes.sectionDark 
+          } ${ 
+          classes.testimonial2}`
         }
       >
         <div className={classes.container}>
@@ -244,7 +244,7 @@ function SectionTestimonials({ ...props }) {
               sm={6}
               md={6}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>What Clients Say</h2>

@@ -5,31 +5,32 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
-import Header from "../../components/Header/Header.jsx";
-import HeaderLinks from "../../components/Header/HeaderLinks.jsx";
-import Parallax from "../../components/Parallax/Parallax.jsx";
-import Footer from "../../components/Footer/Footer.jsx";
-import GridContainer from "../../components/Grid/GridContainer.jsx";
-import GridItem from "../../components/Grid/GridItem.jsx";
-import Button from "../../components/CustomButtons/Button.jsx";
+import Header from "../../components/Header/Header";
+import HeaderLinks from "../../components/Header/HeaderLinks";
+import Parallax from "../../components/Parallax/Parallax";
+import Footer from "../../components/Footer/Footer";
+import GridContainer from "../../components/Grid/GridContainer";
+import GridItem from "../../components/Grid/GridItem";
+import Button from "../../components/CustomButtons/Button";
 
-import SectionDescription from "./Sections/SectionDescription.jsx";
-import SectionComponents from "./Sections/SectionComponents.jsx";
-import SectionCards from "./Sections/SectionCards.jsx";
-import SectionContent from "./Sections/SectionContent.jsx";
-import SectionSections from "./Sections/SectionSections.jsx";
-import SectionExamples from "./Sections/SectionExamples.jsx";
-import SectionFreeDemo from "./Sections/SectionFreeDemo.jsx";
-import SectionOverview from "./Sections/SectionOverview.jsx";
-import SectionPricing from "./Sections/SectionPricing.jsx";
+import SectionDescription from "./Sections/SectionDescription";
+import SectionComponents from "./Sections/SectionComponents";
+import SectionCards from "./Sections/SectionCards";
+import SectionContent from "./Sections/SectionContent";
+import SectionSections from "./Sections/SectionSections";
+import SectionExamples from "./Sections/SectionExamples";
+import SectionFreeDemo from "./Sections/SectionFreeDemo";
+import SectionOverview from "./Sections/SectionOverview";
+import SectionPricing from "./Sections/SectionPricing";
 
-import presentationStyle from "../../assets/jss/material-kit-pro-react/views/presentationStyle.jsx";
+import presentationStyle from "../../assets/jss/material-kit-pro-react/views/presentationStyle";
 
 class PresentationPage extends React.Component {
   componentDidMount() {
     window.scrollTo(0, 0);
     document.body.scrollTop = 0;
   }
+
   render() {
     const { classes } = this.props;
     return (

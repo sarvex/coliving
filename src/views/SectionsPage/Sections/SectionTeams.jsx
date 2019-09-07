@@ -6,17 +6,17 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // import  from "@material-ui/icons/";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import Button from "components/CustomButtons/Button.jsx";
-import Muted from "components/Typography/Muted.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardAvatar from "components/Card/CardAvatar";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import Button from "components/CustomButtons/Button";
+import Muted from "components/Typography/Muted";
 
-import teamsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle.jsx";
+import teamsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle";
 
 import bg7 from "assets/img/bg7.jpg";
 import city from "assets/img/examples/city.jpg";
@@ -45,7 +45,7 @@ function SectionTeams({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>Our Awesome Team 1</h2>
@@ -264,7 +264,7 @@ function SectionTeams({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>The Executive Team 2</h2>
@@ -385,7 +385,7 @@ function SectionTeams({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>The Executive Team 3</h2>
@@ -580,7 +580,7 @@ function SectionTeams({ ...props }) {
       {/* Team 3 END */}
       {/* Team 4 START */}
       <div
-        className={classes.team + " " + classes.section}
+        className={`${classes.team  } ${  classes.section}`}
         style={{ backgroundImage: `url(${bg7})` }}
       >
         <div className={classes.container}>
@@ -590,7 +590,7 @@ function SectionTeams({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>The Executive Team 4</h2>
@@ -698,7 +698,7 @@ function SectionTeams({ ...props }) {
       {/* Team 4 END */}
       {/* Team 5 START */}
       <div
-        className={classes.team + " " + classes.section}
+        className={`${classes.team  } ${  classes.section}`}
         style={{ backgroundImage: `url(${city})` }}
       >
         <div className={classes.container}>
@@ -708,7 +708,7 @@ function SectionTeams({ ...props }) {
               sm={8}
               md={8}
               className={
-                classes.mlAuto + " " + classes.mrAuto + " " + classes.textCenter
+                `${classes.mlAuto  } ${  classes.mrAuto  } ${  classes.textCenter}`
               }
             >
               <h2 className={classes.title}>The Executive Team 5</h2>

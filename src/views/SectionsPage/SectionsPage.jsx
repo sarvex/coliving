@@ -5,23 +5,23 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import Header from "components/Header/Header.jsx";
-import HeaderLinks from "components/Header/HeaderLinks.jsx";
+import Header from "components/Header/Header";
+import HeaderLinks from "components/Header/HeaderLinks";
 // sections of this Page
-import SectionHeaders from "./Sections/SectionHeaders.jsx";
-import SectionFeatures from "./Sections/SectionFeatures.jsx";
-import SectionBlogs from "./Sections/SectionBlogs.jsx";
-import SectionTeams from "./Sections/SectionTeams.jsx";
-import SectionProjects from "./Sections/SectionProjects.jsx";
-import SectionPricing from "./Sections/SectionPricing.jsx";
-import SectionTestimonials from "./Sections/SectionTestimonials.jsx";
-import SectionContacts from "./Sections/SectionContacts.jsx";
+import sectionsPageStyle from "assets/jss/material-kit-pro-react/views/sectionsPageStyle";
+import SectionHeaders from "./Sections/SectionHeaders";
+import SectionFeatures from "./Sections/SectionFeatures";
+import SectionBlogs from "./Sections/SectionBlogs";
+import SectionTeams from "./Sections/SectionTeams";
+import SectionProjects from "./Sections/SectionProjects";
+import SectionPricing from "./Sections/SectionPricing";
+import SectionTestimonials from "./Sections/SectionTestimonials";
+import SectionContacts from "./Sections/SectionContacts";
 
-import sectionsPageStyle from "assets/jss/material-kit-pro-react/views/sectionsPageStyle.jsx";
 
 class SectionsPage extends React.Component {
   componentDidMount() {
-    var href = window.location.href.substring(
+    const href = window.location.href.substring(
       window.location.href.lastIndexOf("#") + 1
     );
     if (window.location.href.lastIndexOf("#") > 0)
@@ -31,7 +31,7 @@ class SectionsPage extends React.Component {
   }
 
   componentDidUpdate() {
-    var href = window.location.href.substring(
+    const href = window.location.href.substring(
       window.location.href.lastIndexOf("#") + 1
     );
     document.getElementById(href).scrollIntoView();
@@ -49,13 +49,13 @@ class SectionsPage extends React.Component {
   }
 
   updateView() {
-    var contentSections = document.getElementsByClassName("cd-section");
-    var navigationItems = document
+    const contentSections = document.getElementsByClassName("cd-section");
+    const navigationItems = document
       .getElementById("cd-vertical-nav")
       .getElementsByTagName("a");
 
     for (let i = 0; i < contentSections.length; i++) {
-      var activeSection =
+      const activeSection =
         parseInt(navigationItems[i].getAttribute("data-number"), 10) - 1;
       if (
         contentSections[i].offsetTop - window.innerHeight / 2 <
@@ -73,19 +73,19 @@ class SectionsPage extends React.Component {
   }
 
   smoothScroll(target) {
-    var targetScroll = document.getElementById(target);
+    const targetScroll = document.getElementById(target);
     this.scrollGo(document.documentElement, targetScroll.offsetTop, 1250);
   }
 
   scrollGo(element, to, duration) {
-    var start = element.scrollTop,
-      change = to - start,
-      currentTime = 0,
-      increment = 20;
+    const start = element.scrollTop;
+      const change = to - start;
+      let currentTime = 0;
+      const increment = 20;
 
     var animateScroll = function() {
       currentTime += increment;
-      var val = this.easeInOutQuad(currentTime, start, change, duration);
+      const val = this.easeInOutQuad(currentTime, start, change, duration);
       element.scrollTop = val;
       if (currentTime < duration) {
         setTimeout(animateScroll, increment);
@@ -122,7 +122,7 @@ class SectionsPage extends React.Component {
                 data-number="1"
                 className="is-selected"
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -143,7 +143,7 @@ class SectionsPage extends React.Component {
                 data-number="2"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -164,7 +164,7 @@ class SectionsPage extends React.Component {
                 data-number="3"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -185,7 +185,7 @@ class SectionsPage extends React.Component {
                 data-number="4"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -206,7 +206,7 @@ class SectionsPage extends React.Component {
                 data-number="5"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -227,7 +227,7 @@ class SectionsPage extends React.Component {
                 data-number="6"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -248,7 +248,7 @@ class SectionsPage extends React.Component {
                 data-number="7"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {
@@ -269,7 +269,7 @@ class SectionsPage extends React.Component {
                 data-number="8"
                 className=""
                 onClick={e => {
-                  var isMobile = navigator.userAgent.match(
+                  const isMobile = navigator.userAgent.match(
                     /(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i
                   );
                   if (isMobile) {

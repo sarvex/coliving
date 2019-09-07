@@ -5,28 +5,28 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import Muted from "components/Typography/Muted.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardHeader from "components/Card/CardHeader";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import Muted from "components/Typography/Muted";
+import Button from "components/CustomButtons/Button";
 
 import bg10 from "assets/img/bg10.jpg";
 
 import cardProfile1 from "assets/img/faces/card-profile1-square.jpg";
 import cardProfile4 from "assets/img/faces/card-profile4-square.jpg";
 
-import sectionImageStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle.jsx";
+import sectionImageStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle";
 
 function SectionImage({ ...props }) {
   const { classes } = props;
   return (
     <div
       className={classes.section}
-      style={{ backgroundImage: "url(" + bg10 + ")" }}
+      style={{ backgroundImage: `url(${  bg10  })` }}
     >
       <div className={classes.container}>
         <GridContainer>

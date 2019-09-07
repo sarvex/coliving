@@ -6,26 +6,26 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import TrendingUp from "@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import Info from "components/Typography/Info.jsx";
-import Success from "components/Typography/Success.jsx";
-import Danger from "components/Typography/Danger.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import CardHeader from "components/Card/CardHeader";
+import Info from "components/Typography/Info";
+import Success from "components/Typography/Success";
+import Danger from "components/Typography/Danger";
 
 import bg5 from "assets/img/bg5.jpg";
 import blog5 from "assets/img/examples/blog5.jpg";
 import blog6 from "assets/img/examples/blog6.jpg";
 
-import sectionInterestedStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle.jsx";
+import sectionInterestedStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle";
 
 function SectionInterested({ ...props }) {
   const { classes } = props;
   return (
     <div className={classes.section}>
-      <h3 className={classes.title + " " + classes.textCenter}>
+      <h3 className={`${classes.title  } ${  classes.textCenter}`}>
         You may also be interested in
       </h3>
       <br />
@@ -39,7 +39,7 @@ function SectionInterested({ ...props }) {
               <div
                 className={classes.coloredShadow}
                 style={{
-                  backgroundImage: "url(" + bg5 + ")",
+                  backgroundImage: `url(${  bg5  })`,
                   opacity: "1"
                 }}
               />
@@ -71,7 +71,7 @@ function SectionInterested({ ...props }) {
               <div
                 className={classes.coloredShadow}
                 style={{
-                  backgroundImage: "url(" + blog5 + ")",
+                  backgroundImage: `url(${  blog5  })`,
                   opacity: "1"
                 }}
               />
@@ -103,7 +103,7 @@ function SectionInterested({ ...props }) {
               <div
                 className={classes.coloredShadow}
                 style={{
-                  backgroundImage: "url(" + blog6 + ")",
+                  backgroundImage: `url(${  blog6  })`,
                   opacity: "1"
                 }}
               />

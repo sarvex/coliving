@@ -4,17 +4,17 @@ import PropTypes from "prop-types";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardAvatar from "components/Card/CardAvatar";
+import CardBody from "components/Card/CardBody";
+import CardFooter from "components/Card/CardFooter";
+import Button from "components/CustomButtons/Button";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 
-import teamStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle.jsx";
+import teamStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle";
 
 import FaceMarc from "assets/img/faces/marc.jpg";
 import FaceChristian from "assets/img/faces/christian.jpg";

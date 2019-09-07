@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import parallaxStyle from "assets/jss/material-kit-pro-react/components/parallaxStyle.jsx";
+import parallaxStyle from "assets/jss/material-kit-pro-react/components/parallaxStyle";
 
 class Parallax extends React.Component {
   constructor(props) {
@@ -19,29 +19,33 @@ class Parallax extends React.Component {
       windowScrollTop = 0;
     }
     this.state = {
-      transform: "translate3d(0," + windowScrollTop + "px,0)"
+      transform: `translate3d(0,${  windowScrollTop  }px,0)`
     };
   }
+
   componentDidMount() {
     if (window.innerWidth >= 768) {
-      var windowScrollTop = window.pageYOffset / 3;
+      const windowScrollTop = window.pageYOffset / 3;
       this.setState({
-        transform: "translate3d(0," + windowScrollTop + "px,0)"
+        transform: `translate3d(0,${  windowScrollTop  }px,0)`
       });
       window.addEventListener("scroll", this.resetTransform);
     }
   }
+
   componentWillUnmount() {
     if (window.innerWidth >= 768) {
       window.removeEventListener("scroll", this.resetTransform);
     }
   }
+
   resetTransform = () => {
-    var windowScrollTop = window.pageYOffset / 3;
+    const windowScrollTop = window.pageYOffset / 3;
     this.setState({
-      transform: "translate3d(0," + windowScrollTop + "px,0)"
+      transform: `translate3d(0,${  windowScrollTop  }px,0)`
     });
   };
+
   render() {
     const {
       classes,
@@ -54,7 +58,7 @@ class Parallax extends React.Component {
     } = this.props;
     const parallaxClasses = classNames({
       [classes.parallax]: true,
-      [classes[filter + "Color"]]: filter !== undefined,
+      [classes[`${filter  }Color`]]: filter !== undefined,
       [classes.small]: small,
       [className]: className !== undefined
     });
@@ -63,7 +67,7 @@ class Parallax extends React.Component {
         className={parallaxClasses}
         style={{
           ...style,
-          backgroundImage: "url(" + image + ")",
+          backgroundImage: `url(${  image  })`,
           ...this.state
         }}
       >

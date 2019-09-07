@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import withStyles from '@material-ui/core/styles/withStyles';
 
+import classNames from 'classnames';
 import GridContainer from '../../../components/Grid/GridContainer';
 import GridItem from '../../../components/Grid/GridItem';
 
 import Button from '../../../components/CustomButtons/Button';
 
 import sectionsStyle from '../../../assets/jss/material-kit-pro-react/views/presentationSections/sectionsStyle';
-import classNames from 'classnames';
 
 const SectionAbout = (props) => {
   const { classes } = props;

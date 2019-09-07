@@ -6,17 +6,17 @@ import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 import TrendingUp from "@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Card from "components/Card/Card.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import Info from "components/Typography/Info.jsx";
-import Danger from "components/Typography/Danger.jsx";
-import Success from "components/Typography/Success.jsx";
-import Button from "components/CustomButtons/Button.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import Card from "components/Card/Card";
+import CardBody from "components/Card/CardBody";
+import CardHeader from "components/Card/CardHeader";
+import Info from "components/Typography/Info";
+import Danger from "components/Typography/Danger";
+import Success from "components/Typography/Success";
+import Button from "components/CustomButtons/Button";
 
-import blogsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle.jsx";
+import blogsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle";
 
 import cardBlog4 from "assets/img/examples/card-blog4.jpg";
 import office2 from "assets/img/office2.jpg";
@@ -38,7 +38,7 @@ function SectionBlogs({ ...props }) {
               xs={12}
               sm={10}
               md={10}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>Latest Blogposts</h2>
               <br />
@@ -151,7 +151,7 @@ function SectionBlogs({ ...props }) {
               xs={12}
               sm={12}
               md={10}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>Latest Blogposts 2</h2>
               <br />
@@ -279,7 +279,7 @@ function SectionBlogs({ ...props }) {
               xs={12}
               sm={10}
               md={10}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>Latest Blogposts 3</h2>
               <br />
@@ -459,7 +459,7 @@ function SectionBlogs({ ...props }) {
               xs={12}
               sm={8}
               md={8}
-              className={classes.mlAuto + " " + classes.mrAuto}
+              className={`${classes.mlAuto  } ${  classes.mrAuto}`}
             >
               <h2 className={classes.title}>Latest Blogposts 4</h2>
               <br />

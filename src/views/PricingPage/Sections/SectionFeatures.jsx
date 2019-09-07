@@ -2,9 +2,9 @@ import React from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 // core components
-import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import InfoArea from "components/InfoArea/InfoArea.jsx";
+import GridContainer from "components/Grid/GridContainer";
+import GridItem from "components/Grid/GridItem";
+import InfoArea from "components/InfoArea/InfoArea";
 // @material-ui/core components
 import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui icons
@@ -13,7 +13,7 @@ import CardGiftCard from "@material-ui/icons/CardGiftcard";
 import AttachMoney from "@material-ui/icons/AttachMoney";
 import QuestionAnswer from "@material-ui/icons/QuestionAnswer";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/pricingSections/featuresStyle.jsx";
+import featuresStyle from "assets/jss/material-kit-pro-react/views/pricingSections/featuresStyle";
 
 function SectionFeatures(props) {
   const { classes } = props;

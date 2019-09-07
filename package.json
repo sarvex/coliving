@@ -1,26 +1,29 @@
 {
   "name": "coliving",
+  "author": {
+    "name": "Sarvex Jatasra",
+    "email": "sarvex@jatasra.com",
+    "url": "https://jatasra.com"
+  },
+  "homepage": "https://coliving.ai",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://coliving.ai",
   "dependencies": {
-    "@material-ui/core": "^4.3.3",
+    "@material-ui/core": "^4.4.0",
     "@material-ui/icons": "^4.2.1",
-    "@types/googlemaps": "^3.37.5",
+    "@types/googlemaps": "^3.37.6",
     "@types/jest": "^24.0.18",
     "@types/markerclustererplus": "^2.1.33",
-    "@types/node": "^12.7.3",
-    "@types/prop-types": "^15.7.1",
+    "@types/node": "^12.7.4",
+    "@types/prop-types": "^15.7.2",
     "@types/react": "^16.9.2",
     "@types/react-dom": "^16.9.0",
     "animate.css": "^3.7.2",
     "apollo-boost": "^0.4.4",
     "classnames": "^2.2.6",
     "enzyme": "^3.10.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.14.3",
-    "firebase": "^6.5.0",
+    "eslint-import-resolver-babel-module": "^5.1.0",
+    "firebase": "^6.6.0",
     "graphql": "^14.5.4",
     "graphql-tag": "^2.10.1",
     "history": "^4.9.0",
@@ -31,12 +34,12 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-animate-on-scroll": "^2.1.5",
-    "react-apollo": "^3.0.1",
+    "react-apollo": "^3.1.0",
     "react-datetime": "^2.16.3",
     "react-dom": "^16.9.0",
     "react-google-maps": "^9.4.5",
     "react-image-gallery": "^0.9.1",
-    "react-intl": "^3.1.13",
+    "react-intl": "^3.2.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-router-sitemap": "^1.2.0",
@@ -47,17 +50,22 @@
     "typescript": "^3.6.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
     "core-js": "^3.2.1",
-    "eslint": "^6.2.2",
+    "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-prettier": "^6.2.0",
     "eslint-loader": "^3.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -67,8 +75,55 @@
     "lint": "eslint . --ext=js,jsx --fix; exit 0",
     "clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
   "eslintConfig": {
-    "extends": "react-app"
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "globals": {
+      "use": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "extends": [
+      "airbnb",
+      "prettier",
+      "prettier/react",
+      "react-app"
+    ],
+    "plugins": [
+      "prettier",
+      "react",
+      "jsx-a11y"
+    ],
+    "rules": {
+      "implicit-arrow-linebreak": "off",
+      "comma-dangle": "off",
+      "indent": "off",
+      "no-trailing-spaces": "off",
+      "no-param-reassign": "off"
+    }
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 120,
+    "singleQuote": true,
+    "semi": false,
+    "useTabs": false,
+    "jsxSingleQuote": true,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "endOfLine": "cr"
   },
   "engines": {
     "node": "12.x.x",
