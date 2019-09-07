@@ -1,30 +1,30 @@
-import React from 'Views/ContactUsPage/node_modules/react';
-// nodejs library to set properties for components
-import PropTypes from 'Views/ContactUsPage/node_modules/prop-types';
+import React from 'react';
+// nodejs library to set properties for Components
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/ContactUsPage/node_modules/classnames';
-// react components used to create a google map
+import classNames from 'classnames';
+// react Components used to create a google map
 import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
 // @material-ui/core components
-import withStyles from 'Views/ContactUsPage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/ContactUsPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/ContactUsPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Favorite from 'Views/ContactUsPage/node_modules/@material-ui/icons/Favorite';
-import PinDrop from 'Views/ContactUsPage/node_modules/@material-ui/icons/PinDrop';
-import Phone from 'Views/ContactUsPage/node_modules/@material-ui/icons/Phone';
-import BusinessCenter from 'Views/ContactUsPage/node_modules/@material-ui/icons/BusinessCenter';
+import Favorite from '@material-ui/icons/Favorite';
+import PinDrop from '@material-ui/icons/PinDrop';
+import Phone from '@material-ui/icons/Phone';
+import BusinessCenter from '@material-ui/icons/BusinessCenter';
 // core components
-import Header from 'Views/ContactUsPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/ContactUsPage/node_modules/components/Header/HeaderLinks';
-import GridContainer from 'Views/ContactUsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ContactUsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import InfoArea from 'Views/ContactUsPage/node_modules/components/InfoArea/InfoArea';
-import CustomInput from 'Views/ContactUsPage/node_modules/components/CustomInput/CustomInput';
-import Button from 'Views/ContactUsPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Footer from 'Views/ContactUsPage/node_modules/components/Footer/Footer';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import Button from 'Components/CustomButtons/Button';
+import Footer from 'Components/Footer/Footer';
 
-import contactUsStyle from 'Views/ContactUsPage/node_modules/assets/jss/material-kit-pro-react/views/contactUsStyle';
+import contactUsStyle from 'Assets/JSS/material-kit-pro-react/views/contactUsStyle';
 
 const CustomSkinMap = withScriptjs(
   withGoogleMap(() => (

@@ -1,39 +1,39 @@
-import React from 'Views/SectionsPage/Sections/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/SectionsPage/Sections/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles';
-import Icon from 'Views/SectionsPage/Sections/node_modules/@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import Build from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Build';
-import Subject from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Subject';
-import FormatPaint from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/FormatPaint';
-import Code from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Code';
-import Dashboard from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Dashboard';
-import Timeline from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Timeline';
-import Group from 'Views/SectionsPage/Sections/node_modules/@material-ui/icons/Group';
+import Build from '@material-ui/icons/Build';
+import Subject from '@material-ui/icons/Subject';
+import FormatPaint from '@material-ui/icons/FormatPaint';
+import Code from '@material-ui/icons/Code';
+import Dashboard from '@material-ui/icons/Dashboard';
+import Timeline from '@material-ui/icons/Timeline';
+import Group from '@material-ui/icons/Group';
 // core components
-import GridContainer from 'Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import NavPills from 'Views/SectionsPage/Sections/node_modules/components/NavPills/NavPills';
-import Card from 'Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardBody from 'Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CardHeader from 'Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader';
-import Button from 'Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Muted from 'Views/SectionsPage/Sections/node_modules/components/Typography/Muted';
-import InfoArea from 'Views/SectionsPage/Sections/node_modules/components/InfoArea/InfoArea';
-import Badge from 'Views/SectionsPage/Sections/node_modules/components/Badge/Badge';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import NavPills from 'Components/NavPills/NavPills';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardHeader from 'Components/Card/CardHeader';
+import Button from 'Components/CustomButtons/Button';
+import Muted from 'Components/Typography/Muted';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import Badge from 'Components/Badge/Badge';
 
-import projectsStyle from 'Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/projectsStyle';
+import projectsStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/projectsStyle';
 
-import office2 from 'assets/img/examples/office2.jpg';
-import cardBlog3 from 'assets/img/examples/card-blog3.jpg';
-import cardProject1 from 'assets/img/examples/card-project1.jpg';
-import cardProject2 from 'assets/img/examples/card-project2.jpg';
-import cardProject3 from 'assets/img/examples/card-project3.jpg';
-import cardProject4 from 'assets/img/examples/card-project4.jpg';
-import cardProject5 from 'assets/img/examples/card-project5.jpg';
-import cardProject6 from 'assets/img/examples/card-project6.jpg';
+import office2 from 'Assets/Images/examples/office2.jpg';
+import cardBlog3 from 'Assets/Images/examples/card-blog3.jpg';
+import cardProject1 from 'Assets/Images/examples/card-project1.jpg';
+import cardProject2 from 'Assets/Images/examples/card-project2.jpg';
+import cardProject3 from 'Assets/Images/examples/card-project3.jpg';
+import cardProject4 from 'Assets/Images/examples/card-project4.jpg';
+import cardProject5 from 'Assets/Images/examples/card-project5.jpg';
+import cardProject6 from 'Assets/Images/examples/card-project6.jpg';
 
 function SectionProjects({ ...props }) {
   const { classes, ...rest } = props;

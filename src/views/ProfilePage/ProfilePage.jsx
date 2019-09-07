@@ -1,48 +1,48 @@
-import React from 'Views/ProfilePage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/ProfilePage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/ProfilePage/node_modules/classnames';
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from 'Views/ProfilePage/node_modules/@material-ui/core/styles/withStyles';
-import Tooltip from 'Views/ProfilePage/node_modules/@material-ui/core/Tooltip';
-import List from 'Views/ProfilePage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/ProfilePage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Tooltip from '@material-ui/core/Tooltip';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Camera from 'Views/ProfilePage/node_modules/@material-ui/icons/Camera';
-import Palette from 'Views/ProfilePage/node_modules/@material-ui/icons/Palette';
-import People from 'Views/ProfilePage/node_modules/@material-ui/icons/People';
-import Add from 'Views/ProfilePage/node_modules/@material-ui/icons/Add';
-import Favorite from 'Views/ProfilePage/node_modules/@material-ui/icons/Favorite';
+import Camera from '@material-ui/icons/Camera';
+import Palette from '@material-ui/icons/Palette';
+import People from '@material-ui/icons/People';
+import Add from '@material-ui/icons/Add';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/ProfilePage/node_modules/components/Header/Header';
-import Footer from 'Views/ProfilePage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/ProfilePage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ProfilePage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import HeaderLinks from 'Views/ProfilePage/node_modules/components/Header/HeaderLinks';
-import NavPills from 'Views/ProfilePage/node_modules/components/NavPills/NavPills';
-import Card from 'Views/ProfilePage/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardBody from 'Views/ProfilePage/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CardHeader from 'Views/ProfilePage/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader';
-import Badge from 'Views/ProfilePage/node_modules/components/Badge/Badge';
-import Muted from 'Views/ProfilePage/node_modules/components/Typography/Muted';
-import Parallax from 'Views/ProfilePage/node_modules/components/Parallax/Parallax';
-import Clearfix from 'Views/ProfilePage/node_modules/components/Clearfix/Clearfix';
-import Button from 'Views/ProfilePage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
+import Header from 'Components/Header/Header';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import NavPills from 'Components/NavPills/NavPills';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardHeader from 'Components/Card/CardHeader';
+import Badge from 'Components/Badge/Badge';
+import Muted from 'Components/Typography/Muted';
+import Parallax from 'Components/Parallax/Parallax';
+import Clearfix from 'Components/Clearfix/Clearfix';
+import Button from 'Components/CustomButtons/Button';
 
-import christian from 'assets/img/faces/christian.jpg';
-import oluEletu from 'assets/img/examples/olu-eletu.jpg';
-import clemOnojeghuo from 'assets/img/examples/clem-onojeghuo.jpg';
-import cynthiaDelRio from 'assets/img/examples/cynthia-del-rio.jpg';
-import mariyaGeorgieva from 'assets/img/examples/mariya-georgieva.jpg';
-import clemOnojegaw from 'assets/img/examples/clem-onojegaw.jpg';
-import darrenColeshill from 'assets/img/examples/darren-coleshill.jpg';
-import avatar from 'assets/img/faces/avatar.jpg';
-import marc from 'assets/img/faces/marc.jpg';
-import kendall from 'assets/img/faces/kendall.jpg';
-import cardProfile2Square from 'assets/img/faces/card-profile2-square.jpg';
+import christian from 'Assets/Images/faces/christian.jpg';
+import oluEletu from 'Assets/Images/examples/olu-eletu.jpg';
+import clemOnojeghuo from 'Assets/Images/examples/clem-onojeghuo.jpg';
+import cynthiaDelRio from 'Assets/Images/examples/cynthia-del-rio.jpg';
+import mariyaGeorgieva from 'Assets/Images/examples/mariya-georgieva.jpg';
+import clemOnojegaw from 'Assets/Images/examples/clem-onojegaw.jpg';
+import darrenColeshill from 'Assets/Images/examples/darren-coleshill.jpg';
+import avatar from 'Assets/Images/faces/avatar.jpg';
+import marc from 'Assets/Images/faces/marc.jpg';
+import kendall from 'Assets/Images/faces/kendall.jpg';
+import cardProfile2Square from 'Assets/Images/faces/card-profile2-square.jpg';
 
-import profilePageStyle from 'Views/ProfilePage/node_modules/assets/jss/material-kit-pro-react/views/profilePageStyle';
+import profilePageStyle from 'Assets/JSS/material-kit-pro-react/views/profilePageStyle';
 
 class ProfilePage extends React.Component {
   componentDidMount() {

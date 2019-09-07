@@ -1,21 +1,21 @@
-import React from 'Views/BlogPostsPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/BlogPostsPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Views/BlogPostsPage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/BlogPostsPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/BlogPostsPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Favorite from 'Views/BlogPostsPage/node_modules/@material-ui/icons/Favorite';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/BlogPostsPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/BlogPostsPage/node_modules/components/Header/HeaderLinks';
-import Footer from 'Views/BlogPostsPage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/BlogPostsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/BlogPostsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Parallax from 'Views/BlogPostsPage/node_modules/components/Parallax/Parallax';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
 // sections for this page
-import blogPostsPageStyle from 'Views/BlogPostsPage/node_modules/assets/jss/material-kit-pro-react/views/blogPostsPageStyle';
+import blogPostsPageStyle from 'Assets/JSS/material-kit-pro-react/views/blogPostsPageStyle';
 
 import SectionPills from './Sections/SectionPills';
 import SectionInterested from './Sections/SectionInterested';

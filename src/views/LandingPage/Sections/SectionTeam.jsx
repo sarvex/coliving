@@ -1,27 +1,27 @@
-import React from "Views/LandingPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/LandingPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/LandingPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // import  from "@material-ui/icons/";
 // core components
-import GridContainer from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/LandingPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardHeader from "Views/LandingPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import CardBody from "Views/LandingPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/LandingPage/Sections/node_modules/components/Card/CardFooter";
-import Muted from "Views/LandingPage/Sections/node_modules/components/Typography/Muted";
-import Button from "Views/LandingPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardHeader from "Components/Card/CardHeader";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import Muted from "Components/Typography/Muted";
+import Button from "Components/CustomButtons/Button";
 
-import cardProfile1Square from "assets/img/faces/card-profile1-square.jpg";
-import cardProfile2Square from "assets/img/faces/card-profile2-square.jpg";
-import cardProfile4Square from "assets/img/faces/card-profile4-square.jpg";
-import cardProfile6Square from "assets/img/faces/card-profile6-square.jpg";
+import cardProfile1Square from "Assets/Images/faces/card-profile1-square.jpg";
+import cardProfile2Square from "Assets/Images/faces/card-profile2-square.jpg";
+import cardProfile4Square from "Assets/Images/faces/card-profile4-square.jpg";
+import cardProfile6Square from "Assets/Images/faces/card-profile6-square.jpg";
 
-import teamsStyle from "Views/LandingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle";
-import teamStyle from "Views/LandingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/landingPageSections/teamStyle";
+import teamsStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/teamsStyle";
+import teamStyle from "Assets/JSS/material-kit-pro-react/views/landingPageSections/teamStyle";
 
 const style = {
   ...teamsStyle,

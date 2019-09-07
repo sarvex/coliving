@@ -1,27 +1,27 @@
-import React from "Views/EcommercePage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/EcommercePage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/EcommercePage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardHeader from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import CardBody from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/EcommercePage/Sections/node_modules/components/Card/CardFooter";
-import Button from "Views/EcommercePage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardHeader from "Components/Card/CardHeader";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import Button from "Components/CustomButtons/Button";
 // @material-ui/core components
-import withStyles from "Views/EcommercePage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import Tooltip from "Views/EcommercePage/Sections/node_modules/@material-ui/core/Tooltip";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui icons
-import Favorite from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/Favorite";
+import Favorite from "@material-ui/icons/Favorite";
 
-import styles from "Views/EcommercePage/Sections/node_modules/assets/jss/material-kit-pro-react/views/ecommerceSections/latestOffersStyle";
+import styles from "Assets/JSS/material-kit-pro-react/views/ecommerceSections/latestOffersStyle";
 
-import gucci from "assets/img/examples/gucci.jpg";
-import tomFord from "assets/img/examples/tom-ford.jpg";
-import dolce from "assets/img/examples/dolce.jpg";
+import gucci from "Assets/Images/examples/gucci.jpg";
+import tomFord from "Assets/Images/examples/tom-ford.jpg";
+import dolce from "Assets/Images/examples/dolce.jpg";
 
 const SectionLatestOffers = props => {
   const { classes } = props;

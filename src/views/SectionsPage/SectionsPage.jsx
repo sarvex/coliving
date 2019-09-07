@@ -1,14 +1,14 @@
-import React from "Views/SectionsPage/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import Header from "Views/SectionsPage/node_modules/components/Header/Header";
-import HeaderLinks from "Views/SectionsPage/node_modules/components/Header/HeaderLinks";
+import Header from "Components/Header/Header";
+import HeaderLinks from "Components/Header/HeaderLinks";
 // sections of this Page
-import sectionsPageStyle from "Views/SectionsPage/node_modules/assets/jss/material-kit-pro-react/views/sectionsPageStyle";
+import sectionsPageStyle from "Assets/JSS/material-kit-pro-react/views/sectionsPageStyle";
 import SectionHeaders from "./Sections/SectionHeaders";
 import SectionFeatures from "./Sections/SectionFeatures";
 import SectionBlogs from "./Sections/SectionBlogs";

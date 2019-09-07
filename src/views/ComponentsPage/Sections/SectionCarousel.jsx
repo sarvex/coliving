@@ -1,20 +1,20 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // react component for creating beautiful carousel
-import Carousel from "Views/ComponentsPage/Sections/node_modules/react-slick";
+import Carousel from "react-slick";
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import LocationOn from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/LocationOn";
+import LocationOn from "@material-ui/icons/LocationOn";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import carouselStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/carouselStyle";
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import carouselStyle from "Assets/JSS/material-kit-pro-react/views/componentsSections/carouselStyle";
+import image1 from "Assets/Images/bg.jpg";
+import image2 from "Assets/Images/bg2.jpg";
+import image3 from "Assets/Images/bg3.jpg";
 
 class SectionCarousel extends React.Component {
   render() {

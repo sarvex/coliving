@@ -1,18 +1,18 @@
-import React from "Views/LandingPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/LandingPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/LandingPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 
 // core components
-import GridContainer from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import CustomInput from "Views/LandingPage/Sections/node_modules/components/CustomInput/CustomInput";
-import Button from "Views/LandingPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import CustomInput from "Components/CustomInput/CustomInput";
+import Button from "Components/CustomButtons/Button";
 
-import workStyle from "Views/LandingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/landingPageSections/workStyle";
+import workStyle from "Assets/JSS/material-kit-pro-react/views/landingPageSections/workStyle";
 
 class SectionWork extends React.Component {
   render() {

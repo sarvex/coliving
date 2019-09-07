@@ -1,56 +1,56 @@
-import React from 'Views/ComponentsPage/Sections/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/ComponentsPage/Sections/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // react plugin for creating date-time-picker
-import Datetime from 'Views/ComponentsPage/Sections/node_modules/react-datetime';
+import Datetime from 'react-datetime';
 // @material-ui/core components
-import withStyles from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles';
-import Slide from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Slide';
-import Dialog from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Dialog';
-import DialogTitle from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/DialogTitle';
-import DialogContent from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/DialogContent';
-import DialogActions from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/DialogActions';
-import InputLabel from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/InputLabel';
-import InputAdornment from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/InputAdornment';
-import FormControl from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/FormControl';
-import FormControlLabel from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/FormControlLabel';
-import Tooltip from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Tooltip';
-import Popover from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Popover';
-import Checkbox from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Checkbox';
-import Icon from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Slide from '@material-ui/core/Slide';
+import Dialog from '@material-ui/core/Dialog';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogActions from '@material-ui/core/DialogActions';
+import InputLabel from '@material-ui/core/InputLabel';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import FormControl from '@material-ui/core/FormControl';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Tooltip from '@material-ui/core/Tooltip';
+import Popover from '@material-ui/core/Popover';
+import Checkbox from '@material-ui/core/Checkbox';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import LibraryBooks from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/LibraryBooks';
-import Close from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Close';
-import Notifications from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Notifications';
-import AccountCircle from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/AccountCircle';
-import Assignment from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Assignment';
-import Mail from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Mail';
-import Face from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Face';
-import Timeline from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Timeline';
-import Code from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Code';
-import Group from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Group';
-import Email from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Email';
-import Check from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check';
-import AttachFile from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/AttachFile';
-import Layers from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Layers';
+import LibraryBooks from '@material-ui/icons/LibraryBooks';
+import Close from '@material-ui/icons/Close';
+import Notifications from '@material-ui/icons/Notifications';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+import Assignment from '@material-ui/icons/Assignment';
+import Mail from '@material-ui/icons/Mail';
+import Face from '@material-ui/icons/Face';
+import Timeline from '@material-ui/icons/Timeline';
+import Code from '@material-ui/icons/Code';
+import Group from '@material-ui/icons/Group';
+import Email from '@material-ui/icons/Email';
+import Check from '@material-ui/icons/Check';
+import AttachFile from '@material-ui/icons/AttachFile';
+import Layers from '@material-ui/icons/Layers';
 // core components
-import GridContainer from 'Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Button from 'Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Instruction from 'Views/ComponentsPage/Sections/node_modules/components/Instruction/Instruction';
-import Card from 'Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardHeader from 'Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader';
-import CardBody from 'Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CustomInput from 'Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput';
-import CustomFileInput from 'Views/ComponentsPage/Sections/node_modules/components/CustomFileInput/CustomFileInput';
-import InfoArea from 'Views/ComponentsPage/Sections/node_modules/components/InfoArea/InfoArea';
-import Accordion from 'Views/ComponentsPage/Sections/node_modules/components/Accordion/Accordion';
-import ImageUpload from 'Views/ComponentsPage/Sections/node_modules/components/CustomUpload/ImageUpload';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import Instruction from 'Components/Instruction/Instruction';
+import Card from 'Components/Card/Card';
+import CardHeader from 'Components/Card/CardHeader';
+import CardBody from 'Components/Card/CardBody';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import CustomFileInput from 'Components/CustomFileInput/CustomFileInput';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import Accordion from 'Components/Accordion/Accordion';
+import ImageUpload from 'Components/CustomUpload/ImageUpload';
 
-import javascriptStyles from 'Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/javascriptStyles';
+import javascriptStyles from 'Assets/JSS/material-kit-pro-react/views/componentsSections/javascriptStyles';
 
-import dg1 from 'assets/img/dg1.jpg';
-import dg2 from 'assets/img/dg2.jpg';
+import dg1 from 'Assets/Images/dg1.jpg';
+import dg2 from 'Assets/Images/dg2.jpg';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction='down' ref={ref} {...props} />;

@@ -1,26 +1,26 @@
-import React from "Views/PresentationPage/Sections/node_modules/react";
-import classNames from "Views/PresentationPage/Sections/node_modules/classnames";
-import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import InfoArea from "Views/PresentationPage/Sections/node_modules/components/InfoArea/InfoArea";
-import Card from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardHeader from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import CardBody from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import Grid from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/GridOn";
-import PhoneLink from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/Phonelink";
-import AccessTime from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/AccessTime";
-import AttachMoney from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/AttachMoney";
-import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import React from "react";
+import classNames from "classnames";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import InfoArea from "Components/InfoArea/InfoArea";
+import Card from "Components/Card/Card";
+import CardHeader from "Components/Card/CardHeader";
+import CardBody from "Components/Card/CardBody";
+import Grid from "@material-ui/icons/GridOn";
+import PhoneLink from "@material-ui/icons/Phonelink";
+import AccessTime from "@material-ui/icons/AccessTime";
+import AttachMoney from "@material-ui/icons/AttachMoney";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import Vodafone from "assets/img/assets-for-demo/ourClients/vodafone.jpg";
-import Microsoft from "assets/img/assets-for-demo/ourClients/microsoft.jpg";
-import Harvard from "assets/img/assets-for-demo/ourClients/harvard.jpg";
-import Standford from "assets/img/assets-for-demo/ourClients/stanford.jpg";
-import profilePic1 from "assets/img/assets-for-demo/test1.jpg";
-import profilePic2 from "assets/img/assets-for-demo/test2.jpg";
-import profilePic3 from "assets/img/assets-for-demo/test3.jpg";
+import Vodafone from "Assets/Images/assets-for-demo/ourClients/vodafone.jpg";
+import Microsoft from "Assets/Images/assets-for-demo/ourClients/microsoft.jpg";
+import Harvard from "Assets/Images/assets-for-demo/ourClients/harvard.jpg";
+import Standford from "Assets/Images/assets-for-demo/ourClients/stanford.jpg";
+import profilePic1 from "Assets/Images/assets-for-demo/test1.jpg";
+import profilePic2 from "Assets/Images/assets-for-demo/test2.jpg";
+import profilePic3 from "Assets/Images/assets-for-demo/test3.jpg";
 
-import overviewStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle";
+import overviewStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/overviewStyle";
 
 class SectionOverview extends React.Component {
   render() {

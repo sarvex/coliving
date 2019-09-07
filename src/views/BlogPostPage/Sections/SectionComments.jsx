@@ -1,24 +1,24 @@
-import React from "Views/BlogPostPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/BlogPostPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/BlogPostPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import Tooltip from "Views/BlogPostPage/Sections/node_modules/@material-ui/core/Tooltip";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui/icons
-import Reply from "Views/BlogPostPage/Sections/node_modules/@material-ui/icons/Reply";
-import Favorite from "Views/BlogPostPage/Sections/node_modules/@material-ui/icons/Favorite";
+import Reply from "@material-ui/icons/Reply";
+import Favorite from "@material-ui/icons/Favorite";
 // core components
-import GridContainer from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Media from "Views/BlogPostPage/Sections/node_modules/components/Media/Media";
-import Button from "Views/BlogPostPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import CustomInput from "Views/BlogPostPage/Sections/node_modules/components/CustomInput/CustomInput";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Media from "Components/Media/Media";
+import Button from "Components/CustomButtons/Button";
+import CustomInput from "Components/CustomInput/CustomInput";
 
-import profile4 from "assets/img/faces/card-profile4-square.jpg";
-import profile1 from "assets/img/faces/card-profile1-square.jpg";
-import profile6 from "assets/img/faces/card-profile6-square.jpg";
+import profile4 from "Assets/Images/faces/card-profile4-square.jpg";
+import profile1 from "Assets/Images/faces/card-profile1-square.jpg";
+import profile6 from "Assets/Images/faces/card-profile6-square.jpg";
 
-import sectionCommentsStyle from "Views/BlogPostPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostSections/sectionCommentsStyle";
+import sectionCommentsStyle from "Assets/JSS/material-kit-pro-react/views/blogPostSections/sectionCommentsStyle";
 
 function SectionComments({ ...props }) {
   const { classes } = props;

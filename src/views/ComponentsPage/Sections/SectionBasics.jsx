@@ -1,37 +1,37 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // plugin that creates slider
-import nouislider from "Views/ComponentsPage/Sections/node_modules/nouislider";
+import nouislider from "nouislider";
 // react component plugin for creating beatiful tags on an input
-import TagsInput from "Views/ComponentsPage/Sections/node_modules/react-tagsinput";
+import TagsInput from "react-tagsinput";
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import InputAdornment from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/InputAdornment";
-import FormControlLabel from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/FormControlLabel";
-import FormControl from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/FormControl";
-import Checkbox from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Checkbox";
-import Radio from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Radio";
-import Switch from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Switch";
-import Select from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Select";
-import MenuItem from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/MenuItem";
-import InputLabel from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/InputLabel";
+import withStyles from "@material-ui/core/styles/withStyles";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormControl from "@material-ui/core/FormControl";
+import Checkbox from "@material-ui/core/Checkbox";
+import Radio from "@material-ui/core/Radio";
+import Switch from "@material-ui/core/Switch";
+import Select from "@material-ui/core/Select";
+import MenuItem from "@material-ui/core/MenuItem";
+import InputLabel from "@material-ui/core/InputLabel";
 // @material-ui/icons
-import Favorite from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Favorite";
-import People from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/People";
-import Check from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check";
-import FiberManualRecord from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/FiberManualRecord";
+import Favorite from "@material-ui/icons/Favorite";
+import People from "@material-ui/icons/People";
+import Check from "@material-ui/icons/Check";
+import FiberManualRecord from "@material-ui/icons/FiberManualRecord";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import CustomInput from "Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput";
-import CustomLinearProgress from "Views/ComponentsPage/Sections/node_modules/components/CustomLinearProgress/CustomLinearProgress";
-import Paginations from "Views/ComponentsPage/Sections/node_modules/components/Pagination/Pagination";
-import Badge from "Views/ComponentsPage/Sections/node_modules/components/Badge/Badge";
-import CustomDropdown from "Views/ComponentsPage/Sections/node_modules/components/CustomDropdown/CustomDropdown";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Button from "Components/CustomButtons/Button";
+import CustomInput from "Components/CustomInput/CustomInput";
+import CustomLinearProgress from "Components/CustomLinearProgress/CustomLinearProgress";
+import Paginations from "Components/Pagination/Pagination";
+import Badge from "Components/Badge/Badge";
+import CustomDropdown from "Components/CustomDropdown/CustomDropdown";
 
-import basicsStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/basicsStyle";
+import basicsStyle from "Assets/JSS/material-kit-pro-react/views/componentsSections/basicsStyle";
 
 class SectionBasics extends React.Component {
   constructor(props) {

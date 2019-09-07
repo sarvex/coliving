@@ -1,30 +1,30 @@
-import React from 'Views/PresentationPage/Sections/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/PresentationPage/Sections/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/PresentationPage/Sections/node_modules/classnames';
+import classNames from 'classnames';
 // react components for routing our app without refresh
-import { Link } from 'Views/PresentationPage/Sections/node_modules/react-router-dom';
-import withStyles from 'Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles';
+import { Link } from 'react-router-dom';
+import withStyles from '@material-ui/core/styles/withStyles';
 // core components
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import Card from '../../../Components/Card/Card';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Card from 'Components/Card/Card';
 // @material-ui/core components
 
-import examplesStyle from '../../../Assets/JSS/material-kit-pro-react/views/presentationSections/examplesStyle';
-import imagesStyles from '../../../Assets/JSS/material-kit-pro-react/imagesStyles';
+import examplesStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/examplesStyle';
+import imagesStyles from 'Assets/JSS/material-kit-pro-react/imagesStyles';
 
-import exAboutUs from '../../../assets/img/assets-for-demo/example-pages/ex-about-us.jpg';
-import exLanding from '../../../assets/img/assets-for-demo/example-pages/ex-landing.jpg';
-import exContact from '../../../assets/img/assets-for-demo/example-pages/ex-contact.jpg';
-import exBlogPost from '../../../assets/img/assets-for-demo/example-pages/ex-blog-post.jpg';
-import exProductPage from '../../../assets/img/assets-for-demo/example-pages/ex-product.jpg';
-import exLoginPage from '../../../assets/img/assets-for-demo/example-pages/ex-login.jpg';
-import exPricing from '../../../assets/img/assets-for-demo/example-pages/ex-pricing.jpg';
-import exSignup from '../../../assets/img/assets-for-demo/example-pages/ex-register.jpg';
-import exProfile from '../../../assets/img/assets-for-demo/example-pages/ex-profile.jpg';
-import exBlog from '../../../assets/img/assets-for-demo/example-pages/ex-blog-posts.jpg';
+import exAboutUs from 'Assets/Images/assets-for-demo/example-pages/ex-about-us.jpg';
+import exLanding from 'Assets/Images/assets-for-demo/example-pages/ex-landing.jpg';
+import exContact from 'Assets/Images/assets-for-demo/example-pages/ex-contact.jpg';
+import exBlogPost from 'Assets/Images/assets-for-demo/example-pages/ex-blog-post.jpg';
+import exProductPage from 'Assets/Images/assets-for-demo/example-pages/ex-product.jpg';
+import exLoginPage from 'Assets/Images/assets-for-demo/example-pages/ex-login.jpg';
+import exPricing from 'Assets/Images/assets-for-demo/example-pages/ex-pricing.jpg';
+import exSignup from 'Assets/Images/assets-for-demo/example-pages/ex-register.jpg';
+import exProfile from 'Assets/Images/assets-for-demo/example-pages/ex-profile.jpg';
+import exBlog from 'Assets/Images/assets-for-demo/example-pages/ex-blog-posts.jpg';
 
 const styles = {
   ...examplesStyle,

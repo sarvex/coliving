@@ -1,39 +1,39 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import Checkbox from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Checkbox";
-import Tooltip from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Tooltip";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Checkbox from "@material-ui/core/Checkbox";
+import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui/core icons
-import Person from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Person";
-import Edit from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Edit";
-import Close from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Close";
-import Check from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check";
-import Remove from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Remove";
-import Add from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Add";
-import KeyboardArrowRight from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/KeyboardArrowRight";
-import Reply from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Reply";
-import Favorite from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Favorite";
+import Person from "@material-ui/icons/Person";
+import Edit from "@material-ui/icons/Edit";
+import Close from "@material-ui/icons/Close";
+import Check from "@material-ui/icons/Check";
+import Remove from "@material-ui/icons/Remove";
+import Add from "@material-ui/icons/Add";
+import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
+import Reply from "@material-ui/icons/Reply";
+import Favorite from "@material-ui/icons/Favorite";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Table from "Views/ComponentsPage/Sections/node_modules/components/Table/Table";
-import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import Media from "Views/ComponentsPage/Sections/node_modules/components/Media/Media";
-import CustomInput from "Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput";
-import Paginations from "Views/ComponentsPage/Sections/node_modules/components/Pagination/Pagination";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Table from "Components/Table/Table";
+import Button from "Components/CustomButtons/Button";
+import Media from "Components/Media/Media";
+import CustomInput from "Components/CustomInput/CustomInput";
+import Paginations from "Components/Pagination/Pagination";
 
-import style from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/contentAreas";
+import style from "Assets/JSS/material-kit-pro-react/views/componentsSections/contentAreas";
 
-import avatar from "assets/img/faces/avatar.jpg";
-import kendall from "assets/img/faces/kendall.jpg";
-import marc from "assets/img/faces/marc.jpg";
-import placeholder from "assets/img/placeholder.jpg";
-import product1 from "assets/img/product1.jpg";
-import product2 from "assets/img/product2.jpg";
-import product3 from "assets/img/product3.jpg";
+import avatar from "Assets/Images/faces/avatar.jpg";
+import kendall from "Assets/Images/faces/kendall.jpg";
+import marc from "Assets/Images/faces/marc.jpg";
+import placeholder from "Assets/Images/placeholder.jpg";
+import product1 from "Assets/Images/product1.jpg";
+import product2 from "Assets/Images/product2.jpg";
+import product3 from "Assets/Images/product3.jpg";
 
 class SectionContentAreas extends React.Component {
   constructor(props) {

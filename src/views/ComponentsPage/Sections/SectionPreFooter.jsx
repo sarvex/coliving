@@ -1,24 +1,24 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/ComponentsPage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import Card from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CustomInput from "Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Button from "Components/CustomButtons/Button";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CustomInput from "Components/CustomInput/CustomInput";
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import InputAdornment from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/InputAdornment";
+import withStyles from "@material-ui/core/styles/withStyles";
+import InputAdornment from "@material-ui/core/InputAdornment";
 // @material-ui icons
-import Mail from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Mail";
+import Mail from "@material-ui/icons/Mail";
 
-import bg7 from "assets/img/bg7.jpg";
+import bg7 from "Assets/Images/bg7.jpg";
 
-import styles from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/preFooter";
+import styles from "Assets/JSS/material-kit-pro-react/views/componentsSections/preFooter";
 
 const SectionPreFooter = props => {
   const { classes } = props;

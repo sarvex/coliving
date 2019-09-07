@@ -1,21 +1,21 @@
-import React from 'Views/PricingPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/PricingPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/PricingPage/node_modules/classnames';
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from 'Views/PricingPage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/PricingPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/PricingPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Favorite from 'Views/PricingPage/node_modules/@material-ui/icons/Favorite';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/PricingPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/PricingPage/node_modules/components/Header/HeaderLinks';
-import Parallax from 'Views/PricingPage/node_modules/components/Parallax/Parallax';
-import GridContainer from 'Views/PricingPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/PricingPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Footer from 'Views/PricingPage/node_modules/components/Footer/Footer';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Parallax from 'Components/Parallax/Parallax';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Footer from 'Components/Footer/Footer';
 // sections for this page
 import SectionPricing from "./Sections/SectionPricing";
 import SectionFeatures from "./Sections/SectionFeatures";

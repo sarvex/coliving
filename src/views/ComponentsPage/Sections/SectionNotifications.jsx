@@ -1,16 +1,16 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Check from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check";
-import Warning from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Warning";
+import Check from "@material-ui/icons/Check";
+import Warning from "@material-ui/icons/Warning";
 // core components
-import SnackbarContent from "Views/ComponentsPage/Sections/node_modules/components/Snackbar/SnackbarContent";
-import Clearfix from "Views/ComponentsPage/Sections/node_modules/components/Clearfix/Clearfix";
-import notificationsStyles from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/notificationsStyles";
+import SnackbarContent from "Components/Snackbar/SnackbarContent";
+import Clearfix from "Components/Clearfix/Clearfix";
+import notificationsStyles from "Assets/JSS/material-kit-pro-react/views/componentsSections/notificationsStyles";
 
 class SectionNotifications extends React.Component {
   render() {

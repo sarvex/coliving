@@ -1,30 +1,30 @@
-import React from "Views/SectionsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import TrendingUp from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/TrendingUp";
+import TrendingUp from "@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardHeader from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import Info from "Views/SectionsPage/Sections/node_modules/components/Typography/Info";
-import Danger from "Views/SectionsPage/Sections/node_modules/components/Typography/Danger";
-import Success from "Views/SectionsPage/Sections/node_modules/components/Typography/Success";
-import Button from "Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CardHeader from "Components/Card/CardHeader";
+import Info from "Components/Typography/Info";
+import Danger from "Components/Typography/Danger";
+import Success from "Components/Typography/Success";
+import Button from "Components/CustomButtons/Button";
 
-import blogsStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle";
+import blogsStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/blogsStyle";
 
-import cardBlog4 from "assets/img/examples/card-blog4.jpg";
-import office2 from "assets/img/office2.jpg";
-import blog5 from "assets/img/examples/blog5.jpg";
-import blog6 from "assets/img/examples/blog6.jpg";
-import blog7 from "assets/img/examples/blog7.jpg";
-import blog8 from "assets/img/examples/blog8.jpg";
-import bg5 from "assets/img/bg5.jpg";
+import cardBlog4 from "Assets/Images/examples/card-blog4.jpg";
+import office2 from "Assets/Images/office2.jpg";
+import blog5 from "Assets/Images/examples/blog5.jpg";
+import blog6 from "Assets/Images/examples/blog6.jpg";
+import blog7 from "Assets/Images/examples/blog7.jpg";
+import blog8 from "Assets/Images/examples/blog8.jpg";
+import bg5 from "Assets/Images/bg5.jpg";
 
 function SectionBlogs({ ...props }) {
   const { classes, ...rest } = props;

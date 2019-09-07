@@ -1,31 +1,31 @@
-import React from 'Views/LoginPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/LoginPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Views/LoginPage/node_modules/@material-ui/core/styles/withStyles';
-import InputAdornment from 'Views/LoginPage/node_modules/@material-ui/core/InputAdornment';
-import List from 'Views/LoginPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/LoginPage/node_modules/@material-ui/core/ListItem';
-import Icon from 'Views/LoginPage/node_modules/@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import Email from 'Views/LoginPage/node_modules/@material-ui/icons/Email';
-import Favorite from 'Views/LoginPage/node_modules/@material-ui/icons/Favorite';
-import Face from 'Views/LoginPage/node_modules/@material-ui/icons/Face';
+import Email from '@material-ui/icons/Email';
+import Favorite from '@material-ui/icons/Favorite';
+import Face from '@material-ui/icons/Face';
 // core components
-import Header from 'Views/LoginPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/LoginPage/node_modules/components/Header/HeaderLinks';
-import Footer from 'Views/LoginPage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/LoginPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/LoginPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Button from 'Views/LoginPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Card from 'Views/LoginPage/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardBody from 'Views/LoginPage/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CardHeader from 'Views/LoginPage/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader';
-import CustomInput from 'Views/LoginPage/node_modules/components/CustomInput/CustomInput';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardHeader from 'Components/Card/CardHeader';
+import CustomInput from 'Components/CustomInput/CustomInput';
 
-import loginPageStyle from 'Views/LoginPage/node_modules/assets/jss/material-kit-pro-react/views/loginPageStyle';
+import loginPageStyle from 'Assets/JSS/material-kit-pro-react/views/loginPageStyle';
 
-import image from 'assets/img/bg7.jpg';
+import image from 'Assets/Images/bg7.jpg';
 
 class LoginPage extends React.Component {
   componentDidMount() {

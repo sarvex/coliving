@@ -1,24 +1,24 @@
-import React from 'Views/LandingPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/LandingPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/LandingPage/node_modules/classnames';
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from 'Views/LandingPage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/LandingPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/LandingPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Favorite from 'Views/LandingPage/node_modules/@material-ui/icons/Favorite';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/LandingPage/node_modules/components/Header/Header';
-import Footer from 'Views/LandingPage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/LandingPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/LandingPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Button from 'Views/LandingPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import HeaderLinks from 'Views/LandingPage/node_modules/components/Header/HeaderLinks';
-import Parallax from 'Views/LandingPage/node_modules/components/Parallax/Parallax';
+import Header from 'Components/Header/Header';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Parallax from 'Components/Parallax/Parallax';
 
-import landingPageStyle from 'Views/LandingPage/node_modules/assets/jss/material-kit-pro-react/views/landingPageStyle';
+import landingPageStyle from 'Assets/JSS/material-kit-pro-react/views/landingPageStyle';
 
 // sections for this page
 import SectionProduct from './Sections/SectionProduct';

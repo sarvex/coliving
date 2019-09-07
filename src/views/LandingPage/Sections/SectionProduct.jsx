@@ -1,19 +1,19 @@
-import React from "Views/LandingPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/LandingPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/LandingPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Chat from "Views/LandingPage/Sections/node_modules/@material-ui/icons/Chat";
-import VerifiedUser from "Views/LandingPage/Sections/node_modules/@material-ui/icons/VerifiedUser";
-import Fingerprint from "Views/LandingPage/Sections/node_modules/@material-ui/icons/Fingerprint";
+import Chat from "@material-ui/icons/Chat";
+import VerifiedUser from "@material-ui/icons/VerifiedUser";
+import Fingerprint from "@material-ui/icons/Fingerprint";
 // core components
-import GridContainer from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/LandingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import InfoArea from "Views/LandingPage/Sections/node_modules/components/InfoArea/InfoArea";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import InfoArea from "Components/InfoArea/InfoArea";
 
-import productStyle from "Views/LandingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/landingPageSections/productStyle";
+import productStyle from "Assets/JSS/material-kit-pro-react/views/landingPageSections/productStyle";
 
 class SectionProduct extends React.Component {
   render() {

@@ -1,32 +1,32 @@
-import React from "Views/SectionsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // react component for creating beautiful carousel
-import Carousel from "Views/SectionsPage/Sections/node_modules/react-slick";
+import Carousel from "react-slick";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import FormatQuote from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/FormatQuote";
-import Star from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Star";
+import FormatQuote from "@material-ui/icons/FormatQuote";
+import Star from "@material-ui/icons/Star";
 // core components
-import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/SectionsPage/Sections/node_modules/components/Card/CardFooter";
-import CardAvatar from "Views/SectionsPage/Sections/node_modules/components/Card/CardAvatar";
-import Muted from "Views/SectionsPage/Sections/node_modules/components/Typography/Muted";
-import Warning from "Views/SectionsPage/Sections/node_modules/components/Typography/Warning";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import CardAvatar from "Components/Card/CardAvatar";
+import Muted from "Components/Typography/Muted";
+import Warning from "Components/Typography/Warning";
 
-import testimonialsStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle";
+import testimonialsStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/testimonialsStyle";
 
-import dg2 from "assets/img/dg2.jpg";
-import cardProfile1Square from "assets/img/faces/card-profile1-square.jpg";
-import cardProfile2Square from "assets/img/faces/card-profile2-square.jpg";
-import cardProfile4Square from "assets/img/faces/card-profile4-square.jpg";
-import cardProfile6Square from "assets/img/faces/card-profile6-square.jpg";
-import kendall from "assets/img/faces/kendall.jpg";
-import christian from "assets/img/faces/christian.jpg";
+import dg2 from "Assets/Images/dg2.jpg";
+import cardProfile1Square from "Assets/Images/faces/card-profile1-square.jpg";
+import cardProfile2Square from "Assets/Images/faces/card-profile2-square.jpg";
+import cardProfile4Square from "Assets/Images/faces/card-profile4-square.jpg";
+import cardProfile6Square from "Assets/Images/faces/card-profile6-square.jpg";
+import kendall from "Assets/Images/faces/kendall.jpg";
+import christian from "Assets/Images/faces/christian.jpg";
 
 function SectionTestimonials({ ...props }) {
   const { classes, ...rest } = props;

@@ -1,33 +1,33 @@
-import React from "Views/SectionsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/SectionsPage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // react component for creating beautiful carousel
-import Carousel from "Views/SectionsPage/Sections/node_modules/react-slick";
+import Carousel from "react-slick";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import List from "Views/SectionsPage/Sections/node_modules/@material-ui/core/List";
-import ListItem from "Views/SectionsPage/Sections/node_modules/@material-ui/core/ListItem";
+import withStyles from "@material-ui/core/styles/withStyles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
-import Share from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Share";
-import ShoppingCart from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/ShoppingCart";
+import Share from "@material-ui/icons/Share";
+import ShoppingCart from "@material-ui/icons/ShoppingCart";
 // core components
-import Header from "../../../Components/Header/Header";
-import Button from "../../../Components/CustomButtons/Button";
-import GridContainer from "../../../Components/Grid/GridContainer";
-import GridItem from "../../../Components/Grid/GridItem";
-import Card from "../../../Components/Card/Card";
-import CardBody from "../../../Components/Card/CardBody";
-import CustomInput from "../../../Components/CustomInput/CustomInput";
+import Header from "Components/Header/Header";
+import Button from "Components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CustomInput from "Components/CustomInput/CustomInput";
 
-import headersStyle from "../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle";
+import headersStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle";
 
-import bg12 from "../../../assets/img/bg12.jpg";
-import office2 from "../../../assets/img/examples/office2.jpg";
-import dg1 from "../../../assets/img/dg1.jpg";
-import dg2 from "../../../assets/img/dg2.jpg";
-import dg3 from "../../../assets/img/dg3.jpg";
+import bg12 from "Assets/Images/bg12.jpg";
+import office2 from "Assets/Images/examples/office2.jpg";
+import dg1 from "Assets/Images/dg1.jpg";
+import dg2 from "Assets/Images/dg2.jpg";
+import dg3 from "Assets/Images/dg3.jpg";
 
 function SectionHeaders({ ...props }) {
   const { classes, ...rest } = props;

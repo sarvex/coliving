@@ -1,31 +1,31 @@
-import React from "Views/SectionsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Weekend from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Weekend";
-import Home from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Home";
-import Business from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Business";
-import AccountBalance from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/AccountBalance";
-import Check from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Check";
-import Close from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Close";
+import Weekend from "@material-ui/icons/Weekend";
+import Home from "@material-ui/icons/Home";
+import Business from "@material-ui/icons/Business";
+import AccountBalance from "@material-ui/icons/AccountBalance";
+import Check from "@material-ui/icons/Check";
+import Close from "@material-ui/icons/Close";
 // core components
-import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/SectionsPage/Sections/node_modules/components/Card/CardFooter";
-import Button from "Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import NavPills from "Views/SectionsPage/Sections/node_modules/components/NavPills/NavPills";
-import Success from "Views/SectionsPage/Sections/node_modules/components/Typography/Success";
-import Danger from "Views/SectionsPage/Sections/node_modules/components/Typography/Danger";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import Button from "Components/CustomButtons/Button";
+import NavPills from "Components/NavPills/NavPills";
+import Success from "Components/Typography/Success";
+import Danger from "Components/Typography/Danger";
 
-import pricingStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle";
+import pricingStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/pricingStyle";
 
-import bg11 from "assets/img/bg11.jpg";
-import city from "assets/img/examples/city.jpg";
-import cardBlog3 from "assets/img/examples/card-blog3.jpg";
+import bg11 from "Assets/Images/bg11.jpg";
+import city from "Assets/Images/examples/city.jpg";
+import cardBlog3 from "Assets/Images/examples/card-blog3.jpg";
 
 function SectionPricing({ ...props }) {
   const { classes, ...rest } = props;

@@ -1,22 +1,22 @@
-import React from "Views/AboutUsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/AboutUsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/AboutUsPage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
 // @material-ui/core components
-import withStyles from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import officeStyle from "Views/AboutUsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle";
+import officeStyle from "Assets/JSS/material-kit-pro-react/views/aboutUsSections/officeStyle";
 
 // office
-import office1 from "assets/img/examples/office1.jpg";
-import office2 from "assets/img/examples/office2.jpg";
-import office3 from "assets/img/examples/office3.jpg";
-import office4 from "assets/img/examples/office4.jpg";
-import office5 from "assets/img/examples/office5.jpg";
+import office1 from "Assets/Images/examples/office1.jpg";
+import office2 from "Assets/Images/examples/office2.jpg";
+import office3 from "Assets/Images/examples/office3.jpg";
+import office4 from "Assets/Images/examples/office4.jpg";
+import office5 from "Assets/Images/examples/office5.jpg";
 
 function SectionOffice(props) {
   const { classes } = props;

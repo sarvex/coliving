@@ -1,20 +1,20 @@
-import React from "Views/PresentationPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // core components
-import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
 // @material-ui/core components
-import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // library used for cool animations
-import ScrollAnimation from "Views/PresentationPage/Sections/node_modules/react-animate-on-scroll";
-import "Views/PresentationPage/Sections/node_modules/animate.css/animate.min.css";
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
-import contentStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/contentStyle";
+import contentStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/contentStyle";
 // images
-import presentationiPad from "assets/img/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg";
-import presentationiPadComments from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";
-import presentationiPadTable from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg";
+import presentationiPad from "Assets/Images/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg";
+import presentationiPadComments from "Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";
+import presentationiPadTable from "Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg";
 
 class SectionContent extends React.Component {
   render() {

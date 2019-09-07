@@ -1,20 +1,20 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Dashboard from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Dashboard";
-import Schedule from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Schedule";
-import List from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/List";
+import Dashboard from "@material-ui/icons/Dashboard";
+import Schedule from "@material-ui/icons/Schedule";
+import List from "@material-ui/icons/List";
 
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import NavPills from "Views/ComponentsPage/Sections/node_modules/components/NavPills/NavPills";
-import pillsStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/pillsStyle";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import NavPills from "Components/NavPills/NavPills";
+import pillsStyle from "Assets/JSS/material-kit-pro-react/views/componentsSections/pillsStyle";
 
 class SectionPills extends React.Component {
   render() {

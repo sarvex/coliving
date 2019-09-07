@@ -1,19 +1,19 @@
-import React from "Views/PresentationPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // core components
-import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import InfoArea from "Views/PresentationPage/Sections/node_modules/components/InfoArea/InfoArea";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import InfoArea from "Components/InfoArea/InfoArea";
 
 // @material-ui icons
-import Apps from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/Apps";
-import ViewDay from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/ViewDay";
-import ViewCarousel from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/ViewCarousel";
+import Apps from "@material-ui/icons/Apps";
+import ViewDay from "@material-ui/icons/ViewDay";
+import ViewCarousel from "@material-ui/icons/ViewCarousel";
 // @material-ui/core components
-import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import descriptionStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/descriptionStyle";
+import descriptionStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/descriptionStyle";
 
 class SectionDescription extends React.Component {
   render() {

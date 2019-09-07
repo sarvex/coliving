@@ -1,19 +1,19 @@
-import React from "Views/PresentationPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/PresentationPage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import NavPills from "Views/PresentationPage/Sections/node_modules/components/NavPills/NavPills";
-import Button from "Views/PresentationPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
-import Card from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import NavPills from "Components/NavPills/NavPills";
+import Button from "Components/CustomButtons/Button";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
 // @material-ui/core components
-import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import pricingStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/pricingStyle";
+import pricingStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/pricingStyle";
 
 const style = {
   ...pricingStyle

@@ -1,23 +1,23 @@
-import React from 'Views/BlogPostPage/node_modules/react'
+import React from 'react'
 // nodejs library to set properties for components
-import PropTypes from 'Views/BlogPostPage/node_modules/prop-types'
+import PropTypes from 'prop-types'
 // @material-ui/core components
-import withStyles from 'Views/BlogPostPage/node_modules/@material-ui/core/styles/withStyles'
-import List from 'Views/BlogPostPage/node_modules/@material-ui/core/List'
-import ListItem from 'Views/BlogPostPage/node_modules/@material-ui/core/ListItem'
+import withStyles from '@material-ui/core/styles/withStyles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
 // @material-ui/icons
-import FormatAlignLeft from 'Views/BlogPostPage/node_modules/@material-ui/icons/FormatAlignLeft'
-import Favorite from 'Views/BlogPostPage/node_modules/@material-ui/icons/Favorite'
+import FormatAlignLeft from '@material-ui/icons/FormatAlignLeft'
+import Favorite from '@material-ui/icons/Favorite'
 // core components
-import Header from 'Views/BlogPostPage/node_modules/components/Header/Header'
-import HeaderLinks from 'Views/BlogPostPage/node_modules/components/Header/HeaderLinks'
-import Parallax from 'Views/BlogPostPage/node_modules/components/Parallax/Parallax'
-import Footer from 'Views/BlogPostPage/node_modules/components/Footer/Footer'
-import GridContainer from 'Views/BlogPostPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer'
-import GridItem from 'Views/BlogPostPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem'
-import Button from 'Views/BlogPostPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button'
+import Header from 'Components/Header/Header'
+import HeaderLinks from 'Components/Header/HeaderLinks'
+import Parallax from 'Components/Parallax/Parallax'
+import Footer from 'Components/Footer/Footer'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
+import Button from 'Components/CustomButtons/Button'
 // sections for this page
-import blogPostPageStyle from 'Views/BlogPostPage/node_modules/assets/jss/material-kit-pro-react/views/blogPostPageStyle'
+import blogPostPageStyle from 'Assets/JSS/material-kit-pro-react/views/blogPostPageStyle'
 
 import SectionText from './Sections/SectionText'
 import SectionBlogInfo from './Sections/SectionBlogInfo'

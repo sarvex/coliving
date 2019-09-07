@@ -1,19 +1,19 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
-import Face from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Face";
-import Chat from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Chat";
-import Build from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Build";
+import Face from "@material-ui/icons/Face";
+import Chat from "@material-ui/icons/Chat";
+import Build from "@material-ui/icons/Build";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import CustomTabs from "Views/ComponentsPage/Sections/node_modules/components/CustomTabs/CustomTabs";
-import tabsStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/tabsStyle";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import CustomTabs from "Components/CustomTabs/CustomTabs";
+import tabsStyle from "Assets/JSS/material-kit-pro-react/views/componentsSections/tabsStyle";
 
 class SectionTabs extends React.Component {
   render() {

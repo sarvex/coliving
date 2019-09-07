@@ -1,6 +1,6 @@
-import React from "Views/SectionsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // react components used to create a google map
 import {
   withScriptjs,
@@ -9,27 +9,27 @@ import {
   Marker
 } from "react-google-maps";
 // @material-ui/core components
-import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import Checkbox from "Views/SectionsPage/Sections/node_modules/@material-ui/core/Checkbox";
-import FormControlLabel from "Views/SectionsPage/Sections/node_modules/@material-ui/core/FormControlLabel";
+import withStyles from "@material-ui/core/styles/withStyles";
+import Checkbox from "@material-ui/core/Checkbox";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 // @material-ui/icons
-import PinDrop from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/PinDrop";
-import Phone from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Phone";
-import Check from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Check";
+import PinDrop from "@material-ui/icons/PinDrop";
+import Phone from "@material-ui/icons/Phone";
+import Check from "@material-ui/icons/Check";
 // core components
-import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import InfoArea from "Views/SectionsPage/Sections/node_modules/components/InfoArea/InfoArea";
-import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardHeader from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/SectionsPage/Sections/node_modules/components/Card/CardFooter";
-import CustomInput from "Views/SectionsPage/Sections/node_modules/components/CustomInput/CustomInput";
-import Button from "Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import InfoArea from "Components/InfoArea/InfoArea";
+import Card from "Components/Card/Card";
+import CardHeader from "Components/Card/CardHeader";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import CustomInput from "Components/CustomInput/CustomInput";
+import Button from "Components/CustomButtons/Button";
 
-import contactsStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle";
+import contactsStyle from "Assets/JSS/material-kit-pro-react/views/sectionsSections/contactsStyle";
 
-import city from "assets/img/examples/city.jpg";
+import city from "Assets/Images/examples/city.jpg";
 
 const RegularMap = withScriptjs(
   withGoogleMap(() => (

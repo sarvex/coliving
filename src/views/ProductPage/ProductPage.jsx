@@ -1,49 +1,49 @@
-import React from 'Views/ProductPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/ProductPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/ProductPage/node_modules/classnames';
+import classNames from 'classnames';
 // react component used to create nice image meadia player
-import ImageGallery from 'Views/ProductPage/node_modules/react-image-gallery';
+import ImageGallery from 'react-image-gallery';
 // @material-ui/core components
-import withStyles from 'Views/ProductPage/node_modules/@material-ui/core/styles/withStyles';
-import FormControl from 'Views/ProductPage/node_modules/@material-ui/core/FormControl';
-import Select from 'Views/ProductPage/node_modules/@material-ui/core/Select';
-import MenuItem from 'Views/ProductPage/node_modules/@material-ui/core/MenuItem';
-import List from 'Views/ProductPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/ProductPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import ShoppingCart from 'Views/ProductPage/node_modules/@material-ui/icons/ShoppingCart';
-import LocalShipping from 'Views/ProductPage/node_modules/@material-ui/icons/LocalShipping';
-import VerifiedUser from 'Views/ProductPage/node_modules/@material-ui/icons/VerifiedUser';
-import Favorite from 'Views/ProductPage/node_modules/@material-ui/icons/Favorite';
+import ShoppingCart from '@material-ui/icons/ShoppingCart';
+import LocalShipping from '@material-ui/icons/LocalShipping';
+import VerifiedUser from '@material-ui/icons/VerifiedUser';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/ProductPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/ProductPage/node_modules/components/Header/HeaderLinks';
-import Parallax from 'Views/ProductPage/node_modules/components/Parallax/Parallax';
-import GridContainer from 'Views/ProductPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ProductPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Footer from 'Views/ProductPage/node_modules/components/Footer/Footer';
-import Button from 'Views/ProductPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Accordion from 'Views/ProductPage/node_modules/components/Accordion/Accordion';
-import InfoArea from 'Views/ProductPage/node_modules/components/InfoArea/InfoArea';
-import Card from 'Views/ProductPage/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardHeader from 'Views/ProductPage/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader';
-import CardBody from 'Views/ProductPage/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CardFooter from 'Views/ProductPage/node_modules/components/Card/CardFooter';
-import Tooltip from 'Views/ProductPage/node_modules/@material-ui/core/Tooltip';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Parallax from 'Components/Parallax/Parallax';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Footer from 'Components/Footer/Footer';
+import Button from 'Components/CustomButtons/Button';
+import Accordion from 'Components/Accordion/Accordion';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import Card from 'Components/Card/Card';
+import CardHeader from 'Components/Card/CardHeader';
+import CardBody from 'Components/Card/CardBody';
+import CardFooter from 'Components/Card/CardFooter';
+import Tooltip from '@material-ui/core/Tooltip';
 
-import productStyle from 'Views/ProductPage/node_modules/assets/jss/material-kit-pro-react/views/productStyle';
+import productStyle from 'Assets/JSS/material-kit-pro-react/views/productStyle';
 
 // images
-import cardProduct1 from 'assets/img/examples/card-product1.jpg';
-import cardProduct3 from 'assets/img/examples/card-product3.jpg';
-import cardProduct4 from 'assets/img/examples/card-product4.jpg';
-import cardProduct2 from 'assets/img/examples/card-product2.jpg';
-import product1 from 'assets/img/examples/product1.jpg';
-import product2 from 'assets/img/examples/product2.jpg';
-import product3 from 'assets/img/examples/product3.jpg';
-import product4 from 'assets/img/examples/product4.jpg';
+import cardProduct1 from 'Assets/Images/examples/card-product1.jpg';
+import cardProduct3 from 'Assets/Images/examples/card-product3.jpg';
+import cardProduct4 from 'Assets/Images/examples/card-product4.jpg';
+import cardProduct2 from 'Assets/Images/examples/card-product2.jpg';
+import product1 from 'Assets/Images/examples/product1.jpg';
+import product2 from 'Assets/Images/examples/product2.jpg';
+import product3 from 'Assets/Images/examples/product3.jpg';
+import product4 from 'Assets/Images/examples/product4.jpg';
 
 class ProductPage extends React.Component {
   constructor(props) {

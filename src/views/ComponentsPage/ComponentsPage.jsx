@@ -1,23 +1,23 @@
-import React from 'Views/ComponentsPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/ComponentsPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/ComponentsPage/node_modules/classnames';
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from 'Views/ComponentsPage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/ComponentsPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/ComponentsPage/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Favorite from 'Views/ComponentsPage/node_modules/@material-ui/icons/Favorite';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/ComponentsPage/node_modules/components/Header/Header';
-import Footer from 'Views/ComponentsPage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/ComponentsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ComponentsPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Parallax from 'Views/ComponentsPage/node_modules/components/Parallax/Parallax';
-import HeaderLinks from 'Views/ComponentsPage/node_modules/components/Header/HeaderLinks';
+import Header from 'Components/Header/Header';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
+import HeaderLinks from 'Components/Header/HeaderLinks';
 // sections for this page
-import componentsStyle from 'Views/ComponentsPage/node_modules/assets/jss/material-kit-pro-react/views/componentsStyle';
+import componentsStyle from 'Assets/JSS/material-kit-pro-react/views/componentsStyle';
 
 import SectionBasics from './Sections/SectionBasics';
 import SectionNavbars from './Sections/SectionNavbars';

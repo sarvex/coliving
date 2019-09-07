@@ -1,25 +1,25 @@
-import React from "Views/AboutUsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/AboutUsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/AboutUsPage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/AboutUsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardAvatar from "Views/AboutUsPage/Sections/node_modules/components/Card/CardAvatar";
-import CardBody from "Views/AboutUsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardFooter from "Views/AboutUsPage/Sections/node_modules/components/Card/CardFooter";
-import Button from "Views/AboutUsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardAvatar from "Components/Card/CardAvatar";
+import CardBody from "Components/Card/CardBody";
+import CardFooter from "Components/Card/CardFooter";
+import Button from "Components/CustomButtons/Button";
 // @material-ui/core components
-import withStyles from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import teamStyle from "Views/AboutUsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle";
+import teamStyle from "Assets/JSS/material-kit-pro-react/views/aboutUsSections/teamStyle";
 
-import FaceMarc from "assets/img/faces/marc.jpg";
-import FaceChristian from "assets/img/faces/christian.jpg";
-import FaceKendall from "assets/img/faces/kendall.jpg";
-import FaceAvatar from "assets/img/faces/avatar.jpg";
+import FaceMarc from "Assets/Images/faces/marc.jpg";
+import FaceChristian from "Assets/Images/faces/christian.jpg";
+import FaceKendall from "Assets/Images/faces/kendall.jpg";
+import FaceAvatar from "Assets/Images/faces/avatar.jpg";
 
 function SectionTeam(props) {
   const { classes } = props;

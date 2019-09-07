@@ -1,22 +1,22 @@
-import React from "Views/EcommercePage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/EcommercePage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // nodejs library that concatenates classes
-import classNames from "Views/EcommercePage/Sections/node_modules/classnames";
+import classNames from "classnames";
 // core components
-import GridContainer from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Card from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
-import CardHeader from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
-import CardBody from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Card from "Components/Card/Card";
+import CardHeader from "Components/Card/CardHeader";
+import CardBody from "Components/Card/CardBody";
 // @material-ui/core components
-import withStyles from "Views/EcommercePage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import dg6 from "assets/img/dg6.jpg";
-import dg10 from "assets/img/dg10.jpg";
-import dg9 from "assets/img/dg9.jpg";
+import dg6 from "Assets/Images/dg6.jpg";
+import dg10 from "Assets/Images/dg10.jpg";
+import dg9 from "Assets/Images/dg9.jpg";
 
-import styles from "Views/EcommercePage/Sections/node_modules/assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle";
+import styles from "Assets/JSS/material-kit-pro-react/views/ecommerceSections/blogStyle";
 
 const SectionBlog = props => {
   const { classes } = props;

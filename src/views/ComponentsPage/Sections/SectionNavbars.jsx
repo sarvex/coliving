@@ -1,30 +1,30 @@
-import React from "Views/ComponentsPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
-import List from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/List";
-import ListItem from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/ListItem";
+import withStyles from "@material-ui/core/styles/withStyles";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
 // @material-ui/icons
-import Search from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Search";
-import Email from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Email";
-import Face from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Face";
-import Settings from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Settings";
-import AccountCircle from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/AccountCircle";
-import Explore from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Explore";
+import Search from "@material-ui/icons/Search";
+import Email from "@material-ui/icons/Email";
+import Face from "@material-ui/icons/Face";
+import Settings from "@material-ui/icons/Settings";
+import AccountCircle from "@material-ui/icons/AccountCircle";
+import Explore from "@material-ui/icons/Explore";
 // core components
-import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
-import Header from "Views/ComponentsPage/Sections/node_modules/components/Header/Header";
-import CustomInput from "Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput";
-import CustomDropdown from "Views/ComponentsPage/Sections/node_modules/components/CustomDropdown/CustomDropdown";
-import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
+import Header from "Components/Header/Header";
+import CustomInput from "Components/CustomInput/CustomInput";
+import CustomDropdown from "Components/CustomDropdown/CustomDropdown";
+import Button from "Components/CustomButtons/Button";
 
-import navbarsStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/navbarsStyle";
+import navbarsStyle from "Assets/JSS/material-kit-pro-react/views/componentsSections/navbarsStyle";
 
-import image from "assets/img/bg.jpg";
-import profileImage from "assets/img/faces/avatar.jpg";
+import image from "Assets/Images/bg.jpg";
+import profileImage from "Assets/Images/faces/avatar.jpg";
 
 class SectionNavbars extends React.Component {
   render() {

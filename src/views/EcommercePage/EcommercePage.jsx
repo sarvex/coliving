@@ -1,38 +1,38 @@
-import React from 'Views/EcommercePage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/EcommercePage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/EcommercePage/node_modules/classnames';
+import classNames from 'classnames';
 // core components
-import Header from 'Views/EcommercePage/node_modules/components/Header/Header';
-import GridContainer from 'Views/EcommercePage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/EcommercePage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Parallax from 'Views/EcommercePage/node_modules/components/Parallax/Parallax';
-import Button from 'Views/EcommercePage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Card from 'Views/EcommercePage/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardBody from 'Views/EcommercePage/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import CustomInput from 'Views/EcommercePage/node_modules/components/CustomInput/CustomInput';
-import Footer from 'Views/EcommercePage/node_modules/components/Footer/Footer';
+import Header from 'Components/Header/Header';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
+import Button from 'Components/CustomButtons/Button';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import Footer from 'Components/Footer/Footer';
 // sections for this page
 // @material-ui/core components
-import withStyles from 'Views/EcommercePage/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/EcommercePage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/EcommercePage/node_modules/@material-ui/core/ListItem';
-import InputAdornment from 'Views/EcommercePage/node_modules/@material-ui/core/InputAdornment';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import InputAdornment from '@material-ui/core/InputAdornment';
 // @material-ui icons
-import Mail from 'Views/EcommercePage/node_modules/@material-ui/icons/Mail';
+import Mail from '@material-ui/icons/Mail';
 
-import ecommerceHeader from 'assets/img/examples/ecommerce-header.jpg';
-import face1 from 'assets/img/faces/card-profile6-square.jpg';
-import face2 from 'assets/img/faces/christian.jpg';
-import face3 from 'assets/img/faces/card-profile4-square.jpg';
-import face4 from 'assets/img/faces/card-profile1-square.jpg';
-import face5 from 'assets/img/faces/marc.jpg';
-import face6 from 'assets/img/faces/kendall.jpg';
-import face7 from 'assets/img/faces/card-profile5-square.jpg';
-import face8 from 'assets/img/faces/card-profile2-square.jpg';
+import ecommerceHeader from 'Assets/Images/examples/ecommerce-header.jpg';
+import face1 from 'Assets/Images/faces/card-profile6-square.jpg';
+import face2 from 'Assets/Images/faces/christian.jpg';
+import face3 from 'Assets/Images/faces/card-profile4-square.jpg';
+import face4 from 'Assets/Images/faces/card-profile1-square.jpg';
+import face5 from 'Assets/Images/faces/marc.jpg';
+import face6 from 'Assets/Images/faces/kendall.jpg';
+import face7 from 'Assets/Images/faces/card-profile5-square.jpg';
+import face8 from 'Assets/Images/faces/card-profile2-square.jpg';
 
-import styles from 'Views/EcommercePage/node_modules/assets/jss/material-kit-pro-react/views/ecommerceStyle';
+import styles from 'Assets/JSS/material-kit-pro-react/views/ecommerceStyle';
 
 import SectionBlog from "./Sections/SectionBlog";
 import SectionProducts from "./Sections/SectionProducts";

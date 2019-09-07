@@ -1,22 +1,22 @@
-import React from 'Views/PresentationPage/Sections/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/PresentationPage/Sections/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/PresentationPage/Sections/node_modules/classnames';
+import classNames from 'classnames';
 // react components for routing our app without refresh
-import { Link } from 'Views/PresentationPage/Sections/node_modules/react-router-dom';
-import withStyles from 'Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles';
+import { Link } from 'react-router-dom';
+import withStyles from '@material-ui/core/styles/withStyles';
 // core components
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 // core components
-import Button from '../../../Components/CustomButtons/Button';
+import Button from 'Components/CustomButtons/Button';
 // @material-ui/core components
 
-import sectionsStyle from '../../../Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
+import sectionsStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
 
 // images array used in rendering a function for this section
-import imgs from '../../../Assets/Images/assets-for-demo/sections/imgs';
+import imgs from 'Assets/Images/assets-for-demo/sections/imgs';
 
 class SectionSections extends React.Component {
   renderContainerFluid(cssClass) {

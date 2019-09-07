@@ -1,32 +1,32 @@
-import React from 'Views/ComponentsPage/Sections/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/ComponentsPage/Sections/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Views/ComponentsPage/Sections/node_modules/classnames';
+import classNames from 'classnames';
 // @material-ui/core components
-import withStyles from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/List';
-import ListItem from 'Views/ComponentsPage/Sections/node_modules/@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 // @material-ui/icons
-import Mail from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Mail';
-import Favorite from 'Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Favorite';
+import Mail from '@material-ui/icons/Mail';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import GridContainer from 'Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Button from 'Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import CustomInput from 'Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput';
-import Footer from 'Views/ComponentsPage/Sections/node_modules/components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import Footer from 'Components/Footer/Footer';
 
-import face1 from 'assets/img/faces/card-profile6-square.jpg';
-import face2 from 'assets/img/faces/christian.jpg';
-import face3 from 'assets/img/faces/card-profile4-square.jpg';
-import face4 from 'assets/img/faces/card-profile1-square.jpg';
-import face5 from 'assets/img/faces/marc.jpg';
-import face6 from 'assets/img/faces/kendall.jpg';
-import face7 from 'assets/img/faces/card-profile5-square.jpg';
-import face8 from 'assets/img/faces/card-profile2-square.jpg';
+import face1 from 'Assets/Images/faces/card-profile6-square.jpg';
+import face2 from 'Assets/Images/faces/christian.jpg';
+import face3 from 'Assets/Images/faces/card-profile4-square.jpg';
+import face4 from 'Assets/Images/faces/card-profile1-square.jpg';
+import face5 from 'Assets/Images/faces/marc.jpg';
+import face6 from 'Assets/Images/faces/kendall.jpg';
+import face7 from 'Assets/Images/faces/card-profile5-square.jpg';
+import face8 from 'Assets/Images/faces/card-profile2-square.jpg';
 
-import styles from 'Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/footerStyle';
+import styles from 'Assets/JSS/material-kit-pro-react/views/componentsSections/footerStyle';
 
 const SectionFooter = props => {
   const { classes } = props;

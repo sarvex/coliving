@@ -1,21 +1,21 @@
-import React from "Views/PresentationPage/Sections/node_modules/react";
+import React from "react";
 // nodejs library to set properties for components
-import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
+import PropTypes from "prop-types";
 // core components
-import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
 // @material-ui/core components
-import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
-import componentsStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/componentsStyle";
+import componentsStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/componentsStyle";
 
-import macbookImage from "assets/img/assets-for-demo/presentationViewSectionComponent/laptop-basics.png";
-import shoppingCartImage from "assets/img/assets-for-demo/presentationViewSectionComponent/table.jpg";
-import shareButtonImage from "assets/img/assets-for-demo/presentationViewSectionComponent/share-btn.jpg";
-import cardImage from "assets/img/assets-for-demo/presentationViewSectionComponent/coloured-card-with-btn.jpg";
-import twitterImage from "assets/img/assets-for-demo/presentationViewSectionComponent/coloured-card.jpg";
-import iconsImage from "assets/img/assets-for-demo/presentationViewSectionComponent/social-row.jpg";
-import repostImage from "assets/img/assets-for-demo/presentationViewSectionComponent/pin-btn.jpg";
+import macbookImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/laptop-basics.png";
+import shoppingCartImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/table.jpg";
+import shareButtonImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/share-btn.jpg";
+import cardImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/coloured-card-with-btn.jpg";
+import twitterImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/coloured-card.jpg";
+import iconsImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/social-row.jpg";
+import repostImage from "Assets/Images/assets-for-demo/presentationViewSectionComponent/pin-btn.jpg";
 
 class SectionComponents extends React.Component {
   render() {

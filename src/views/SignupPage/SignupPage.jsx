@@ -1,37 +1,37 @@
-import React from 'Views/SignupPage/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Views/SignupPage/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Views/SignupPage/node_modules/@material-ui/core/styles/withStyles';
-import InputAdornment from 'Views/SignupPage/node_modules/@material-ui/core/InputAdornment';
-import Checkbox from 'Views/SignupPage/node_modules/@material-ui/core/Checkbox';
-import FormControlLabel from 'Views/SignupPage/node_modules/@material-ui/core/FormControlLabel';
-import List from 'Views/SignupPage/node_modules/@material-ui/core/List';
-import ListItem from 'Views/SignupPage/node_modules/@material-ui/core/ListItem';
-import Icon from 'Views/SignupPage/node_modules/@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import Timeline from 'Views/SignupPage/node_modules/@material-ui/icons/Timeline';
-import Code from 'Views/SignupPage/node_modules/@material-ui/icons/Code';
-import Group from 'Views/SignupPage/node_modules/@material-ui/icons/Group';
-import Face from 'Views/SignupPage/node_modules/@material-ui/icons/Face';
-import Email from 'Views/SignupPage/node_modules/@material-ui/icons/Email';
-import Check from 'Views/SignupPage/node_modules/@material-ui/icons/Check';
-import Favorite from 'Views/SignupPage/node_modules/@material-ui/icons/Favorite';
+import Timeline from '@material-ui/icons/Timeline';
+import Code from '@material-ui/icons/Code';
+import Group from '@material-ui/icons/Group';
+import Face from '@material-ui/icons/Face';
+import Email from '@material-ui/icons/Email';
+import Check from '@material-ui/icons/Check';
+import Favorite from '@material-ui/icons/Favorite';
 // core components
-import Header from 'Views/SignupPage/node_modules/components/Header/Header';
-import HeaderLinks from 'Views/SignupPage/node_modules/components/Header/HeaderLinks';
-import Footer from 'Views/SignupPage/node_modules/components/Footer/Footer';
-import GridContainer from 'Views/SignupPage/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer';
-import GridItem from 'Views/SignupPage/node_modules/Components/Instruction/node_modules/components/Grid/GridItem';
-import Button from 'Views/SignupPage/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button';
-import Card from 'Views/SignupPage/node_modules/Components/CustomTabs/node_modules/components/Card/Card';
-import CardBody from 'Views/SignupPage/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody';
-import InfoArea from 'Views/SignupPage/node_modules/components/InfoArea/InfoArea';
-import CustomInput from 'Views/SignupPage/node_modules/components/CustomInput/CustomInput';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
+import Footer from 'Components/Footer/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import CustomInput from 'Components/CustomInput/CustomInput';
 
-import signupPageStyle from 'Views/SignupPage/node_modules/assets/jss/material-kit-pro-react/views/signupPageStyle';
+import signupPageStyle from 'Assets/JSS/material-kit-pro-react/views/signupPageStyle';
 
-import image from 'assets/img/bg7.jpg';
+import image from 'Assets/Images/bg7.jpg';
 
 class SignUpPage extends React.Component {
   constructor(props) {
