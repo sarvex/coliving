@@ -1,11 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import NavBar from '../../sections/NavBar';
-import Footer from '../../sections/Footer';
+import React from 'Pages/Careers/node_modules/Pages/careers/node_modules/react';
+import PropTypes from 'Pages/Careers/node_modules/Pages/careers/node_modules/prop-types';
+import classNames from 'Pages/Careers/node_modules/Pages/careers/node_modules/classnames';
+import withStyles from 'Pages/Careers/node_modules/Pages/careers/node_modules/@material-ui/core/styles/withStyles';
+import NavBar from '../../Sections/NavBar';
+import Footer from '../../Sections/Footer';
 
-import contactUsStyle from '../../assets/jss/material-kit-pro-react/views/contactUsStyle';
+import contactUsStyle from '../../Assets/JSS/material-kit-pro-react/views/contactUsStyle';
 
 import BusinessDevelopment from './sections/Others';
 import Transformation from './sections/Transformation';
@@ -14,9 +14,9 @@ import Marketing from './sections/Marketing';
 import Technology from './sections/Technology';
 import HumanResource from './sections/HumanResource';
 import Administration from './sections/Administration';
-import GridContainer from '../../components/Grid/GridContainer';
-import GridItem from '../../components/Grid/GridItem';
-import Parallax from '../../components/Parallax/Parallax';
+import GridContainer from '../../Components/Grid/GridContainer';
+import GridItem from '../../Components/Grid/GridItem';
+import Parallax from '../../Components/Parallax/Parallax';
 import Finance from './sections/Finance';
 
 class Careers extends React.Component {

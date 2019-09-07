@@ -1,16 +1,16 @@
-import React from 'react';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../components/Grid/GridContainer';
-import GridItem from '../../components/Grid/GridItem';
-import Parallax from '../../components/Parallax/Parallax';
+import React from 'Pages/Tlog/node_modules/Pages/tlog/node_modules/react';
+import withStyles from 'Pages/Tlog/node_modules/Pages/tlog/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../Components/Grid/GridContainer';
+import GridItem from '../../Components/Grid/GridItem';
+import Parallax from '../../Components/Parallax/Parallax';
 import SectionPills from './sections/Pills';
 import SectionInterested from './sections/Interested';
 import SectionImage from './sections/Image';
 import SubscribeLine from './sections/Subscribe';
-import NavBar from '../../sections/NavBar';
-import Footer from '../../sections/Footer';
+import NavBar from '../../Sections/NavBar';
+import Footer from '../../Sections/Footer';
 
-import blogPostsPageStyle from '../../assets/jss/material-kit-pro-react/views/blogPostsPageStyle';
+import blogPostsPageStyle from '../../Assets/JSS/material-kit-pro-react/views/blogPostsPageStyle';
 
 class Tlog extends React.Component {
   componentDidMount() {

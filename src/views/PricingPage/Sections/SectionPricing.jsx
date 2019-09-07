@@ -1,19 +1,19 @@
-import React from "react";
+import React from "Views/PricingPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/PricingPage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/PricingPage/Sections/node_modules/classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import NavPills from "components/NavPills/NavPills";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/PricingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/PricingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import NavPills from "Views/PricingPage/Sections/node_modules/components/NavPills/NavPills";
+import Card from "Views/PricingPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/PricingPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import Button from "Views/PricingPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/PricingPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/pricingSections/pricingStyle";
+import pricingStyle from "Views/PricingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/pricingSections/pricingStyle";
 
 function SectionPricing(props) {
   const { classes } = props;

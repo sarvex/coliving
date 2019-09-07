@@ -1,30 +1,30 @@
-import React from "react";
+import React from "Views/SectionsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Chat from "@material-ui/icons/Chat";
-import VerifiedUser from "@material-ui/icons/VerifiedUser";
-import Fingerprint from "@material-ui/icons/Fingerprint";
-import GroupWork from "@material-ui/icons/GroupWork";
-import Airplay from "@material-ui/icons/Airplay";
-import LocationOn from "@material-ui/icons/LocationOn";
-import Extension from "@material-ui/icons/Extension";
-import ChildFriendly from "@material-ui/icons/ChildFriendly";
-import WatchLater from "@material-ui/icons/WatchLater";
-import Code from "@material-ui/icons/Code";
-import FormatPaint from "@material-ui/icons/FormatPaint";
-import Dashboard from "@material-ui/icons/Dashboard";
-import ViewCarousel from "@material-ui/icons/ViewCarousel";
-import AccessTime from "@material-ui/icons/AccessTime";
-import AttachMoney from "@material-ui/icons/AttachMoney";
+import Chat from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Chat";
+import VerifiedUser from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/VerifiedUser";
+import Fingerprint from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Fingerprint";
+import GroupWork from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/GroupWork";
+import Airplay from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Airplay";
+import LocationOn from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/LocationOn";
+import Extension from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Extension";
+import ChildFriendly from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/ChildFriendly";
+import WatchLater from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/WatchLater";
+import Code from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Code";
+import FormatPaint from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/FormatPaint";
+import Dashboard from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Dashboard";
+import ViewCarousel from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/ViewCarousel";
+import AccessTime from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/AccessTime";
+import AttachMoney from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/AttachMoney";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import InfoArea from "components/InfoArea/InfoArea";
+import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import InfoArea from "Views/SectionsPage/Sections/node_modules/components/InfoArea/InfoArea";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle";
+import featuresStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle";
 
 import iphone from "assets/img/sections/iphone.png";
 import iphone2 from "assets/img/sections/iphone2.png";

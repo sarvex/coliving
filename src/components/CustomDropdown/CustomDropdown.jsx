@@ -1,22 +1,22 @@
-import React from 'react';
+import React from 'Components/CustomDropdown/node_modules/react';
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'Components/CustomDropdown/node_modules/classnames';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Components/CustomDropdown/node_modules/prop-types';
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
-import Paper from '@material-ui/core/Paper';
-import Grow from '@material-ui/core/Grow';
-import Divider from '@material-ui/core/Divider';
-import Popper from '@material-ui/core/Popper';
+import withStyles from 'Components/CustomDropdown/node_modules/@material-ui/core/styles/withStyles';
+import MenuItem from 'Components/CustomDropdown/node_modules/@material-ui/core/MenuItem';
+import MenuList from 'Components/CustomDropdown/node_modules/@material-ui/core/MenuList';
+import ClickAwayListener from 'Components/CustomDropdown/node_modules/@material-ui/core/ClickAwayListener';
+import Paper from 'Components/CustomDropdown/node_modules/@material-ui/core/Paper';
+import Grow from 'Components/CustomDropdown/node_modules/@material-ui/core/Grow';
+import Divider from 'Components/CustomDropdown/node_modules/@material-ui/core/Divider';
+import Popper from 'Components/CustomDropdown/node_modules/@material-ui/core/Popper';
 // core components
 import Button from '../CustomButtons/Button';
 
-import customDropdownStyle from '../../assets/jss/material-kit-pro-react/components/customDropdownStyle';
+import customDropdownStyle from '../../Assets/JSS/material-kit-pro-react/components/customDropdownStyle';
 
 class CustomDropdown extends React.Component {
   constructor(props) {

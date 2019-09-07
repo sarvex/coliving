@@ -1,20 +1,20 @@
-import React from "react";
+import React from "Views/BlogPostPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/BlogPostPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Badge from "components/Badge/Badge";
-import Button from "components/CustomButtons/Button";
-import Card from "components/Card/Card";
-import CardAvatar from "components/Card/CardAvatar";
+import GridContainer from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Badge from "Views/BlogPostPage/Sections/node_modules/components/Badge/Badge";
+import Button from "Views/BlogPostPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import Card from "Views/BlogPostPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardAvatar from "Views/BlogPostPage/Sections/node_modules/components/Card/CardAvatar";
 
 import profileImage from "assets/img/faces/card-profile1-square.jpg";
 
-import sectionBlogInfoStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionBlogInfoStyle";
+import sectionBlogInfoStyle from "Views/BlogPostPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostSections/sectionBlogInfoStyle";
 
 function SectionBlogInfo({ ...props }) {
   const { classes } = props;

@@ -1,20 +1,20 @@
-import React from "react";
+import React from "Components/NavPills/node_modules/react";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Components/NavPills/node_modules/classnames";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
-import SwipeableViews from "react-swipeable-views";
+import PropTypes from "Components/NavPills/node_modules/prop-types";
+import SwipeableViews from "Components/NavPills/node_modules/react-swipeable-views";
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Tab from "@material-ui/core/Tab";
-import Tabs from "@material-ui/core/Tabs";
+import withStyles from "Components/NavPills/node_modules/@material-ui/core/styles/withStyles";
+import Tab from "Components/NavPills/node_modules/@material-ui/core/Tab";
+import Tabs from "Components/NavPills/node_modules/@material-ui/core/Tabs";
 
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
+import GridContainer from "Components/NavPills/node_modules/components/Grid/GridContainer";
+import GridItem from "Components/NavPills/node_modules/components/Grid/GridItem";
 
-import navPillsStyle from "assets/jss/material-kit-pro-react/components/navPillsStyle";
+import navPillsStyle from "Components/NavPills/node_modules/assets/jss/material-kit-pro-react/components/navPillsStyle";
 
 class NavPills extends React.Component {
   constructor(props) {

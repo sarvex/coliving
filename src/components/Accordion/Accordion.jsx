@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'Components/Accordion/node_modules/react';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Components/Accordion/node_modules/prop-types';
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import withStyles from 'Components/Accordion/node_modules/@material-ui/core/styles/withStyles';
+import ExpansionPanel from 'Components/Accordion/node_modules/@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from 'Components/Accordion/node_modules/@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from 'Components/Accordion/node_modules/@material-ui/core/ExpansionPanelDetails';
 
 // @material-ui/icons
-import ExpandMore from '@material-ui/icons/ExpandMore';
+import ExpandMore from 'Components/Accordion/node_modules/@material-ui/icons/ExpandMore';
 
-import accordionStyle from '../../assets/jss/material-kit-pro-react/components/accordionStyle';
+import accordionStyle from '../../Assets/JSS/material-kit-pro-react/components/accordionStyle';
 
 class Accordion extends React.Component {
   constructor(props) {

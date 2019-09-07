@@ -1,19 +1,19 @@
-import React from 'react';
+import React from 'Views/PresentationPage/Sections/node_modules/react';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Views/PresentationPage/Sections/node_modules/prop-types';
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'Views/PresentationPage/Sections/node_modules/classnames';
 // react components for routing our app without refresh
-import { Link } from 'react-router-dom';
-import withStyles from '@material-ui/core/styles/withStyles';
+import { Link } from 'Views/PresentationPage/Sections/node_modules/react-router-dom';
+import withStyles from 'Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles';
 // core components
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Card from '../../../components/Card/Card';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import Card from '../../../Components/Card/Card';
 // @material-ui/core components
 
-import examplesStyle from '../../../assets/jss/material-kit-pro-react/views/presentationSections/examplesStyle';
-import imagesStyles from '../../../assets/jss/material-kit-pro-react/imagesStyles';
+import examplesStyle from '../../../Assets/JSS/material-kit-pro-react/views/presentationSections/examplesStyle';
+import imagesStyles from '../../../Assets/JSS/material-kit-pro-react/imagesStyles';
 
 import exAboutUs from '../../../assets/img/assets-for-demo/example-pages/ex-about-us.jpg';
 import exLanding from '../../../assets/img/assets-for-demo/example-pages/ex-landing.jpg';

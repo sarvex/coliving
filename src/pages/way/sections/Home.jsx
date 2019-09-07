@@ -9,13 +9,13 @@ import ViewCarousel from '@material-ui/icons/Tv';
 import AccessTime from '@material-ui/icons/AccessibilityNew';
 import AttachMoney from '@material-ui/icons/LocalLaundryService';
 import Safe from '@material-ui/icons/Fingerprint';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import InfoArea from '../../../components/InfoArea/InfoArea';
-import Button from '../../../components/CustomButtons/Button';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import Button from 'Components/CustomButtons/Button';
 
-import featuresStyle from '../../../assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle';
-import bg9 from '../../../assets/img/bg9.jpg';
+import featuresStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
+import bg9 from 'Assets/Images/bg9.jpg';
 
 function SectionFeatures({ ...props }) {
   const { classes, ...rest } = props;

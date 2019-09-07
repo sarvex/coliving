@@ -1,12 +1,12 @@
-import React from "react";
+import React from "Components/Media/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Components/Media/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Components/Media/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
 
-import mediaStyle from "assets/jss/material-kit-pro-react/components/mediaStyle";
+import mediaStyle from "Components/Media/node_modules/assets/jss/material-kit-pro-react/components/mediaStyle";
 
 function Media({ ...props }) {
   const {

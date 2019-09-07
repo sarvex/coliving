@@ -1,22 +1,22 @@
-import React from "react";
+import React from "Views/EcommercePage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/EcommercePage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/EcommercePage/Sections/node_modules/classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardHeader from "components/Card/CardHeader";
-import CardBody from "components/Card/CardBody";
+import GridContainer from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardHeader from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import CardBody from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/EcommercePage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
 import dg6 from "assets/img/dg6.jpg";
 import dg10 from "assets/img/dg10.jpg";
 import dg9 from "assets/img/dg9.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle";
+import styles from "Views/EcommercePage/Sections/node_modules/assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle";
 
 const SectionBlog = props => {
   const { classes } = props;

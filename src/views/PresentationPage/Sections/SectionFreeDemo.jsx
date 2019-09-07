@@ -1,21 +1,21 @@
-import React from "react";
+import React from "Views/PresentationPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/PresentationPage/Sections/node_modules/classnames";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui icons
-import Close from "@material-ui/icons/Close";
-import Check from "@material-ui/icons/Check";
+import Close from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/Close";
+import Check from "Views/PresentationPage/Sections/node_modules/@material-ui/icons/Check";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/PresentationPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import Button from "Views/PresentationPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 
-import freeDemoStyle from "assets/jss/material-kit-pro-react/views/presentationSections/freeDemoStyle";
+import freeDemoStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/freeDemoStyle";
 
 class SectionFreeDemo extends React.Component {
   render() {

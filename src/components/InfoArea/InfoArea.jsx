@@ -1,13 +1,13 @@
-import React from "react";
+import React from "Components/InfoArea/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Components/InfoArea/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Components/InfoArea/node_modules/classnames";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Icon from "@material-ui/core/Icon";
+import withStyles from "Components/InfoArea/node_modules/@material-ui/core/styles/withStyles";
+import Icon from "Components/InfoArea/node_modules/@material-ui/core/Icon";
 
-import infoStyle from "assets/jss/material-kit-pro-react/components/infoStyle";
+import infoStyle from "Components/InfoArea/node_modules/assets/jss/material-kit-pro-react/components/infoStyle";
 
 function InfoArea({ ...props }) {
   const { classes, title, description, iconColor, vertical, className } = props;

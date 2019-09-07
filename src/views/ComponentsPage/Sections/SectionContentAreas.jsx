@@ -1,31 +1,31 @@
-import React from "react";
+import React from "Views/ComponentsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Checkbox from "@material-ui/core/Checkbox";
-import Tooltip from "@material-ui/core/Tooltip";
+import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import Checkbox from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Checkbox";
+import Tooltip from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Tooltip";
 // @material-ui/core icons
-import Person from "@material-ui/icons/Person";
-import Edit from "@material-ui/icons/Edit";
-import Close from "@material-ui/icons/Close";
-import Check from "@material-ui/icons/Check";
-import Remove from "@material-ui/icons/Remove";
-import Add from "@material-ui/icons/Add";
-import KeyboardArrowRight from "@material-ui/icons/KeyboardArrowRight";
-import Reply from "@material-ui/icons/Reply";
-import Favorite from "@material-ui/icons/Favorite";
+import Person from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Person";
+import Edit from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Edit";
+import Close from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Close";
+import Check from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check";
+import Remove from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Remove";
+import Add from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Add";
+import KeyboardArrowRight from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/KeyboardArrowRight";
+import Reply from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Reply";
+import Favorite from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Favorite";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Table from "components/Table/Table";
-import Button from "components/CustomButtons/Button";
-import Media from "components/Media/Media";
-import CustomInput from "components/CustomInput/CustomInput";
-import Paginations from "components/Pagination/Pagination";
+import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Table from "Views/ComponentsPage/Sections/node_modules/components/Table/Table";
+import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import Media from "Views/ComponentsPage/Sections/node_modules/components/Media/Media";
+import CustomInput from "Views/ComponentsPage/Sections/node_modules/components/CustomInput/CustomInput";
+import Paginations from "Views/ComponentsPage/Sections/node_modules/components/Pagination/Pagination";
 
-import style from "assets/jss/material-kit-pro-react/views/componentsSections/contentAreas";
+import style from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/contentAreas";
 
 import avatar from "assets/img/faces/avatar.jpg";
 import kendall from "assets/img/faces/kendall.jpg";

@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'Components/CustomLinearProgress/node_modules/react';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Components/CustomLinearProgress/node_modules/prop-types';
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import LinearProgress from '@material-ui/core/LinearProgress';
+import withStyles from 'Components/CustomLinearProgress/node_modules/@material-ui/core/styles/withStyles';
+import LinearProgress from 'Components/CustomLinearProgress/node_modules/@material-ui/core/LinearProgress';
 
-import customLinearProgressStyle from '../../assets/jss/material-kit-pro-react/components/customLinearProgressStyle';
+import customLinearProgressStyle from '../../Assets/JSS/material-kit-pro-react/components/customLinearProgressStyle';
 
 function CustomLinearProgress({ ...props }) {
   const { classes, color, ...rest } = props;

@@ -1,17 +1,17 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import withStyles from '@material-ui/core/styles/withStyles';
-import Subject from '@material-ui/icons/Subject';
+import React from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/react';
+import PropTypes from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/prop-types';
+import withStyles from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/core/styles/withStyles';
+import Subject from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Subject';
 
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Card from '../../../components/Card/Card';
-import CardBody from '../../../components/Card/CardBody';
-import Success from '../../../components/Typography/Success';
-import Button from '../../../components/CustomButtons/Button';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import Card from '../../../Components/Card/Card';
+import CardBody from '../../../Components/Card/CardBody';
+import Success from '../../../Components/Typography/Success';
+import Button from '../../../Components/CustomButtons/Button';
 
 import styles
-  from '../../../assets/jss/material-kit-pro-react/views/componentsSections/sectionCards';
+  from '../../../Assets/JSS/material-kit-pro-react/views/componentsSections/sectionCards';
 
 
 class Administration extends React.Component {

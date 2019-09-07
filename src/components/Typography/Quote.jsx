@@ -1,12 +1,12 @@
-import React from "react";
+import React from "Components/Typography/node_modules/react";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Components/Typography/node_modules/classnames";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Components/Typography/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Components/Typography/node_modules/@material-ui/core/styles/withStyles";
 // core components
-import typographyStyle from "assets/jss/material-kit-pro-react/components/typographyStyle";
+import typographyStyle from "Components/Typography/node_modules/assets/jss/material-kit-pro-react/components/typographyStyle";
 
 function Quote({ ...props }) {
   const { classes, text, author, authorClassName, textClassName } = props;

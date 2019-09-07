@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'Components/Clearfix/node_modules/react';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Components/Clearfix/node_modules/prop-types';
 
 // mterial-ui components
-import withStyles from '@material-ui/core/styles/withStyles';
+import withStyles from 'Components/Clearfix/node_modules/@material-ui/core/styles/withStyles';
 
 const style = {
   clearfix: {

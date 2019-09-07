@@ -1,21 +1,21 @@
-import React from 'react';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Card from '../../../components/Card/Card';
-import CardHeader from '../../../components/Card/CardHeader';
-import CardBody from '../../../components/Card/CardBody';
-import CardFooter from '../../../components/Card/CardFooter';
-import Muted from '../../../components/Typography/Muted';
-import Button from '../../../components/CustomButtons/Button';
+import React from 'Pages/Apps/sections/node_modules/Pages/apps/sections/node_modules/react';
+import withStyles from 'Pages/Apps/sections/node_modules/Pages/apps/sections/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import Card from '../../../Components/Card/Card';
+import CardHeader from '../../../Components/Card/CardHeader';
+import CardBody from '../../../Components/Card/CardBody';
+import CardFooter from '../../../Components/Card/CardFooter';
+import Muted from '../../../Components/Typography/Muted';
+import Button from '../../../Components/CustomButtons/Button';
 
 import cardProfile1Square from '../../../assets/img/faces/card-profile1-square.jpg';
 import cardProfile2Square from '../../../assets/img/faces/card-profile2-square.jpg';
 import cardProfile4Square from '../../../assets/img/faces/card-profile4-square.jpg';
 import cardProfile6Square from '../../../assets/img/faces/card-profile6-square.jpg';
 
-import teamsStyle from '../../../assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle';
-import teamStyle from '../../../assets/jss/material-kit-pro-react/views/landingPageSections/teamStyle';
+import teamsStyle from '../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/teamsStyle';
+import teamStyle from '../../../Assets/JSS/material-kit-pro-react/views/landingPageSections/teamStyle';
 
 const style = {
   ...teamsStyle,

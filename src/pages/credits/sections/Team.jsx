@@ -1,16 +1,16 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
+import React from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/react';
+import classNames from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/classnames';
+import withStyles from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/@material-ui/core/styles/withStyles';
 
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Card from '../../../components/Card/Card';
-import CardAvatar from '../../../components/Card/CardAvatar';
-import CardBody from '../../../components/Card/CardBody';
-import CardFooter from '../../../components/Card/CardFooter';
-import Button from '../../../components/CustomButtons/Button';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import Card from '../../../Components/Card/Card';
+import CardAvatar from '../../../Components/Card/CardAvatar';
+import CardBody from '../../../Components/Card/CardBody';
+import CardFooter from '../../../Components/Card/CardFooter';
+import Button from '../../../Components/CustomButtons/Button';
 
-import teamStyle from '../../../assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle';
+import teamStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/teamStyle';
 
 import FaceMarc from '../../../assets/img/faces/marc.jpg';
 import FaceChristian from '../../../assets/img/faces/christian.jpg';

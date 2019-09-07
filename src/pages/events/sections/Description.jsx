@@ -1,10 +1,10 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
+import React from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/react';
+import classNames from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/classnames';
+import withStyles from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
 
-import descriptionStyle from '../../../assets/jss/material-kit-pro-react/views/aboutUsSections/descriptionStyle';
+import descriptionStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/descriptionStyle';
 
 function Description(props) {
   const { classes } = props;

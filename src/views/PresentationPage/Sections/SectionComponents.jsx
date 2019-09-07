@@ -1,13 +1,13 @@
-import React from "react";
+import React from "Views/PresentationPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
+import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
-import componentsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/componentsStyle";
+import componentsStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/componentsStyle";
 
 import macbookImage from "assets/img/assets-for-demo/presentationViewSectionComponent/laptop-basics.png";
 import shoppingCartImage from "assets/img/assets-for-demo/presentationViewSectionComponent/table.jpg";

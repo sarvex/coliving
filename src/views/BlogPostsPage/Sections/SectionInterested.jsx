@@ -1,25 +1,25 @@
-import React from "react";
+import React from "Views/BlogPostsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import TrendingUp from "@material-ui/icons/TrendingUp";
+import TrendingUp from "Views/BlogPostsPage/Sections/node_modules/@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import CardHeader from "components/Card/CardHeader";
-import Info from "components/Typography/Info";
-import Success from "components/Typography/Success";
-import Danger from "components/Typography/Danger";
+import GridContainer from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardHeader from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import Info from "Views/BlogPostsPage/Sections/node_modules/components/Typography/Info";
+import Success from "Views/BlogPostsPage/Sections/node_modules/components/Typography/Success";
+import Danger from "Views/BlogPostsPage/Sections/node_modules/components/Typography/Danger";
 
 import bg5 from "assets/img/bg5.jpg";
 import blog5 from "assets/img/examples/blog5.jpg";
 import blog6 from "assets/img/examples/blog6.jpg";
 
-import sectionInterestedStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle";
+import sectionInterestedStyle from "Views/BlogPostsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle";
 
 function SectionInterested({ ...props }) {
   const { classes } = props;

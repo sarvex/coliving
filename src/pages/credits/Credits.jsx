@@ -1,17 +1,17 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../components/Grid/GridContainer';
-import GridItem from '../../components/Grid/GridItem';
-import Parallax from '../../components/Parallax/Parallax';
+import React from 'Pages/Credits/node_modules/Pages/credits/node_modules/react';
+import classNames from 'Pages/Credits/node_modules/Pages/credits/node_modules/classnames';
+import withStyles from 'Pages/Credits/node_modules/Pages/credits/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../Components/Grid/GridContainer';
+import GridItem from '../../Components/Grid/GridItem';
+import Parallax from '../../Components/Parallax/Parallax';
 import SectionDescription from './sections/Description';
 import SectionTeam from './sections/Team';
 import SectionServices from './sections/Services';
 import SectionOffice from './sections/Office';
-import NavBar from '../../sections/NavBar';
-import Footer from '../../sections/Footer';
+import NavBar from '../../Sections/NavBar';
+import Footer from '../../Sections/Footer';
 
-import aboutUsStyle from '../../assets/jss/material-kit-pro-react/views/aboutUsStyle';
+import aboutUsStyle from '../../Assets/JSS/material-kit-pro-react/views/aboutUsStyle';
 
 class AboutUsPage extends React.Component {
   componentDidMount() {

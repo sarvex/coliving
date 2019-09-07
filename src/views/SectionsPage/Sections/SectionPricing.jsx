@@ -1,27 +1,27 @@
-import React from "react";
+import React from "Views/SectionsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import Weekend from "@material-ui/icons/Weekend";
-import Home from "@material-ui/icons/Home";
-import Business from "@material-ui/icons/Business";
-import AccountBalance from "@material-ui/icons/AccountBalance";
-import Check from "@material-ui/icons/Check";
-import Close from "@material-ui/icons/Close";
+import Weekend from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Weekend";
+import Home from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Home";
+import Business from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Business";
+import AccountBalance from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/AccountBalance";
+import Check from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Check";
+import Close from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Close";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import CardFooter from "components/Card/CardFooter";
-import Button from "components/CustomButtons/Button";
-import NavPills from "components/NavPills/NavPills";
-import Success from "components/Typography/Success";
-import Danger from "components/Typography/Danger";
+import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardFooter from "Views/SectionsPage/Sections/node_modules/components/Card/CardFooter";
+import Button from "Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import NavPills from "Views/SectionsPage/Sections/node_modules/components/NavPills/NavPills";
+import Success from "Views/SectionsPage/Sections/node_modules/components/Typography/Success";
+import Danger from "Views/SectionsPage/Sections/node_modules/components/Typography/Danger";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle";
+import pricingStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle";
 
 import bg11 from "assets/img/bg11.jpg";
 import city from "assets/img/examples/city.jpg";

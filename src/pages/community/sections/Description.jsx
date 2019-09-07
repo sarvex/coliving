@@ -1,12 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
 import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
 
-import sectionsStyle from '../../../assets/jss/material-kit-pro-react/views/presentationSections/sectionsStyle';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import imgs from '../../../assets/img/assets-for-demo/sections/imgs';
+import sectionsStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
+
+import imgs from 'Assets/Images/assets-for-demo/sections/imgs';
 
 class SectionAbout extends React.Component {
   renderContainerFluid(cssClass) {
@@ -21,7 +22,7 @@ class SectionAbout extends React.Component {
             className={cssClass}
           >
             <img
-              src={require(`../../../assets/img/assets-for-demo/sections/${el}.jpg`)}
+              src={require(`../../../Assets/Images/assets-for-demo/sections/${el}.jpg`)}
               alt={el}
               key={el[index]}
             />

@@ -1,24 +1,24 @@
-import React from "react";
+import React from "Views/SectionsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
 // react component for creating beautiful carousel
-import Carousel from "react-slick";
+import Carousel from "Views/SectionsPage/Sections/node_modules/react-slick";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import FormatQuote from "@material-ui/icons/FormatQuote";
-import Star from "@material-ui/icons/Star";
+import FormatQuote from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/FormatQuote";
+import Star from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/Star";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import CardFooter from "components/Card/CardFooter";
-import CardAvatar from "components/Card/CardAvatar";
-import Muted from "components/Typography/Muted";
-import Warning from "components/Typography/Warning";
+import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardFooter from "Views/SectionsPage/Sections/node_modules/components/Card/CardFooter";
+import CardAvatar from "Views/SectionsPage/Sections/node_modules/components/Card/CardAvatar";
+import Muted from "Views/SectionsPage/Sections/node_modules/components/Typography/Muted";
+import Warning from "Views/SectionsPage/Sections/node_modules/components/Typography/Warning";
 
-import testimonialsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle";
+import testimonialsStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle";
 
 import dg2 from "assets/img/dg2.jpg";
 import cardProfile1Square from "assets/img/faces/card-profile1-square.jpg";

@@ -1,16 +1,16 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../components/Grid/GridContainer';
-import GridItem from '../../components/Grid/GridItem';
-import Parallax from '../../components/Parallax/Parallax';
-import aboutUsStyle from '../../assets/jss/material-kit-pro-react/views/aboutUsStyle';
+import React from 'Pages/Events/node_modules/Pages/events/node_modules/react';
+import classNames from 'Pages/Events/node_modules/Pages/events/node_modules/classnames';
+import withStyles from 'Pages/Events/node_modules/Pages/events/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../Components/Grid/GridContainer';
+import GridItem from '../../Components/Grid/GridItem';
+import Parallax from '../../Components/Parallax/Parallax';
+import aboutUsStyle from '../../Assets/JSS/material-kit-pro-react/views/aboutUsStyle';
 import SectionDescription from './sections/Description';
 import SectionTeam from './sections/Team';
 import SectionServices from './sections/Services';
 import SectionOffice from './sections/Office';
-import NavBar from '../../sections/NavBar';
-import Footer from '../../sections/Footer';
+import NavBar from '../../Sections/NavBar';
+import Footer from '../../Sections/Footer';
 
 
 class AboutUsPage extends React.Component {

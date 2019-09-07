@@ -1,25 +1,25 @@
-import React from "react";
+import React from "Views/ComponentsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
 // @material-ui/icons
 
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Small from "components/Typography/Small";
-import Danger from "components/Typography/Danger";
-import Warning from "components/Typography/Warning";
-import Success from "components/Typography/Success";
-import Info from "components/Typography/Info";
-import Primary from "components/Typography/Primary";
-import Muted from "components/Typography/Muted";
-import Quote from "components/Typography/Quote";
+import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Small from "Views/ComponentsPage/Sections/node_modules/components/Typography/Small";
+import Danger from "Views/ComponentsPage/Sections/node_modules/components/Typography/Danger";
+import Warning from "Views/ComponentsPage/Sections/node_modules/components/Typography/Warning";
+import Success from "Views/ComponentsPage/Sections/node_modules/components/Typography/Success";
+import Info from "Views/ComponentsPage/Sections/node_modules/components/Typography/Info";
+import Primary from "Views/ComponentsPage/Sections/node_modules/components/Typography/Primary";
+import Muted from "Views/ComponentsPage/Sections/node_modules/components/Typography/Muted";
+import Quote from "Views/ComponentsPage/Sections/node_modules/components/Typography/Quote";
 
-import typographyStyle from "assets/jss/material-kit-pro-react/views/componentsSections/typographyStyle";
+import typographyStyle from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/typographyStyle";
 
 import image from "assets/img/faces/avatar.jpg";
 import SectionContentAreas from "./SectionContentAreas";

@@ -1,20 +1,20 @@
-import React from "react";
+import React from "Views/BlogPostsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import InputAdornment from "@material-ui/core/InputAdornment";
+import withStyles from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import InputAdornment from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/InputAdornment";
 // @material-ui/icons
-import Mail from "@material-ui/icons/Mail";
+import Mail from "Views/BlogPostsPage/Sections/node_modules/@material-ui/icons/Mail";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import Button from "components/CustomButtons/Button";
-import CustomInput from "components/CustomInput/CustomInput";
+import GridContainer from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import Button from "Views/BlogPostsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import CustomInput from "Views/BlogPostsPage/Sections/node_modules/components/CustomInput/CustomInput";
 
-import sectionSubscribeLineStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionSubscribeLineStyle";
+import sectionSubscribeLineStyle from "Views/BlogPostsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostsSections/sectionSubscribeLineStyle";
 
 function SubscribeLine({ ...props }) {
   const { classes } = props;

@@ -1,19 +1,19 @@
-import React from "react";
+import React from "Views/PricingPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/PricingPage/Sections/node_modules/prop-types";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import InfoArea from "components/InfoArea/InfoArea";
+import GridContainer from "Views/PricingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/PricingPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import InfoArea from "Views/PricingPage/Sections/node_modules/components/InfoArea/InfoArea";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/PricingPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui icons
-import CardMembership from "@material-ui/icons/CardMembership";
-import CardGiftCard from "@material-ui/icons/CardGiftcard";
-import AttachMoney from "@material-ui/icons/AttachMoney";
-import QuestionAnswer from "@material-ui/icons/QuestionAnswer";
+import CardMembership from "Views/PricingPage/Sections/node_modules/@material-ui/icons/CardMembership";
+import CardGiftCard from "Views/PricingPage/Sections/node_modules/@material-ui/icons/CardGiftcard";
+import AttachMoney from "Views/PricingPage/Sections/node_modules/@material-ui/icons/AttachMoney";
+import QuestionAnswer from "Views/PricingPage/Sections/node_modules/@material-ui/icons/QuestionAnswer";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/pricingSections/featuresStyle";
+import featuresStyle from "Views/PricingPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/pricingSections/featuresStyle";
 
 function SectionFeatures(props) {
   const { classes } = props;

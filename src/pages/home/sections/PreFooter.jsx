@@ -2,17 +2,17 @@ import React from 'react';
 import classNames from 'classnames';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Button from '../../../components/CustomButtons/Button';
-import preFooterStyle from '../../../assets/jss/material-kit-pro-react/views/componentsSections/preFooter';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import preFooterStyle from 'Assets/JSS/material-kit-pro-react/views/componentsSections/preFooter';
 
-import mint from '../../../assets/img/mint.svg';
-import cnbc from '../../../assets/img/cnbc.svg';
-import realty from '../../../assets/img/et-realty.svg';
-import inc42 from '../../../assets/img/inc42.svg';
-import rediff from '../../../assets/img/rediff.svg';
-import techcircle from '../../../assets/img/techcircle.svg';
+import mint from 'Assets/Images/mint.svg';
+import cnbc from 'Assets/Images/cnbc.svg';
+import realty from 'Assets/Images/et-realty.svg';
+import inc42 from 'Assets/Images/inc42.svg';
+import rediff from 'Assets/Images/rediff.svg';
+import techcircle from 'Assets/Images/techcircle.svg';
 
 
 const SectionPreFooter = (props) => {

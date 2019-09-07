@@ -1,11 +1,11 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import GridContainer from '../components/Grid/GridContainer';
-import GridItem from '../components/Grid/GridItem';
-import Footer from '../components/Footer/Footer';
+import React from 'Sections/node_modules/react';
+import classNames from 'Sections/node_modules/classnames';
+import withStyles from 'Sections/node_modules/@material-ui/core/styles/withStyles';
+import List from 'Sections/node_modules/@material-ui/core/List';
+import ListItem from 'Sections/node_modules/@material-ui/core/ListItem';
+import GridContainer from '../Components/Grid/GridContainer';
+import GridItem from '../Components/Grid/GridItem';
+import Footer from '../Components/Footer/Footer';
 
 import face1 from '../assets/img/faces/card-profile6-square.jpg';
 import face2 from '../assets/img/faces/christian.jpg';
@@ -16,7 +16,7 @@ import face6 from '../assets/img/faces/kendall.jpg';
 import face7 from '../assets/img/faces/card-profile5-square.jpg';
 import face8 from '../assets/img/faces/card-profile2-square.jpg';
 
-import styles from '../assets/jss/material-kit-pro-react/views/componentsSections/footerStyle';
+import styles from '../Assets/JSS/material-kit-pro-react/views/componentsSections/footerStyle';
 
 const SectionFooter = (props) => {
   const { classes } = props;

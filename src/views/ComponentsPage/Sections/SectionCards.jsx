@@ -1,42 +1,42 @@
-import React from "react";
+import React from "Views/ComponentsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/ComponentsPage/Sections/node_modules/prop-types";
 
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Icon from "@material-ui/core/Icon";
+import withStyles from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import Icon from "Views/ComponentsPage/Sections/node_modules/@material-ui/core/Icon";
 // @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
-import Share from "@material-ui/icons/Share";
-import ChatBubble from "@material-ui/icons/ChatBubble";
-import Schedule from "@material-ui/icons/Schedule";
-import TrendingUp from "@material-ui/icons/TrendingUp";
-import Subject from "@material-ui/icons/Subject";
-import WatchLater from "@material-ui/icons/WatchLater";
-import People from "@material-ui/icons/People";
-import Business from "@material-ui/icons/Business";
-import Check from "@material-ui/icons/Check";
-import Close from "@material-ui/icons/Close";
-import Delete from "@material-ui/icons/Delete";
-import Bookmark from "@material-ui/icons/Bookmark";
-import Refresh from "@material-ui/icons/Refresh";
-import Receipt from "@material-ui/icons/Receipt";
+import Favorite from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Favorite";
+import Share from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Share";
+import ChatBubble from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/ChatBubble";
+import Schedule from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Schedule";
+import TrendingUp from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/TrendingUp";
+import Subject from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Subject";
+import WatchLater from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/WatchLater";
+import People from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/People";
+import Business from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Business";
+import Check from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Check";
+import Close from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Close";
+import Delete from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Delete";
+import Bookmark from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Bookmark";
+import Refresh from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Refresh";
+import Receipt from "Views/ComponentsPage/Sections/node_modules/@material-ui/icons/Receipt";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardHeader from "components/Card/CardHeader";
-import CardBody from "components/Card/CardBody";
-import CardFooter from "components/Card/CardFooter";
-import CardAvatar from "components/Card/CardAvatar";
-import Info from "components/Typography/Info";
-import Danger from "components/Typography/Danger";
-import Success from "components/Typography/Success";
-import Warning from "components/Typography/Warning";
-import Rose from "components/Typography/Rose";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/ComponentsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardHeader from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import CardBody from "Views/ComponentsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardFooter from "Views/ComponentsPage/Sections/node_modules/components/Card/CardFooter";
+import CardAvatar from "Views/ComponentsPage/Sections/node_modules/components/Card/CardAvatar";
+import Info from "Views/ComponentsPage/Sections/node_modules/components/Typography/Info";
+import Danger from "Views/ComponentsPage/Sections/node_modules/components/Typography/Danger";
+import Success from "Views/ComponentsPage/Sections/node_modules/components/Typography/Success";
+import Warning from "Views/ComponentsPage/Sections/node_modules/components/Typography/Warning";
+import Rose from "Views/ComponentsPage/Sections/node_modules/components/Typography/Rose";
+import Button from "Views/ComponentsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards";
+import styles from "Views/ComponentsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/componentsSections/sectionCards";
 
 import cardBlog1 from "assets/img/examples/card-blog1.jpg";
 import cardBlog2 from "assets/img/examples/card-blog2.jpg";

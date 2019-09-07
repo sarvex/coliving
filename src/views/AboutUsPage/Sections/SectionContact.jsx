@@ -1,21 +1,21 @@
-import React from "react";
+import React from "Views/AboutUsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/AboutUsPage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/AboutUsPage/Sections/node_modules/classnames";
 // @material-ui/core components
-import FormControl from "@material-ui/core/FormControl";
-import MenuItem from "@material-ui/core/MenuItem";
-import Select from "@material-ui/core/Select";
-import withStyles from "@material-ui/core/styles/withStyles";
+import FormControl from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/FormControl";
+import MenuItem from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/MenuItem";
+import Select from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/Select";
+import withStyles from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import GridContainer from "../../../components/Grid/GridContainer";
-import GridItem from "../../../components/Grid/GridItem";
-import CustomInput from "../../../components/CustomInput/CustomInput";
-import Button from "../../../components/CustomButtons/Button";
+import GridContainer from "../../../Components/Grid/GridContainer";
+import GridItem from "../../../Components/Grid/GridItem";
+import CustomInput from "../../../Components/CustomInput/CustomInput";
+import Button from "../../../Components/CustomButtons/Button";
 
-import contactStyle from "../../../assets/jss/material-kit-pro-react/views/aboutUsSections/contactStyle";
+import contactStyle from "../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/contactStyle";
 
 class SectionContact extends React.Component {
   constructor(props) {

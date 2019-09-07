@@ -1,17 +1,17 @@
 import React from 'react';
 import classNames from 'classnames';
 import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import officeStyle from '../../../assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle';
+import officeStyle from 'Assets/JSS/material-kit-pro-react/views/aboutUsSections/officeStyle';
 
 // office
-import office1 from '../../../assets/img/community-life1.webp';
-import office2 from '../../../assets/img/community-life2.webp';
-import office3 from '../../../assets/img/community-life3.webp';
-import office4 from '../../../assets/img/community-life4.webp';
-import office5 from '../../../assets/img/community-life5.webp';
+import office1 from 'Assets/Images/community-life1.webp';
+import office2 from 'Assets/Images/community-life2.webp';
+import office3 from 'Assets/Images/community-life3.webp';
+import office4 from 'Assets/Images/community-life4.webp';
+import office5 from 'Assets/Images/community-life5.webp';
 
 function SectionOffice(props) {
   const { classes } = props;

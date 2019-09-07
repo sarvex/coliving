@@ -1,16 +1,16 @@
-import React from 'react';
-import withStyles from '@material-ui/core/styles/withStyles';
-import FormatAlignLeft from '@material-ui/icons/FormatAlignLeft';
-import Parallax from '../../components/Parallax/Parallax';
-import GridContainer from '../../components/Grid/GridContainer';
-import GridItem from '../../components/Grid/GridItem';
-import Button from '../../components/CustomButtons/Button';
+import React from 'Pages/Kota/node_modules/Pages/kota/node_modules/react';
+import withStyles from 'Pages/Kota/node_modules/Pages/kota/node_modules/@material-ui/core/styles/withStyles';
+import FormatAlignLeft from 'Pages/Kota/node_modules/Pages/kota/node_modules/@material-ui/icons/FormatAlignLeft';
+import Parallax from '../../Components/Parallax/Parallax';
+import GridContainer from '../../Components/Grid/GridContainer';
+import GridItem from '../../Components/Grid/GridItem';
+import Button from '../../Components/CustomButtons/Button';
 import SectionText from './sections/Description';
 import SectionSimilarStories from './sections/Similar';
-import NavBar from '../../sections/NavBar';
-import Footer from '../../sections/Footer';
+import NavBar from '../../Sections/NavBar';
+import Footer from '../../Sections/Footer';
 
-import blogPostPageStyle from '../../assets/jss/material-kit-pro-react/views/blogPostPageStyle';
+import blogPostPageStyle from '../../Assets/JSS/material-kit-pro-react/views/blogPostPageStyle';
 
 class Kota extends React.Component {
   componentDidMount() {

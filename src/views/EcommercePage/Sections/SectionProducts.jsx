@@ -1,31 +1,31 @@
-import React from "react";
+import React from "Views/EcommercePage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/EcommercePage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/EcommercePage/Sections/node_modules/classnames";
 // plugin that creates slider
-import nouislider from "nouislider";
+import nouislider from "Views/EcommercePage/Sections/node_modules/nouislider";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Checkbox from "@material-ui/core/Checkbox";
-import Tooltip from "@material-ui/core/Tooltip";
-import FormControlLabel from "@material-ui/core/FormControlLabel";
+import withStyles from "Views/EcommercePage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import Checkbox from "Views/EcommercePage/Sections/node_modules/@material-ui/core/Checkbox";
+import Tooltip from "Views/EcommercePage/Sections/node_modules/@material-ui/core/Tooltip";
+import FormControlLabel from "Views/EcommercePage/Sections/node_modules/@material-ui/core/FormControlLabel";
 // @material-ui icons
-import Favorite from "@material-ui/icons/Favorite";
-import FavoriteBorder from "@material-ui/icons/FavoriteBorder";
-import Cached from "@material-ui/icons/Cached";
-import Subject from "@material-ui/icons/Subject";
-import Check from "@material-ui/icons/Check";
+import Favorite from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/Favorite";
+import FavoriteBorder from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/FavoriteBorder";
+import Cached from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/Cached";
+import Subject from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/Subject";
+import Check from "Views/EcommercePage/Sections/node_modules/@material-ui/icons/Check";
 // core components
-import Accordion from "components/Accordion/Accordion";
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardHeader from "components/Card/CardHeader";
-import CardBody from "components/Card/CardBody";
-import CardFooter from "components/Card/CardFooter";
-import Button from "components/CustomButtons/Button";
-import Clearfix from "components/Clearfix/Clearfix";
+import Accordion from "Views/EcommercePage/Sections/node_modules/components/Accordion/Accordion";
+import GridContainer from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/EcommercePage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardHeader from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import CardBody from "Views/EcommercePage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardFooter from "Views/EcommercePage/Sections/node_modules/components/Card/CardFooter";
+import Button from "Views/EcommercePage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
+import Clearfix from "Views/EcommercePage/Sections/node_modules/components/Clearfix/Clearfix";
 
 import suit1 from "assets/img/examples/suit-1.jpg";
 import suit2 from "assets/img/examples/suit-2.jpg";
@@ -39,7 +39,7 @@ import color2 from "assets/img/examples/color2.jpg";
 import dg3 from "assets/img/dg3.jpg";
 import dg1 from "assets/img/dg1.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle";
+import styles from "Views/EcommercePage/Sections/node_modules/assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle";
 
 class SectionProducts extends React.Component {
   state = {

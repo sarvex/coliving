@@ -1,25 +1,25 @@
-import React from "react";
+import React from "Views/BlogPostsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardHeader from "components/Card/CardHeader";
-import CardBody from "components/Card/CardBody";
-import CardFooter from "components/Card/CardFooter";
-import Muted from "components/Typography/Muted";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardHeader from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import CardBody from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardFooter from "Views/BlogPostsPage/Sections/node_modules/components/Card/CardFooter";
+import Muted from "Views/BlogPostsPage/Sections/node_modules/components/Typography/Muted";
+import Button from "Views/BlogPostsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 
 import bg10 from "assets/img/bg10.jpg";
 
 import cardProfile1 from "assets/img/faces/card-profile1-square.jpg";
 import cardProfile4 from "assets/img/faces/card-profile4-square.jpg";
 
-import sectionImageStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle";
+import sectionImageStyle from "Views/BlogPostsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle";
 
 function SectionImage({ ...props }) {
   const { classes } = props;

@@ -1,14 +1,14 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
+import React from 'Pages/Mumbai/sections/node_modules/Pages/mumbai/sections/node_modules/react';
+import classNames from 'Pages/Mumbai/sections/node_modules/Pages/mumbai/sections/node_modules/classnames';
+import withStyles from 'Pages/Mumbai/sections/node_modules/Pages/mumbai/sections/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
 
 import blog4 from '../../../assets/img/examples/blog4.jpg';
 import blog3 from '../../../assets/img/examples/blog3.jpg';
 import blog1 from '../../../assets/img/examples/blog1.jpg';
 
-import sectionTextStyle from '../../../assets/jss/material-kit-pro-react/views/blogPostSections/sectionTextStyle';
+import sectionTextStyle from '../../../Assets/JSS/material-kit-pro-react/views/blogPostSections/sectionTextStyle';
 
 function SectionText({ ...props }) {
   const { classes } = props;

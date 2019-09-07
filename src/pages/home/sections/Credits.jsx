@@ -1,11 +1,11 @@
 import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 import { Link } from 'react-router-dom';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Button from '../../../components/CustomButtons/Button';
-import bg8 from '../../../assets/img/bg7.jpg';
-import headersStyle from '../../../assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import bg8 from 'Assets/Images/bg7.jpg';
+import headersStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle';
 
 class LandingPage extends React.Component {
   componentDidMount() {

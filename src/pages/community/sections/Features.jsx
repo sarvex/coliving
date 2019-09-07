@@ -1,13 +1,13 @@
 import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
 
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import featuresStyle from '../../../assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle';
+import featuresStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
 
-import experience from '../../../assets/img/com-experience.svg';
-import beYou from '../../../assets/img/be-you.svg';
+import experience from 'Assets/Images/com-experience.svg';
+import beYou from 'Assets/Images/be-you.svg';
 
 function SectionFeatures({ ...props }) {
   const { classes, ...rest } = props;

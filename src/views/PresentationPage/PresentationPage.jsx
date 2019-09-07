@@ -1,17 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-import classNames from "classnames";
-import withStyles from "@material-ui/core/styles/withStyles";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
+import React from "Views/PresentationPage/node_modules/react";
+import PropTypes from "Views/PresentationPage/node_modules/prop-types";
+import classNames from "Views/PresentationPage/node_modules/classnames";
+import withStyles from "Views/PresentationPage/node_modules/@material-ui/core/styles/withStyles";
+import List from "Views/PresentationPage/node_modules/@material-ui/core/List";
+import ListItem from "Views/PresentationPage/node_modules/@material-ui/core/ListItem";
 
-import Header from "../../components/Header/Header";
-import HeaderLinks from "../../components/Header/HeaderLinks";
-import Parallax from "../../components/Parallax/Parallax";
-import Footer from "../../components/Footer/Footer";
-import GridContainer from "../../components/Grid/GridContainer";
-import GridItem from "../../components/Grid/GridItem";
-import Button from "../../components/CustomButtons/Button";
+import Header from "../../Components/Header/Header";
+import HeaderLinks from "../../Components/Header/HeaderLinks";
+import Parallax from "../../Components/Parallax/Parallax";
+import Footer from "../../Components/Footer/Footer";
+import GridContainer from "../../Components/Grid/GridContainer";
+import GridItem from "../../Components/Grid/GridItem";
+import Button from "../../Components/CustomButtons/Button";
 
 import SectionDescription from "./Sections/SectionDescription";
 import SectionComponents from "./Sections/SectionComponents";
@@ -23,7 +23,7 @@ import SectionFreeDemo from "./Sections/SectionFreeDemo";
 import SectionOverview from "./Sections/SectionOverview";
 import SectionPricing from "./Sections/SectionPricing";
 
-import presentationStyle from "../../assets/jss/material-kit-pro-react/views/presentationStyle";
+import presentationStyle from "../../Assets/JSS/material-kit-pro-react/views/presentationStyle";
 
 class PresentationPage extends React.Component {
   componentDidMount() {

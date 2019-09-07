@@ -1,21 +1,21 @@
-import React from "react";
+import React from "Views/BlogPostPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostPage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/BlogPostPage/Sections/node_modules/classnames";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/BlogPostPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Quote from "components/Typography/Quote";
+import GridContainer from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Quote from "Views/BlogPostPage/Sections/node_modules/components/Typography/Quote";
 // core components
 
 import blog4 from "assets/img/examples/blog4.jpg";
 import blog3 from "assets/img/examples/blog3.jpg";
 import blog1 from "assets/img/examples/blog1.jpg";
 
-import sectionTextStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionTextStyle";
+import sectionTextStyle from "Views/BlogPostPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostSections/sectionTextStyle";
 
 function SectionText({ ...props }) {
   const { classes } = props;

@@ -1,9 +1,9 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import officeStyle from '../../../assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle';
+import React from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/react';
+import classNames from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/classnames';
+import withStyles from 'Pages/Credits/sections/node_modules/Pages/credits/sections/node_modules/@material-ui/core/styles/withStyles';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import officeStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/officeStyle';
 
 // office
 import office1 from '../../../assets/img/examples/office1.jpg';

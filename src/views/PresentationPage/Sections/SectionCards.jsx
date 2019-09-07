@@ -1,11 +1,11 @@
-import React from "react";
-import PropTypes from "prop-types";
-import classNames from "classnames";
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import withStyles from "@material-ui/core/styles/withStyles";
+import React from "Views/PresentationPage/Sections/node_modules/react";
+import PropTypes from "Views/PresentationPage/Sections/node_modules/prop-types";
+import classNames from "Views/PresentationPage/Sections/node_modules/classnames";
+import GridContainer from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/PresentationPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import withStyles from "Views/PresentationPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
-import cardsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/cardsStyle";
+import cardsStyle from "Views/PresentationPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/presentationSections/cardsStyle";
 
 import cardsTest from "assets/img/assets-for-demo/cards-test.png";
 

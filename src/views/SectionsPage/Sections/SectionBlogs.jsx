@@ -1,22 +1,22 @@
-import React from "react";
+import React from "Views/SectionsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/SectionsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/SectionsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import TrendingUp from "@material-ui/icons/TrendingUp";
+import TrendingUp from "Views/SectionsPage/Sections/node_modules/@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import CardHeader from "components/Card/CardHeader";
-import Info from "components/Typography/Info";
-import Danger from "components/Typography/Danger";
-import Success from "components/Typography/Success";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/SectionsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import CardHeader from "Views/SectionsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import Info from "Views/SectionsPage/Sections/node_modules/components/Typography/Info";
+import Danger from "Views/SectionsPage/Sections/node_modules/components/Typography/Danger";
+import Success from "Views/SectionsPage/Sections/node_modules/components/Typography/Success";
+import Button from "Views/SectionsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 
-import blogsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle";
+import blogsStyle from "Views/SectionsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle";
 
 import cardBlog4 from "assets/img/examples/card-blog4.jpg";
 import office2 from "assets/img/office2.jpg";

@@ -1,15 +1,15 @@
-import React from "react";
+import React from "Views/AboutUsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/AboutUsPage/Sections/node_modules/prop-types";
 // nodejs library that concatenates classes
-import classNames from "classnames";
+import classNames from "Views/AboutUsPage/Sections/node_modules/classnames";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
+import GridContainer from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/AboutUsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/AboutUsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 
-import officeStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle";
+import officeStyle from "Views/AboutUsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/aboutUsSections/officeStyle";
 
 // office
 import office1 from "assets/img/examples/office1.jpg";

@@ -1,25 +1,25 @@
-import React from "react";
+import React from "Views/BlogPostPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from "Views/BlogPostPage/Sections/node_modules/@material-ui/core/styles/withStyles";
 // @material-ui/icons
-import TrendingUp from "@material-ui/icons/TrendingUp";
+import TrendingUp from "Views/BlogPostPage/Sections/node_modules/@material-ui/icons/TrendingUp";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import Card from "components/Card/Card";
-import CardHeader from "components/Card/CardHeader";
-import CardBody from "components/Card/CardBody";
-import Info from "components/Typography/Info";
-import Success from "components/Typography/Success";
-import Danger from "components/Typography/Danger";
+import GridContainer from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import Card from "Views/BlogPostPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardHeader from "Views/BlogPostPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardHeader";
+import CardBody from "Views/BlogPostPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import Info from "Views/BlogPostPage/Sections/node_modules/components/Typography/Info";
+import Success from "Views/BlogPostPage/Sections/node_modules/components/Typography/Success";
+import Danger from "Views/BlogPostPage/Sections/node_modules/components/Typography/Danger";
 
 import blog6 from "assets/img/examples/blog6.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import blog7 from "assets/img/examples/blog7.jpg";
 
-import sectionSimilarStoriesStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionSimilarStoriesStyle";
+import sectionSimilarStoriesStyle from "Views/BlogPostPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostSections/sectionSimilarStoriesStyle";
 
 function SectionSimilarStories({ ...props }) {
   const { classes } = props;

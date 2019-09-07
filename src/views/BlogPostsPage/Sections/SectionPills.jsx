@@ -1,24 +1,24 @@
-import React from "react";
+import React from "Views/BlogPostsPage/Sections/node_modules/react";
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from "Views/BlogPostsPage/Sections/node_modules/prop-types";
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
-import Tooltip from "@material-ui/core/Tooltip";
+import withStyles from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/styles/withStyles";
+import Tooltip from "Views/BlogPostsPage/Sections/node_modules/@material-ui/core/Tooltip";
 // @material-ui/icons
-import FormatAlignLeft from "@material-ui/icons/FormatAlignLeft";
+import FormatAlignLeft from "Views/BlogPostsPage/Sections/node_modules/@material-ui/icons/FormatAlignLeft";
 // core components
-import GridContainer from "components/Grid/GridContainer";
-import GridItem from "components/Grid/GridItem";
-import NavPills from "components/NavPills/NavPills";
-import Card from "components/Card/Card";
-import CardBody from "components/Card/CardBody";
-import Button from "components/CustomButtons/Button";
+import GridContainer from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridContainer";
+import GridItem from "Views/BlogPostsPage/Sections/node_modules/Components/Instruction/node_modules/components/Grid/GridItem";
+import NavPills from "Views/BlogPostsPage/Sections/node_modules/components/NavPills/NavPills";
+import Card from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/Card";
+import CardBody from "Views/BlogPostsPage/Sections/node_modules/Components/CustomTabs/node_modules/components/Card/CardBody";
+import Button from "Views/BlogPostsPage/Sections/node_modules/Components/CustomUpload/node_modules/components/CustomButtons/Button";
 
 import office2 from "assets/img/examples/office2.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import cardProject6 from "assets/img/examples/card-project6.jpg";
 
-import sectionPillsStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle";
+import sectionPillsStyle from "Views/BlogPostsPage/Sections/node_modules/assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle";
 
 function SectionPills({ ...props }) {
   const { classes } = props;

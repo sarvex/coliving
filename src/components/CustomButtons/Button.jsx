@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'Components/CustomButtons/node_modules/react';
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'Components/CustomButtons/node_modules/classnames';
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'Components/CustomButtons/node_modules/prop-types';
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import Button from '@material-ui/core/Button';
+import withStyles from 'Components/CustomButtons/node_modules/@material-ui/core/styles/withStyles';
+import Button from 'Components/CustomButtons/node_modules/@material-ui/core/Button';
 
-import buttonStyle from '../../assets/jss/material-kit-pro-react/components/buttonStyle';
+import buttonStyle from '../../Assets/JSS/material-kit-pro-react/components/buttonStyle';
 
 const RegularButton = React.forwardRef((props, ref) => {
   const {

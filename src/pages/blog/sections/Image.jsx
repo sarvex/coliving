@@ -1,20 +1,20 @@
 import React from 'react';
 import withStyles from '@material-ui/core/styles/withStyles';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import Card from '../../../components/Card/Card';
-import CardHeader from '../../../components/Card/CardHeader';
-import CardBody from '../../../components/Card/CardBody';
-import CardFooter from '../../../components/Card/CardFooter';
-import Muted from '../../../components/Typography/Muted';
-import Button from '../../../components/CustomButtons/Button';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import Card from '../../../Components/Card/Card';
+import CardHeader from '../../../Components/Card/CardHeader';
+import CardBody from '../../../Components/Card/CardBody';
+import CardFooter from '../../../Components/Card/CardFooter';
+import Muted from '../../../Components/Typography/Muted';
+import Button from '../../../Components/CustomButtons/Button';
 
-import bg10 from '../../../assets/img/bg10.jpg';
+import bg10 from 'Assets/Images/bg10.jpg';
 
-import cardProfile1 from '../../../assets/img/faces/card-profile1-square.jpg';
-import cardProfile4 from '../../../assets/img/faces/card-profile4-square.jpg';
+import cardProfile1 from 'Assets/Images/faces/card-profile1-square.jpg';
+import cardProfile4 from 'Assets/Images/faces/card-profile4-square.jpg';
 
-import sectionImageStyle from '../../../assets/jss/material-kit-pro-react/views/blogPostsSections/sectionImageStyle';
+import sectionImageStyle from '../../../Assets/JSS/material-kit-pro-react/views/blogPostsSections/sectionImageStyle';
 
 function SectionImage({ ...props }) {
   const { classes } = props;

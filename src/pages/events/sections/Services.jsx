@@ -1,13 +1,13 @@
-import React from 'react';
-import classNames from 'classnames';
-import withStyles from '@material-ui/core/styles/withStyles';
-import Gesture from '@material-ui/icons/Gesture';
-import Build from '@material-ui/icons/Build';
-import GridContainer from '../../../components/Grid/GridContainer';
-import GridItem from '../../../components/Grid/GridItem';
-import InfoArea from '../../../components/InfoArea/InfoArea';
+import React from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/react';
+import classNames from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/classnames';
+import withStyles from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/core/styles/withStyles';
+import Gesture from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/icons/Gesture';
+import Build from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/icons/Build';
+import GridContainer from '../../../Components/Grid/GridContainer';
+import GridItem from '../../../Components/Grid/GridItem';
+import InfoArea from '../../../Components/InfoArea/InfoArea';
 
-import servicesStyle from '../../../assets/jss/material-kit-pro-react/views/aboutUsSections/servicesStyle';
+import servicesStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/servicesStyle';
 
 function SectionServices(props) {
   const { classes } = props;
