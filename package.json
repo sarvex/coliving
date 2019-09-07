@@ -61,7 +61,6 @@
     "eslint-config-prettier": "^6.2.0",
     "eslint-loader": "^3.0.0",
     "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
@@ -83,6 +82,7 @@
   },
   "eslintConfig": {
     "root": true,
+    "parser": "babel-eslint",
     "env": {
       "browser": true,
       "node": true,
@@ -92,7 +92,11 @@
       "use": true
     },
     "parserOptions": {
-      "parser": "babel-eslint"
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
     },
     "extends": [
       "airbnb",
@@ -102,8 +106,7 @@
     ],
     "plugins": [
       "prettier",
-      "react",
-      "jsx-a11y"
+      "react"
     ],
     "rules": {
       "implicit-arrow-linebreak": "off",
