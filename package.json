@@ -1,157 +1,161 @@
 {
-  "name": "coliving",
-  "author": {
-    "name": "Sarvex Jatasra",
-    "email": "sarvex@jatasra.com",
-    "url": "https://jatasra.com"
-  },
-  "homepage": "https://coliving.ai",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.4.0",
-    "@material-ui/icons": "^4.2.1",
-    "@types/googlemaps": "^3.37.6",
-    "@types/jest": "^24.0.18",
-    "@types/markerclustererplus": "^2.1.33",
-    "@types/node": "^12.7.4",
-    "@types/prop-types": "^15.7.2",
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "animate.css": "^3.7.2",
-    "apollo-boost": "^0.4.4",
-    "classnames": "^2.2.6",
-    "enzyme": "^3.10.0",
-    "eslint-import-resolver-babel-module": "^5.1.0",
-    "firebase": "^6.6.0",
-    "graphql": "^14.5.4",
-    "graphql-tag": "^2.10.1",
-    "history": "^4.9.0",
-    "mobx": "^5.13.0",
-    "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
-    "nouislider": "^14.0.2",
-    "prop-types": "^15.7.2",
-    "react": "^16.9.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-apollo": "^3.1.0",
-    "react-datetime": "^2.16.3",
-    "react-dom": "^16.9.0",
-    "react-google-maps": "^9.4.5",
-    "react-image-gallery": "^0.9.1",
-    "react-intl": "^3.2.0",
-    "react-router": "^5.0.1",
-    "react-router-dom": "^5.0.1",
-    "react-router-sitemap": "^1.2.0",
-    "react-scripts": "^3.1.1",
-    "react-slick": "^0.25.2",
-    "react-swipeable-views": "^0.13.3",
-    "react-tagsinput": "^3.19.0",
-    "typescript": "^3.6.2"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
-    "core-js": "^3.2.1",
-    "eslint": "^6.3.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.2.0",
-    "eslint-loader": "^3.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "prettier": "^1.18.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint . --ext=js,jsx --fix; exit 0",
-    "clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env",
-      "@babel/preset-react"
-    ]
-  },
-  "eslintConfig": {
-    "root": true,
-    "parser": "babel-eslint",
-    "env": {
-      "browser": true,
-      "node": true,
-      "es6": true
-    },
-    "globals": {
-      "use": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "extends": [
-      "airbnb",
-      "prettier",
-      "prettier/react",
-      "react-app"
-    ],
-    "plugins": [
-      "prettier",
-      "react"
-    ],
-    "rules": {
-      "implicit-arrow-linebreak": "off",
-      "comma-dangle": "off",
-      "indent": "off",
-      "no-trailing-spaces": "off",
-      "no-param-reassign": "off"
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "paths": [
-            "src"
-          ]
-        }
-      }
-    }
-  },
-  "prettier": {
-    "tabWidth": 2,
-    "printWidth": 120,
-    "singleQuote": true,
-    "jsxSingleQuote": true,
-    "semi": false,
-    "useTabs": false,
-    "trailingComma": "es5",
-    "bracketSpacing": true,
-    "jsxBracketSameLine": true,
-    "arrowParens": "always",
-    "endOfLine": "cr"
-  },
-  "engines": {
-    "node": "12.x.x",
-    "npm": "6.x.x"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "coliving",
+	"author": {
+		"name": "Sarvex Jatasra",
+		"email": "sarvex@jatasra.com",
+		"url": "https://jatasra.com"
+	},
+	"homepage": "https://coliving.ai",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@material-ui/core": "^4.4.0",
+		"@material-ui/icons": "^4.2.1",
+		"@types/googlemaps": "^3.37.6",
+		"@types/jest": "^24.0.18",
+		"@types/markerclustererplus": "^2.1.33",
+		"@types/node": "^12.7.4",
+		"@types/prop-types": "^15.7.2",
+		"@types/react": "^16.9.2",
+		"@types/react-dom": "^16.9.0",
+		"animate.css": "^3.7.2",
+		"apollo-boost": "^0.4.4",
+		"classnames": "^2.2.6",
+		"enzyme": "^3.10.0",
+		"eslint-import-resolver-babel-module": "^5.1.0",
+		"firebase": "^6.6.0",
+		"graphql": "^14.5.4",
+		"graphql-tag": "^2.10.1",
+		"history": "^4.9.0",
+		"mobx": "^5.13.0",
+		"moment": "^2.24.0",
+		"node-sass": "^4.12.0",
+		"nouislider": "^14.0.2",
+		"prop-types": "^15.7.2",
+		"react": "^16.9.0",
+		"react-animate-on-scroll": "^2.1.5",
+		"react-apollo": "^3.1.0",
+		"react-datetime": "^2.16.3",
+		"react-dom": "^16.9.0",
+		"react-google-maps": "^9.4.5",
+		"react-image-gallery": "^0.9.1",
+		"react-intl": "^3.2.0",
+		"react-router": "^5.0.1",
+		"react-router-dom": "^5.0.1",
+		"react-router-sitemap": "^1.2.0",
+		"react-scripts": "^3.1.1",
+		"react-slick": "^0.25.2",
+		"react-swipeable-views": "^0.13.3",
+		"react-tagsinput": "^3.19.0",
+		"typescript": "^3.6.2"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.6.0",
+		"@babel/core": "^7.6.0",
+		"@babel/preset-env": "^7.6.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.6",
+		"core-js": "^3.2.1",
+		"eslint": "^6.3.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-prettier": "^6.2.0",
+		"eslint-loader": "^3.0.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-prettier": "^3.1.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-react": "^7.14.3",
+		"prettier": "^1.18.2",
+		"prettier-eslint": "^9.0.0",
+		"prettier-eslint-cli": "^5.0.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint . --ext=js,jsx --fix; exit 0",
+		"fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}' ",
+		"fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}' ",
+		"clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
+	"eslintConfig": {
+		"root": true,
+		"parser": "babel-eslint",
+		"env": {
+			"browser": true,
+			"node": true,
+			"es6": true
+		},
+		"globals": {
+			"use": true
+		},
+		"parserOptions": {
+			"ecmaVersion": 6,
+			"sourceType": "module",
+			"ecmaFeatures": {
+				"jsx": true
+			}
+		},
+		"extends": [
+			"airbnb",
+			"prettier",
+			"prettier/react",
+			"react-app"
+		],
+		"plugins": [
+			"prettier",
+			"react"
+		],
+		"rules": {
+			"implicit-arrow-linebreak": "off",
+			"comma-dangle": "off",
+			"indent": "off",
+			"no-trailing-spaces": "off",
+			"no-param-reassign": "off"
+		},
+		"settings": {
+			"import/resolver": {
+				"node": {
+					"paths": [
+						"src"
+					]
+				}
+			}
+		}
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"printWidth": 120,
+		"singleQuote": true,
+		"jsxSingleQuote": true,
+		"semi": false,
+		"useTabs": false,
+		"trailingComma": "es5",
+		"bracketSpacing": true,
+		"jsxBracketSameLine": true,
+		"arrowParens": "always",
+		"endOfLine": "cr"
+	},
+	"engines": {
+		"node": "12.x.x",
+		"npm": "6.x.x"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
