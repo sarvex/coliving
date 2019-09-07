@@ -1,55 +1,55 @@
-import React from 'react';
+import React from 'react'
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'classnames'
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
-import Paper from '@material-ui/core/Paper';
-import Grow from '@material-ui/core/Grow';
-import Divider from '@material-ui/core/Divider';
-import Popper from '@material-ui/core/Popper';
+import withStyles from '@material-ui/core/styles/withStyles'
+import MenuItem from '@material-ui/core/MenuItem'
+import MenuList from '@material-ui/core/MenuList'
+import ClickAwayListener from '@material-ui/core/ClickAwayListener'
+import Paper from '@material-ui/core/Paper'
+import Grow from '@material-ui/core/Grow'
+import Divider from '@material-ui/core/Divider'
+import Popper from '@material-ui/core/Popper'
 // core components
-import Button from 'Components/CustomButtons/Button';
+import Button from 'Components/CustomButtons/Button'
 
-import customDropdownStyle from 'Assets/JSS/material-kit-pro-react/components/customDropdownStyle';
+import customDropdownStyle from 'Assets/JSS/material-kit-pro-react/components/customDropdownStyle'
 
 class CustomDropdown extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
-      open: false
-    };
-    this.handleClick = this.handleClick.bind(this);
-    this.handleClose = this.handleClose.bind(this);
-    this.handleCloseMenu = this.handleCloseMenu.bind(this);
+      open: false,
+    }
+    this.handleClick = this.handleClick.bind(this)
+    this.handleClose = this.handleClose.bind(this)
+    this.handleCloseMenu = this.handleCloseMenu.bind(this)
   }
 
   handleClick = () => {
-    this.setState(state => ({ open: !state.open }));
-  };
+    this.setState((state) => ({ open: !state.open }))
+  }
 
   handleClose = (event) => {
     if (this.anchorEl.contains(event.target)) {
-      return;
+      return
     }
 
-    this.setState({ open: false });
-  };
+    this.setState({ open: false })
+  }
 
   handleCloseMenu(param) {
-    this.setState({ open: false });
+    this.setState({ open: false })
     if (this.props && this.props.onClick) {
-      this.props.onClick(param);
+      this.props.onClick(param)
     }
   }
 
   render() {
-    const { open } = this.state;
+    const { open } = this.state
     const {
       classes,
       buttonText,
@@ -64,27 +64,24 @@ class CustomDropdown extends React.Component {
       rtlActive,
       noLiPadding,
       innerDropDown,
-      navDropdown
-    } = this.props;
+      navDropdown,
+    } = this.props
     const caretClasses = classNames({
       [classes.caret]: true,
       [classes.caretDropup]: dropup && !open,
       [classes.caretActive]: open && !dropup,
-      [classes.caretRTL]: rtlActive
-    });
+      [classes.caretRTL]: rtlActive,
+    })
     const dropdownItem = classNames({
       [classes.dropdownItem]: true,
       [classes[`${hoverColor}Hover`]]: true,
       [classes.noLiPadding]: noLiPadding,
-      [classes.dropdownItemRTL]: rtlActive
-    });
+      [classes.dropdownItemRTL]: rtlActive,
+    })
     const dropDownMenu = (
-      <MenuList role="menu" className={classes.menuList}>
+      <MenuList role='menu' className={classes.menuList}>
         {dropdownHeader !== undefined ? (
-          <MenuItem
-            onClick={() => this.handleCloseMenu(dropdownHeader)}
-            className={classes.dropdownHeader}
-          >
+          <MenuItem onClick={() => this.handleCloseMenu(dropdownHeader)} className={classes.dropdownHeader}>
             {dropdownHeader}
           </MenuItem>
         ) : null}
@@ -96,49 +93,36 @@ class CustomDropdown extends React.Component {
                 onClick={() => this.handleCloseMenu('divider')}
                 className={classes.dropdownDividerItem}
               />
-            );
-          } if (
-            prop.props !== undefined
-            && prop.props['data-ref'] === 'multi'
-          ) {
+            )
+          }
+          if (prop.props !== undefined && prop.props['data-ref'] === 'multi') {
             return (
-              <MenuItem
-                key={key}
-                className={dropdownItem}
-                style={{ overflow: 'visible', padding: 0 }}
-              >
+              <MenuItem key={key} className={dropdownItem} style={{ overflow: 'visible', padding: 0 }}>
                 {prop}
               </MenuItem>
-            );
+            )
           }
           return (
-            <MenuItem
-              key={key}
-              onClick={() => this.handleCloseMenu(prop)}
-              className={dropdownItem}
-            >
+            <MenuItem key={key} onClick={() => this.handleCloseMenu(prop)} className={dropdownItem}>
               {prop}
             </MenuItem>
-          );
+          )
         })}
       </MenuList>
-    );
+    )
     return (
       <div className={innerDropDown ? classes.innerManager : classes.manager}>
         <div className={buttonText !== undefined ? '' : classes.target}>
           <Button
-            aria-label="Notifications"
+            aria-label='Notifications'
             aria-owns={open ? 'menu-list' : null}
-            aria-haspopup="true"
+            aria-haspopup='true'
             buttonRef={(node) => {
-              this.anchorEl = node;
+              this.anchorEl = node
             }}
             {...buttonProps}
-            onClick={this.handleClick}
-          >
-            {buttonIcon !== undefined ? (
-              <this.props.buttonIcon className={classes.buttonIcon} />
-            ) : null}
+            onClick={this.handleClick}>
+            {buttonIcon !== undefined ? <this.props.buttonIcon className={classes.buttonIcon} /> : null}
             {buttonText !== undefined ? buttonText : null}
             {caret ? <b className={caretClasses} /> : null}
           </Button>
@@ -152,53 +136,37 @@ class CustomDropdown extends React.Component {
           className={classNames({
             [classes.popperClose]: !open,
             [classes.pooperResponsive]: true,
-            [classes.pooperNav]: open && navDropdown
-          })}
-        >
+            [classes.pooperNav]: open && navDropdown,
+          })}>
           {() => (
             <Grow
               in={open}
-              id="menu-list"
-              style={
-                dropup
-                  ? { transformOrigin: '0 100% 0' }
-                  : { transformOrigin: '0 0 0' }
-              }
-            >
+              id='menu-list'
+              style={dropup ? { transformOrigin: '0 100% 0' } : { transformOrigin: '0 0 0' }}>
               <Paper className={classes.dropdown}>
                 {innerDropDown ? (
                   dropDownMenu
                 ) : (
-                  <ClickAwayListener onClickAway={this.handleClose}>
-                    {dropDownMenu}
-                  </ClickAwayListener>
+                  <ClickAwayListener onClickAway={this.handleClose}>{dropDownMenu}</ClickAwayListener>
                 )}
               </Paper>
             </Grow>
           )}
         </Popper>
       </div>
-    );
+    )
   }
 }
 
 CustomDropdown.defaultProps = {
   caret: true,
   dropup: false,
-  hoverColor: 'primary'
-};
+  hoverColor: 'primary',
+}
 
 CustomDropdown.propTypes = {
   classes: PropTypes.object.isRequired,
-  hoverColor: PropTypes.oneOf([
-    'dark',
-    'primary',
-    'info',
-    'success',
-    'warning',
-    'danger',
-    'rose'
-  ]),
+  hoverColor: PropTypes.oneOf(['dark', 'primary', 'info', 'success', 'warning', 'danger', 'rose']),
   buttonText: PropTypes.node,
   buttonIcon: PropTypes.object,
   dropdownList: PropTypes.array,
@@ -219,13 +187,13 @@ CustomDropdown.propTypes = {
     'right-start',
     'right-end',
     'left-start',
-    'left-end'
+    'left-end',
   ]),
   noLiPadding: PropTypes.bool,
   innerDropDown: PropTypes.bool,
   navDropdown: PropTypes.bool,
   // This is a function that returns the clicked menu item
-  onClick: PropTypes.func
-};
+  onClick: PropTypes.func,
+}
 
-export default withStyles(customDropdownStyle)(CustomDropdown);
+export default withStyles(customDropdownStyle)(CustomDropdown)

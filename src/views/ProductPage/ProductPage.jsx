@@ -1,70 +1,65 @@
-import React from 'react';
+import React from 'react'
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'classnames'
 // react component used to create nice image meadia player
-import ImageGallery from 'react-image-gallery';
+import ImageGallery from 'react-image-gallery'
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles'
+import FormControl from '@material-ui/core/FormControl'
+import Select from '@material-ui/core/Select'
+import MenuItem from '@material-ui/core/MenuItem'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
 // @material-ui/icons
-import ShoppingCart from '@material-ui/icons/ShoppingCart';
-import LocalShipping from '@material-ui/icons/LocalShipping';
-import VerifiedUser from '@material-ui/icons/VerifiedUser';
-import Favorite from '@material-ui/icons/Favorite';
+import ShoppingCart from '@material-ui/icons/ShoppingCart'
+import LocalShipping from '@material-ui/icons/LocalShipping'
+import VerifiedUser from '@material-ui/icons/VerifiedUser'
+import Favorite from '@material-ui/icons/Favorite'
 // core components
-import Header from 'Components/Header/Header';
-import HeaderLinks from 'Components/Header/HeaderLinks';
-import Parallax from 'Components/Parallax/Parallax';
-import GridContainer from 'Components/Grid/GridContainer';
-import GridItem from 'Components/Grid/GridItem';
-import Footer from 'Components/Footer/Footer';
-import Button from 'Components/CustomButtons/Button';
-import Accordion from 'Components/Accordion/Accordion';
-import InfoArea from 'Components/InfoArea/InfoArea';
-import Card from 'Components/Card/Card';
-import CardHeader from 'Components/Card/CardHeader';
-import CardBody from 'Components/Card/CardBody';
-import CardFooter from 'Components/Card/CardFooter';
-import Tooltip from '@material-ui/core/Tooltip';
+import Header from 'Components/Header/Header'
+import HeaderLinks from 'Components/Header/HeaderLinks'
+import Parallax from 'Components/Parallax/Parallax'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
+import Footer from 'Components/Footer/Footer'
+import Button from 'Components/CustomButtons/Button'
+import Accordion from 'Components/Accordion/Accordion'
+import InfoArea from 'Components/InfoArea/InfoArea'
+import Card from 'Components/Card/Card'
+import CardHeader from 'Components/Card/CardHeader'
+import CardBody from 'Components/Card/CardBody'
+import CardFooter from 'Components/Card/CardFooter'
+import Tooltip from '@material-ui/core/Tooltip'
 
-import productStyle from 'Assets/JSS/material-kit-pro-react/views/productStyle';
+import productStyle from 'Assets/JSS/material-kit-pro-react/views/productStyle'
 
 // images
-import cardProduct1 from 'Assets/Images/examples/card-product1.jpg';
-import cardProduct3 from 'Assets/Images/examples/card-product3.jpg';
-import cardProduct4 from 'Assets/Images/examples/card-product4.jpg';
-import cardProduct2 from 'Assets/Images/examples/card-product2.jpg';
-import product1 from 'Assets/Images/examples/product1.jpg';
-import product2 from 'Assets/Images/examples/product2.jpg';
-import product3 from 'Assets/Images/examples/product3.jpg';
-import product4 from 'Assets/Images/examples/product4.jpg';
+import cardProduct1 from 'Assets/Images/examples/card-product1.jpg'
+import cardProduct3 from 'Assets/Images/examples/card-product3.jpg'
+import cardProduct4 from 'Assets/Images/examples/card-product4.jpg'
+import cardProduct2 from 'Assets/Images/examples/card-product2.jpg'
+import product1 from 'Assets/Images/examples/product1.jpg'
+import product2 from 'Assets/Images/examples/product2.jpg'
+import product3 from 'Assets/Images/examples/product3.jpg'
+import product4 from 'Assets/Images/examples/product4.jpg'
 
 class ProductPage extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       colorSelect: '0',
       sizeSelect: '0',
-    };
+    }
   }
 
   handleSelect = event => {
-    this.setState({ [event.target.name]: event.target.value });
-  };
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
+    this.setState({ [event.target.name]: event.target.value })
   }
 
   render() {
-    const { classes } = this.props;
+    const { classes } = this.props
     const images = [
       {
         original: product3,
@@ -82,7 +77,7 @@ class ProductPage extends React.Component {
         original: product2,
         thumbnail: product2,
       },
-    ];
+    ]
     return (
       <div className={classes.productPage}>
         <Header
@@ -470,12 +465,12 @@ class ProductPage extends React.Component {
           }
         />
       </div>
-    );
+    )
   }
 }
 
 ProductPage.propTypes = {
   classes: PropTypes.object,
-};
+}
 
-export default withStyles(productStyle)(ProductPage);
+export default withStyles(productStyle)(ProductPage)

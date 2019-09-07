@@ -1,70 +1,65 @@
-import React from 'react';
+import React from 'react'
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import Icon from '@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles'
+import InputAdornment from '@material-ui/core/InputAdornment'
+import Checkbox from '@material-ui/core/Checkbox'
+import FormControlLabel from '@material-ui/core/FormControlLabel'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import Icon from '@material-ui/core/Icon'
 // @material-ui/icons
-import Timeline from '@material-ui/icons/Timeline';
-import Code from '@material-ui/icons/Code';
-import Group from '@material-ui/icons/Group';
-import Face from '@material-ui/icons/Face';
-import Email from '@material-ui/icons/Email';
-import Check from '@material-ui/icons/Check';
-import Favorite from '@material-ui/icons/Favorite';
+import Timeline from '@material-ui/icons/Timeline'
+import Code from '@material-ui/icons/Code'
+import Group from '@material-ui/icons/Group'
+import Face from '@material-ui/icons/Face'
+import Email from '@material-ui/icons/Email'
+import Check from '@material-ui/icons/Check'
+import Favorite from '@material-ui/icons/Favorite'
 // core components
-import Header from 'Components/Header/Header';
-import HeaderLinks from 'Components/Header/HeaderLinks';
-import Footer from 'Components/Footer/Footer';
-import GridContainer from 'Components/Grid/GridContainer';
-import GridItem from 'Components/Grid/GridItem';
-import Button from 'Components/CustomButtons/Button';
-import Card from 'Components/Card/Card';
-import CardBody from 'Components/Card/CardBody';
-import InfoArea from 'Components/InfoArea/InfoArea';
-import CustomInput from 'Components/CustomInput/CustomInput';
+import Header from 'Components/Header/Header'
+import HeaderLinks from 'Components/Header/HeaderLinks'
+import Footer from 'Components/Footer/Footer'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
+import Button from 'Components/CustomButtons/Button'
+import Card from 'Components/Card/Card'
+import CardBody from 'Components/Card/CardBody'
+import InfoArea from 'Components/InfoArea/InfoArea'
+import CustomInput from 'Components/CustomInput/CustomInput'
 
-import signupPageStyle from 'Assets/JSS/material-kit-pro-react/views/signupPageStyle';
+import signupPageStyle from 'Assets/JSS/material-kit-pro-react/views/signupPageStyle'
 
-import image from 'Assets/Images/bg7.jpg';
+import image from 'Assets/Images/bg7.jpg'
 
 class SignUpPage extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       checked: [1],
-    };
-    this.handleToggle = this.handleToggle.bind(this);
+    }
+    this.handleToggle = this.handleToggle.bind(this)
   }
 
   handleToggle(value) {
-    const { checked } = this.state;
-    const currentIndex = checked.indexOf(value);
-    const newChecked = [...checked];
+    const { checked } = this.state
+    const currentIndex = checked.indexOf(value)
+    const newChecked = [...checked]
 
     if (currentIndex === -1) {
-      newChecked.push(value);
+      newChecked.push(value)
     } else {
-      newChecked.splice(currentIndex, 1);
+      newChecked.splice(currentIndex, 1)
     }
 
     this.setState({
       checked: newChecked,
-    });
-  }
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
+    })
   }
 
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
     return (
       <div>
         <Header
@@ -77,7 +72,7 @@ class SignUpPage extends React.Component {
         <div
           className={classes.pageHeader}
           style={{
-            backgroundImage: `url(${  image  })`,
+            backgroundImage: `url(${image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
           }}>
@@ -114,15 +109,15 @@ class SignUpPage extends React.Component {
                       <GridItem xs={12} sm={5} md={5}>
                         <div className={classes.textCenter}>
                           <Button justIcon round color='twitter'>
-                            <i className={`${classes.socials  } fab fa-twitter`} />
+                            <i className={`${classes.socials} fab fa-twitter`} />
                           </Button>
                           {` `}
                           <Button justIcon round color='dribbble'>
-                            <i className={`${classes.socials  } fab fa-dribbble`} />
+                            <i className={`${classes.socials} fab fa-dribbble`} />
                           </Button>
                           {` `}
                           <Button justIcon round color='facebook'>
-                            <i className={`${classes.socials  } fab fa-facebook-f`} />
+                            <i className={`${classes.socials} fab fa-facebook-f`} />
                           </Button>
                           {` `}
                           <h4 className={classes.socialTitle}>or be classical</h4>
@@ -251,12 +246,12 @@ class SignUpPage extends React.Component {
           />
         </div>
       </div>
-    );
+    )
   }
 }
 
 SignUpPage.propTypes = {
   classes: PropTypes.object,
-};
+}
 
-export default withStyles(signupPageStyle)(SignUpPage);
+export default withStyles(signupPageStyle)(SignUpPage)

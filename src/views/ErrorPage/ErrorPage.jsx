@@ -1,55 +1,50 @@
-import React from 'react';
+import React from 'react'
 // nodejs library to set properties for components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
 // @material-ui/icons
-import Favorite from '@material-ui/icons/Favorite';
+import Favorite from '@material-ui/icons/Favorite'
 // core components
-import Header from 'Components/Header/Header';
-import HeaderLinks from 'Components/Header/HeaderLinks';
-import Footer from 'Components/Footer/Footer';
-import GridContainer from 'Components/Grid/GridContainer';
-import GridItem from 'Components/Grid/GridItem';
+import Header from 'Components/Header/Header'
+import HeaderLinks from 'Components/Header/HeaderLinks'
+import Footer from 'Components/Footer/Footer'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
 
-import errorPageStyle from 'Assets/JSS/material-kit-pro-react/views/errorPageStyles';
+import errorPageStyle from 'Assets/JSS/material-kit-pro-react/views/errorPageStyles'
 
-import image from 'Assets/Images/clint-mckoy.jpg';
+import image from 'Assets/Images/clint-mckoy.jpg'
 
 class ErrorPage extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       checked: [1],
-    };
-    this.handleToggle = this.handleToggle.bind(this);
+    }
+    this.handleToggle = this.handleToggle.bind(this)
   }
 
   handleToggle(value) {
-    const { checked } = this.state;
-    const currentIndex = checked.indexOf(value);
-    const newChecked = [...checked];
+    const { checked } = this.state
+    const currentIndex = checked.indexOf(value)
+    const newChecked = [...checked]
 
     if (currentIndex === -1) {
-      newChecked.push(value);
+      newChecked.push(value)
     } else {
-      newChecked.splice(currentIndex, 1);
+      newChecked.splice(currentIndex, 1)
     }
 
     this.setState({
       checked: newChecked,
-    });
-  }
-
-  componentDidMount() {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
+    })
   }
 
   render() {
-    const { classes, ...rest } = this.props;
+    const { classes, ...rest } = this.props
     return (
       <div>
         <Header
@@ -62,7 +57,7 @@ class ErrorPage extends React.Component {
         <div
           className={classes.pageHeader}
           style={{
-            backgroundImage: `url(${  image  })`,
+            backgroundImage: `url(${image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'top center',
           }}>
@@ -122,12 +117,12 @@ class ErrorPage extends React.Component {
           }
         />
       </div>
-    );
+    )
   }
 }
 
 ErrorPage.propTypes = {
   classes: PropTypes.object,
-};
+}
 
-export default withStyles(errorPageStyle)(ErrorPage);
+export default withStyles(errorPageStyle)(ErrorPage)

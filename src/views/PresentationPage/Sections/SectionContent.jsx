@@ -1,80 +1,61 @@
-import React from "react";
+import React from 'react'
 // nodejs library to set properties for components
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types'
 // core components
-import GridContainer from "Components/Grid/GridContainer";
-import GridItem from "Components/Grid/GridItem";
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
 // @material-ui/core components
-import withStyles from "@material-ui/core/styles/withStyles";
+import withStyles from '@material-ui/core/styles/withStyles'
 // library used for cool animations
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
+import ScrollAnimation from 'react-animate-on-scroll'
+import 'animate.css/animate.min.css'
 
-import contentStyle from "Assets/JSS/material-kit-pro-react/views/presentationSections/contentStyle";
+import contentStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/contentStyle'
 // images
-import presentationiPad from "Assets/Images/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg";
-import presentationiPadComments from "Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";
-import presentationiPadTable from "Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg";
+import presentationiPad from 'Assets/Images/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg'
+import presentationiPadComments from 'Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg'
+import presentationiPadTable from 'Assets/Images/assets-for-demo/presentationViewSectionComponent/ipad-table.jpg'
 
-class SectionContent extends React.Component {
-  render() {
-    const { classes } = this.props;
-    return (
-      <div className={classes.section}>
-        <div className={classes.container}>
-          <GridContainer justify="center">
-            <GridItem md={4}>
-              <div className={classes.sectionDescription}>
-                <h3 className={classes.title}>Content Areas</h3>
-                <h6 className={classes.description}>
-                  For Areas that Need More Space
-                </h6>
-                <h5 className={classes.description}>
-                  If you need elements such as tables, comments, description
-                  areas, tabs and many others, we{"'"}ve got you covered. We
-                  took into consideration multiple use cases and came up with
-                  some specific elements that you will love to use. They{"'"}re
-                  beautiful and easy to use for the end user navigating your
-                  website.{" "}
-                </h5>
+const SectionContent = (props) => {
+  const { classes } = props
+  return (
+    <div className={classes.section}>
+      <div className={classes.container}>
+        <GridContainer justify='center'>
+          <GridItem md={4}>
+            <div className={classes.sectionDescription}>
+              <h3 className={classes.title}>Content Areas</h3>
+              <h6 className={classes.description}>For Areas that Need More Space</h6>
+              <h5 className={classes.description}>
+                If you need elements such as tables, comments, description areas, tabs and many others, we{"'"}ve got
+                you covered. We took into consideration multiple use cases and came up with some specific elements that
+                you will love to use. They{"'"}re beautiful and easy to use for the end user navigating your website.{' '}
+              </h5>
+            </div>
+          </GridItem>
+          <GridItem md={7} className={classes.mlAuto}>
+            <div className={classes.imageContainer}>
+              <div className={classes.animeAreaImg}>
+                <ScrollAnimation animateIn='fadeInUp'>
+                  <img src={presentationiPadComments} alt='iPad comments' className={classes.areaImg} />
+                </ScrollAnimation>
               </div>
-            </GridItem>
-            <GridItem md={7} className={classes.mlAuto}>
-              <div className={classes.imageContainer}>
-                <div className={classes.animeAreaImg}>
-                  <ScrollAnimation animateIn="fadeInUp">
-                    <img
-                      src={presentationiPadComments}
-                      alt="iPad comments"
-                      className={classes.areaImg}
-                    />
-                  </ScrollAnimation>
-                </div>
-                <div className={classes.animeInfoImg}>
-                  <ScrollAnimation animateIn="fadeInUp">
-                    <img
-                      src={presentationiPadTable}
-                      alt="iPad table"
-                      className={classes.infoImg}
-                    />
-                  </ScrollAnimation>
-                </div>
-                <img
-                  className={classes.ipadImg}
-                  src={presentationiPad}
-                  alt="iPad"
-                />
+              <div className={classes.animeInfoImg}>
+                <ScrollAnimation animateIn='fadeInUp'>
+                  <img src={presentationiPadTable} alt='iPad table' className={classes.infoImg} />
+                </ScrollAnimation>
               </div>
-            </GridItem>
-          </GridContainer>
-        </div>
+              <img className={classes.ipadImg} src={presentationiPad} alt='iPad' />
+            </div>
+          </GridItem>
+        </GridContainer>
       </div>
-    );
-  }
+    </div>
+  )
 }
 
 SectionContent.propTypes = {
-  classes: PropTypes.object
-};
+  classes: PropTypes.object,
+}
 
-export default withStyles(contentStyle)(SectionContent);
+export default withStyles(contentStyle)(SectionContent)

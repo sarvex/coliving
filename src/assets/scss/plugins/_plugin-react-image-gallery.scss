@@ -1,4 +1,4 @@
-@import "../../../../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
 .image-gallery-left-nav,
 .image-gallery-right-nav {
@@ -9,13 +9,11 @@
   bottom: -40%;
   top: auto;
   padding: 0 !important;
-
   &:before,
   &:hover:before {
     color: #3c4858;
     text-shadow: none;
   }
-
   &:before {
     font-family: "Material Icons";
     font-weight: normal;
@@ -32,23 +30,18 @@
     -webkit-font-smoothing: antialiased;
   }
 }
-
 .image-gallery-left-nav {
   left: -20px;
-
   &::before {
     content: "chevron_left";
   }
 }
-
 .image-gallery-right-nav {
   right: -20px;
-
   &::before {
     content: "chevron_right";
   }
 }
-
 .image-gallery-thumbnail {
   margin: 0px;
   padding: 0px;
@@ -57,11 +50,9 @@
   line-height: 0px;
   width: 125px;
   border: none !important;
-
   & + .image-gallery-thumbnail {
     margin: 0 !important;
   }
-
   img {
     max-width: 100%;
     cursor: pointer;
@@ -70,17 +61,14 @@
     margin-bottom: 10px;
   }
 }
-
 .image-gallery-thumbnail-label {
   display: none !important;
 }
-
 .image-gallery-thumbnails {
   padding: 0 !important;
   overflow: hidden;
   width: 100%;
 }
-
 .image-gallery-thumbnails-container {
   position: relative;
   // width: 99999px;

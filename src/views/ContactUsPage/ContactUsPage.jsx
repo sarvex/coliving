@@ -1,30 +1,30 @@
-import React from 'react';
+import React from 'react'
 // nodejs library to set properties for Components
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 // nodejs library that concatenates classes
-import classNames from 'classnames';
+import classNames from 'classnames'
 // react Components used to create a google map
-import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps'
 // @material-ui/core components
-import withStyles from '@material-ui/core/styles/withStyles';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
+import withStyles from '@material-ui/core/styles/withStyles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
 // @material-ui/icons
-import Favorite from '@material-ui/icons/Favorite';
-import PinDrop from '@material-ui/icons/PinDrop';
-import Phone from '@material-ui/icons/Phone';
-import BusinessCenter from '@material-ui/icons/BusinessCenter';
+import Favorite from '@material-ui/icons/Favorite'
+import PinDrop from '@material-ui/icons/PinDrop'
+import Phone from '@material-ui/icons/Phone'
+import BusinessCenter from '@material-ui/icons/BusinessCenter'
 // core components
-import Header from 'Components/Header/Header';
-import HeaderLinks from 'Components/Header/HeaderLinks';
-import GridContainer from 'Components/Grid/GridContainer';
-import GridItem from 'Components/Grid/GridItem';
-import InfoArea from 'Components/InfoArea/InfoArea';
-import CustomInput from 'Components/CustomInput/CustomInput';
-import Button from 'Components/CustomButtons/Button';
-import Footer from 'Components/Footer/Footer';
+import Header from 'Components/Header/Header'
+import HeaderLinks from 'Components/Header/HeaderLinks'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
+import InfoArea from 'Components/InfoArea/InfoArea'
+import CustomInput from 'Components/CustomInput/CustomInput'
+import Button from 'Components/CustomButtons/Button'
+import Footer from 'Components/Footer/Footer'
 
-import contactUsStyle from 'Assets/JSS/material-kit-pro-react/views/contactUsStyle';
+import contactUsStyle from 'Assets/JSS/material-kit-pro-react/views/contactUsStyle'
 
 const CustomSkinMap = withScriptjs(
   withGoogleMap(() => (
@@ -90,180 +90,170 @@ const CustomSkinMap = withScriptjs(
       <Marker position={{ lat: 44.43353, lng: 26.093928 }} />
     </GoogleMap>
   ))
-);
+)
 
-class ContactUsPage extends React.Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-    document.body.scrollTop = 0;
-  }
-
-  render() {
-    const { classes } = this.props;
-    return (
-      <div>
-        <Header brand='Material Kit PRO React' links={<HeaderLinks dropdownHoverColor='dark' />} fixed color='dark' />
-        <div className={classes.bigMap}>
-          <CustomSkinMap
-            googleMapURL='https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'
-            loadingElement={<div style={{ height: `100%` }} />}
-            containerElement={
-              <div
-                style={{
-                  height: `100%`,
-                  borderRadius: '6px',
-                  overflow: 'hidden',
-                }}
-              />
-            }
-            mapElement={<div style={{ height: `100%` }} />}
-          />
-        </div>
-        <div className={classNames(classes.main, classes.mainRaised)}>
-          <div className={classes.contactContent}>
-            <div className={classes.container}>
-              <h2 className={classes.title}>Send us a message</h2>
-              <GridContainer>
-                <GridItem md={6} sm={6}>
-                  <p>
-                    You can contact us with anything related to our Products. We
-                    {"'"}ll get in touch with you as soon as possible.
-                    <br />
-                    <br />
-                  </p>
-                  <form>
-                    <CustomInput
-                      labelText='Your Name'
-                      id='float'
-                      formControlProps={{
-                        fullWidth: true,
-                      }}
-                    />
-                    <CustomInput
-                      labelText='Email address'
-                      id='float'
-                      formControlProps={{
-                        fullWidth: true,
-                      }}
-                    />
-                    <CustomInput
-                      labelText='Phone'
-                      id='float'
-                      formControlProps={{
-                        fullWidth: true,
-                      }}
-                    />
-                    <CustomInput
-                      labelText='Your message'
-                      id='float'
-                      formControlProps={{
-                        fullWidth: true,
-                      }}
-                      inputProps={{
-                        multiline: true,
-                        rows: 6,
-                      }}
-                    />
-                    <div className={classes.textCenter}>
-                      <Button color='primary' round>
-                        Contact us
-                      </Button>
-                    </div>
-                  </form>
-                </GridItem>
-                <GridItem md={4} sm={4} className={classes.mlAuto}>
-                  <InfoArea
-                    className={classes.info}
-                    title='Find us at the office'
-                    description={
-                      <p>
-                        Bld Mihail Kogalniceanu, nr. 8, <br /> 7652 Bucharest, <br /> Romania
-                      </p>
-                    }
-                    icon={PinDrop}
-                    iconColor='primary'
-                  />
-                  <InfoArea
-                    className={classes.info}
-                    title='Give us a ring'
-                    description={
-                      <p>
-                        Michael Jordan <br /> +40 762 321 762 <br /> Mon - Fri, 8:00-22:00
-                      </p>
-                    }
-                    icon={Phone}
-                    iconColor='primary'
-                  />
-                  <InfoArea
-                    className={classes.info}
-                    title='Legal Information'
-                    description={
-                      <p>
-                        Creative Tim Ltd. <br /> VAT · EN2341241 <br /> IBAN · EN8732ENGB2300099123 <br /> Bank · Great
-                        Britain Bank
-                      </p>
-                    }
-                    icon={BusinessCenter}
-                    iconColor='primary'
-                  />
-                </GridItem>
-              </GridContainer>
-            </div>
-          </div>
-        </div>
-        <Footer
-          content={
-            <div>
-              <div className={classes.left}>
-                <List className={classes.list}>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href='https://www.creative-tim.com/?ref=mkpr-contact-us'
-                      target='_blank'
-                      className={classes.block}>
-                      Creative Tim
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href='https://www.creative-tim.com/presentation?ref=mkpr-contact-us'
-                      target='_blank'
-                      className={classes.block}>
-                      About us
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a href='//blog.creative-tim.com/' className={classes.block}>
-                      Blog
-                    </a>
-                  </ListItem>
-                  <ListItem className={classes.inlineBlock}>
-                    <a
-                      href='https://www.creative-tim.com/license?ref=mkpr-contact-us'
-                      target='_blank'
-                      className={classes.block}>
-                      Licenses
-                    </a>
-                  </ListItem>
-                </List>
-              </div>
-              <div className={classes.right}>
-                &copy; {1900 + new Date().getYear()} , made with <Favorite className={classes.icon} /> by{' '}
-                <a href='https://www.creative-tim.com?ref=mkpr-contact-us' target='_blank'>
-                  Creative Tim
-                </a>{' '}
-                for a better web.
-              </div>
-            </div>
+const ContactUsPage = (props) => {
+  const { classes } = props
+  return (
+    <div>
+      <Header brand='Material Kit PRO React' links={<HeaderLinks dropdownHoverColor='dark' />} fixed color='dark' />
+      <div className={classes.bigMap}>
+        <CustomSkinMap
+          googleMapURL='https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE'
+          loadingElement={<div style={{ height: `100%` }} />}
+          containerElement={
+            <div
+              style={{
+                height: `100%`,
+                borderRadius: '6px',
+                overflow: 'hidden',
+              }}
+            />
           }
+          mapElement={<div style={{ height: `100%` }} />}
         />
       </div>
-    );
-  }
+      <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classes.contactContent}>
+          <div className={classes.container}>
+            <h2 className={classes.title}>Send us a message</h2>
+            <GridContainer>
+              <GridItem md={6} sm={6}>
+                <p>
+                  You can contact us with anything related to our Products. We
+                  {"'"}ll get in touch with you as soon as possible.
+                  <br />
+                  <br />
+                </p>
+                <form>
+                  <CustomInput
+                    labelText='Your Name'
+                    id='float'
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                  <CustomInput
+                    labelText='Email address'
+                    id='float'
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                  <CustomInput
+                    labelText='Phone'
+                    id='float'
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                  />
+                  <CustomInput
+                    labelText='Your message'
+                    id='float'
+                    formControlProps={{
+                      fullWidth: true,
+                    }}
+                    inputProps={{
+                      multiline: true,
+                      rows: 6,
+                    }}
+                  />
+                  <div className={classes.textCenter}>
+                    <Button color='primary' round>
+                      Contact us
+                    </Button>
+                  </div>
+                </form>
+              </GridItem>
+              <GridItem md={4} sm={4} className={classes.mlAuto}>
+                <InfoArea
+                  className={classes.info}
+                  title='Find us at the office'
+                  description={
+                    <p>
+                      Bld Mihail Kogalniceanu, nr. 8, <br /> 7652 Bucharest, <br /> Romania
+                    </p>
+                  }
+                  icon={PinDrop}
+                  iconColor='primary'
+                />
+                <InfoArea
+                  className={classes.info}
+                  title='Give us a ring'
+                  description={
+                    <p>
+                      Michael Jordan <br /> +40 762 321 762 <br /> Mon - Fri, 8:00-22:00
+                    </p>
+                  }
+                  icon={Phone}
+                  iconColor='primary'
+                />
+                <InfoArea
+                  className={classes.info}
+                  title='Legal Information'
+                  description={
+                    <p>
+                      Creative Tim Ltd. <br /> VAT · EN2341241 <br /> IBAN · EN8732ENGB2300099123 <br /> Bank · Great
+                      Britain Bank
+                    </p>
+                  }
+                  icon={BusinessCenter}
+                  iconColor='primary'
+                />
+              </GridItem>
+            </GridContainer>
+          </div>
+        </div>
+      </div>
+      <Footer
+        content={
+          <div>
+            <div className={classes.left}>
+              <List className={classes.list}>
+                <ListItem className={classes.inlineBlock}>
+                  <a href='https://www.creative-tim.com/?ref=mkpr-contact-us' target='_blank' className={classes.block}>
+                    Creative Tim
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href='https://www.creative-tim.com/presentation?ref=mkpr-contact-us'
+                    target='_blank'
+                    className={classes.block}>
+                    About us
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a href='//blog.creative-tim.com/' className={classes.block}>
+                    Blog
+                  </a>
+                </ListItem>
+                <ListItem className={classes.inlineBlock}>
+                  <a
+                    href='https://www.creative-tim.com/license?ref=mkpr-contact-us'
+                    target='_blank'
+                    className={classes.block}>
+                    Licenses
+                  </a>
+                </ListItem>
+              </List>
+            </div>
+            <div className={classes.right}>
+              &copy; {1900 + new Date().getYear()} , made with <Favorite className={classes.icon} /> by{' '}
+              <a href='https://www.creative-tim.com?ref=mkpr-contact-us' target='_blank'>
+                Creative Tim
+              </a>{' '}
+              for a better web.
+            </div>
+          </div>
+        }
+      />
+    </div>
+  )
 }
 
 ContactUsPage.propTypes = {
   classes: PropTypes.object,
-};
+}
 
-export default withStyles(contactUsStyle)(ContactUsPage);
+export default withStyles(contactUsStyle)(ContactUsPage)

@@ -1,3 +1,5 @@
+// Based on the original react-tagsinput styles
+
 .react-tagsinput {
   display: inline-block;
   padding: 4px 6px;
@@ -31,7 +33,6 @@
   padding: 0px 2px;
   font-weight: 900;
 }
-
 .react-tagsinput-tag a {
   cursor: pointer;
   position: absolute;
@@ -99,31 +100,24 @@
     &.primary {
       background-color: $brand-primary;
     }
-
     &.info {
       background-color: $brand-info;
     }
-
     &.success {
       background-color: $brand-success;
     }
-
     &.warning {
       background-color: $brand-warning;
     }
-
     &.danger {
       background-color: $brand-danger;
     }
-
     &.rose {
       background-color: $brand-rose;
     }
-
     &.default {
       background-color: $gray-light;
     }
-
     background-color: $gray-light;
   }
 }
