@@ -1,10 +1,10 @@
-import React from 'Pages/Way/sections/node_modules/Pages/way/sections/node_modules/react';
-import classNames from 'Pages/Way/sections/node_modules/Pages/way/sections/node_modules/classnames';
-import withStyles from 'Pages/Way/sections/node_modules/Pages/way/sections/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import sectionsStyle from '../../../Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
+import sectionsStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
 
 const SectionAbout = (props) => {
   const { classes } = props;

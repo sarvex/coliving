@@ -1,22 +1,22 @@
-import React from 'Pages/Login/node_modules/Pages/login/node_modules/react';
-import withStyles from 'Pages/Login/node_modules/Pages/login/node_modules/@material-ui/core/styles/withStyles';
-import InputAdornment from 'Pages/Login/node_modules/Pages/login/node_modules/@material-ui/core/InputAdornment';
-import Icon from 'Pages/Login/node_modules/Pages/login/node_modules/@material-ui/core/Icon';
-import Email from 'Pages/Login/node_modules/Pages/login/node_modules/@material-ui/icons/Email';
-import Face from 'Pages/Login/node_modules/Pages/login/node_modules/@material-ui/icons/Face';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Button from '../../Components/CustomButtons/Button';
-import Card from '../../Components/Card/Card';
-import CardBody from '../../Components/Card/CardBody';
-import CardHeader from '../../Components/Card/CardHeader';
-import CustomInput from '../../Components/CustomInput/CustomInput';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Icon from '@material-ui/core/Icon';
+import Email from '@material-ui/icons/Email';
+import Face from '@material-ui/icons/Face';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardHeader from 'Components/Card/CardHeader';
+import CustomInput from 'Components/CustomInput/CustomInput';
 
-import loginPageStyle from '../../Assets/JSS/material-kit-pro-react/views/loginPageStyle';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import loginPageStyle from 'Assets/JSS/material-kit-pro-react/views/loginPageStyle';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
-import image from '../../assets/img/bg7.jpg';
+import image from 'Assets/Images/bg7.jpg';
 
 class Login extends React.Component {
   componentDidMount() {

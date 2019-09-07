@@ -1,17 +1,17 @@
-import React from 'Pages/News/node_modules/Pages/news/node_modules/react';
-import classNames from 'Pages/News/node_modules/Pages/news/node_modules/classnames';
-import withStyles from 'Pages/News/node_modules/Pages/news/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Parallax from '../../Components/Parallax/Parallax';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
 
-import landingPageStyle from '../../Assets/JSS/material-kit-pro-react/views/landingPageStyle';
+import landingPageStyle from 'Assets/JSS/material-kit-pro-react/views/landingPageStyle';
 
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 import SectionProduct from './sections/Product';
 import SectionTeam from './sections/Team';
 import SectionWork from './sections/Work';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
 
 
 class LandingPage extends React.Component {
@@ -25,7 +25,7 @@ class LandingPage extends React.Component {
     return (
       <div>
         <NavBar />
-        <Parallax image={require('assets/img/bg8.jpg')} filter='dark'>
+        <Parallax image={require('Assets/Images/bg8.jpg')} filter='dark'>
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem xs={12} sm={6} md={6}>

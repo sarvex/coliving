@@ -1,9 +1,9 @@
-import React from 'Pages/Privacy/sections/node_modules/Pages/privacy/sections/node_modules/react';
-import withStyles from 'Pages/Privacy/sections/node_modules/Pages/privacy/sections/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import projectsStyle from '../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/projectsStyle';
+import projectsStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/projectsStyle';
 
 function SectionProjects({ ...props }) {
   const { classes, ...rest } = props;

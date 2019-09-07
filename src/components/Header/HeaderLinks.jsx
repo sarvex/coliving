@@ -1,18 +1,18 @@
-import React from 'Components/Header/node_modules/react';
-import PropTypes from 'Components/Header/node_modules/prop-types';
-import { Link } from 'Components/Header/node_modules/react-router-dom';
-import withStyles from 'Components/Header/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Components/Header/node_modules/@material-ui/core/List';
-import ListItem from 'Components/Header/node_modules/@material-ui/core/ListItem';
-import Apps from 'Components/Header/node_modules/@material-ui/icons/Apps';
-import ShoppingCart from 'Components/Header/node_modules/@material-ui/icons/Call';
-import ViewDay from 'Components/Header/node_modules/@material-ui/icons/ViewDay';
-import ViewCarousel from 'Components/Header/node_modules/@material-ui/icons/ViewCarousel';
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import withStyles from '@material-ui/core/styles/withStyles';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import Apps from '@material-ui/icons/Apps';
+import ShoppingCart from '@material-ui/icons/Call';
+import ViewDay from '@material-ui/icons/ViewDay';
+import ViewCarousel from '@material-ui/icons/ViewCarousel';
 
-import CustomDropdown from '../CustomDropdown/CustomDropdown';
-import Button from '../CustomButtons/Button';
+import CustomDropdown from 'Components/CustomDropdown/CustomDropdown';
+import Button from 'Components/CustomButtons/Button';
 
-import headerLinksStyle from '../../Assets/JSS/material-kit-pro-react/components/headerLinksStyle';
+import headerLinksStyle from 'Assets/JSS/material-kit-pro-react/components/headerLinksStyle';
 
 function HeaderLinks({ ...props }) {
   const easeInOutQuad = (t, b, c, d) => {

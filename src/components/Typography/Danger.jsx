@@ -1,10 +1,10 @@
-import React from 'Components/Typography/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Components/Typography/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Components/Typography/node_modules/@material-ui/core/styles/withStyles';
+import withStyles from '@material-ui/core/styles/withStyles';
 // core components
-import typographyStyle from 'Components/Typography/node_modules/assets/jss/material-kit-pro-react/components/typographyStyle';
+import typographyStyle from 'Assets/JSS/material-kit-pro-react/components/typographyStyle';
 
 function Danger({ ...props }) {
   const { classes, children } = props;

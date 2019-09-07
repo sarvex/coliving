@@ -1,16 +1,16 @@
-import React from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/react';
-import classNames from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/classnames';
-import withStyles from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import officeStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/officeStyle';
+import officeStyle from 'Assets/JSS/material-kit-pro-react/views/aboutUsSections/officeStyle';
 
-import office1 from '../../../assets/img/examples/office1.jpg';
-import office2 from '../../../assets/img/examples/office2.jpg';
-import office3 from '../../../assets/img/examples/office3.jpg';
-import office4 from '../../../assets/img/examples/office4.jpg';
-import office5 from '../../../assets/img/examples/office5.jpg';
+import office1 from 'Assets/Images/examples/office1.jpg';
+import office2 from 'Assets/Images/examples/office2.jpg';
+import office3 from 'Assets/Images/examples/office3.jpg';
+import office4 from 'Assets/Images/examples/office4.jpg';
+import office5 from 'Assets/Images/examples/office5.jpg';
 
 function Office(props) {
   const { classes } = props;

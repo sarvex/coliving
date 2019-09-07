@@ -1,14 +1,14 @@
-import React from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/react';
-import { Link } from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/react-router-dom';
-import withStyles from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import classNames from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/classnames';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import classNames from 'classnames';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import Button from '../../../Components/CustomButtons/Button';
+import Button from 'Components/CustomButtons/Button';
 
-import sectionsStyle from '../../../Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
+import sectionsStyle from 'Assets/JSS/material-kit-pro-react/views/presentationSections/sectionsStyle';
 
 const SectionAbout = (props) => {
   const { classes } = props;

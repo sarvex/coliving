@@ -1,10 +1,10 @@
-import React from 'Sections/node_modules/react';
-import withStyles from 'Sections/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import Header from '../Components/Header/Header';
-import HeaderLinks from '../Components/Header/HeaderLinks';
+import Header from 'Components/Header/Header';
+import HeaderLinks from 'Components/Header/HeaderLinks';
 
-import headersStyle from '../Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle';
+import headersStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle';
 
 const SectionHeaders = ({ ...props }) => {
   const { ...rest } = props;

@@ -1,13 +1,13 @@
-import React from "Components/Parallax/node_modules/react";
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from "Components/Parallax/node_modules/classnames";
+import classNames from "classnames";
 // nodejs library to set properties for components
-import PropTypes from "Components/Parallax/node_modules/prop-types";
+import PropTypes from "prop-types";
 // @material-ui/core components
-import withStyles from "Components/Parallax/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import parallaxStyle from "Components/Parallax/node_modules/assets/jss/material-kit-pro-react/components/parallaxStyle";
+import parallaxStyle from "Assets/JSS/material-kit-pro-react/components/parallaxStyle";
 
 class Parallax extends React.Component {
   constructor(props) {

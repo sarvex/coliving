@@ -1,20 +1,20 @@
-import React from 'Components/CustomInput/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Components/CustomInput/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // nodejs library that concatenates classes
-import classNames from 'Components/CustomInput/node_modules/classnames';
+import classNames from 'classnames';
 
 // @material-ui/core components
-import withStyles from 'Components/CustomInput/node_modules/@material-ui/core/styles/withStyles';
-import FormControl from 'Components/CustomInput/node_modules/@material-ui/core/FormControl';
-import InputLabel from 'Components/CustomInput/node_modules/@material-ui/core/InputLabel';
-import Input from 'Components/CustomInput/node_modules/@material-ui/core/Input';
+import withStyles from '@material-ui/core/styles/withStyles';
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import Input from '@material-ui/core/Input';
 // @material-ui/icons
-import Clear from 'Components/CustomInput/node_modules/@material-ui/icons/Clear';
-import Check from 'Components/CustomInput/node_modules/@material-ui/icons/Check';
+import Clear from '@material-ui/icons/Clear';
+import Check from '@material-ui/icons/Check';
 // core components
 
-import customInputStyle from '../../Assets/JSS/material-kit-pro-react/components/customInputStyle';
+import customInputStyle from 'Assets/JSS/material-kit-pro-react/components/customInputStyle';
 
 function CustomInput({ ...props }) {
   const {

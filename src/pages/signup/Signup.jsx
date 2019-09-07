@@ -1,28 +1,28 @@
-import React from 'Pages/Signup/node_modules/Pages/signup/node_modules/react';
-import withStyles from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/core/styles/withStyles';
-import InputAdornment from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/core/InputAdornment';
-import Checkbox from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/core/Checkbox';
-import FormControlLabel from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/core/FormControlLabel';
-import Icon from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/core/Icon';
-import Timeline from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Timeline';
-import Code from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Code';
-import Group from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Group';
-import Face from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Face';
-import Email from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Email';
-import Check from 'Pages/Signup/node_modules/Pages/signup/node_modules/@material-ui/icons/Check';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Button from '../../Components/CustomButtons/Button';
-import Card from '../../Components/Card/Card';
-import CardBody from '../../Components/Card/CardBody';
-import InfoArea from '../../Components/InfoArea/InfoArea';
-import CustomInput from '../../Components/CustomInput/CustomInput';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Icon from '@material-ui/core/Icon';
+import Timeline from '@material-ui/icons/Timeline';
+import Code from '@material-ui/icons/Code';
+import Group from '@material-ui/icons/Group';
+import Face from '@material-ui/icons/Face';
+import Email from '@material-ui/icons/Email';
+import Check from '@material-ui/icons/Check';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import CustomInput from 'Components/CustomInput/CustomInput';
 
-import signupPageStyle from '../../Assets/JSS/material-kit-pro-react/views/signupPageStyle';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import signupPageStyle from 'Assets/JSS/material-kit-pro-react/views/signupPageStyle';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
-import image from '../../assets/img/bg7.jpg';
+import image from 'Assets/Images/bg7.jpg';
 
 class Signup extends React.Component {
   constructor(props) {

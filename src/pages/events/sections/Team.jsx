@@ -1,20 +1,20 @@
-import React from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/react';
-import classNames from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/classnames';
-import withStyles from 'Pages/Events/sections/node_modules/Pages/events/sections/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import Card from '../../../Components/Card/Card';
-import CardAvatar from '../../../Components/Card/CardAvatar';
-import CardBody from '../../../Components/Card/CardBody';
-import CardFooter from '../../../Components/Card/CardFooter';
-import Button from '../../../Components/CustomButtons/Button';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Card from 'Components/Card/Card';
+import CardAvatar from 'Components/Card/CardAvatar';
+import CardBody from 'Components/Card/CardBody';
+import CardFooter from 'Components/Card/CardFooter';
+import Button from 'Components/CustomButtons/Button';
 
-import teamStyle from '../../../Assets/JSS/material-kit-pro-react/views/aboutUsSections/teamStyle';
+import teamStyle from 'Assets/JSS/material-kit-pro-react/views/aboutUsSections/teamStyle';
 
-import FaceMarc from '../../../assets/img/faces/marc.jpg';
-import FaceChristian from '../../../assets/img/faces/christian.jpg';
-import FaceKendall from '../../../assets/img/faces/kendall.jpg';
-import FaceAvatar from '../../../assets/img/faces/avatar.jpg';
+import FaceMarc from 'Assets/Images/faces/marc.jpg';
+import FaceChristian from 'Assets/Images/faces/christian.jpg';
+import FaceKendall from 'Assets/Images/faces/kendall.jpg';
+import FaceAvatar from 'Assets/Images/faces/avatar.jpg';
 
 function SectionTeam(props) {
   const { classes } = props;

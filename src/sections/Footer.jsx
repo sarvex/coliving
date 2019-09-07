@@ -1,65 +1,74 @@
-import React from 'Sections/node_modules/react';
-import classNames from 'Sections/node_modules/classnames';
-import withStyles from 'Sections/node_modules/@material-ui/core/styles/withStyles';
-import List from 'Sections/node_modules/@material-ui/core/List';
-import ListItem from 'Sections/node_modules/@material-ui/core/ListItem';
-import GridContainer from '../Components/Grid/GridContainer';
-import GridItem from '../Components/Grid/GridItem';
-import Footer from '../Components/Footer/Footer';
+import React from 'react'
+import classNames from 'classnames'
+import withStyles from '@material-ui/core/styles/withStyles'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import GridContainer from 'Components/Grid/GridContainer'
+import GridItem from 'Components/Grid/GridItem'
+import Footer from 'Components/Footer/Footer'
 
-import face1 from '../assets/img/faces/card-profile6-square.jpg';
-import face2 from '../assets/img/faces/christian.jpg';
-import face3 from '../assets/img/faces/card-profile4-square.jpg';
-import face4 from '../assets/img/faces/card-profile1-square.jpg';
-import face5 from '../assets/img/faces/marc.jpg';
-import face6 from '../assets/img/faces/kendall.jpg';
-import face7 from '../assets/img/faces/card-profile5-square.jpg';
-import face8 from '../assets/img/faces/card-profile2-square.jpg';
+import face1 from 'Assets/Images/faces/card-profile6-square.jpg'
+import face2 from 'Assets/Images/faces/christian.jpg'
+import face3 from 'Assets/Images/faces/card-profile4-square.jpg'
+import face4 from 'Assets/Images/faces/card-profile1-square.jpg'
+import face5 from 'Assets/Images/faces/marc.jpg'
+import face6 from 'Assets/Images/faces/kendall.jpg'
+import face7 from 'Assets/Images/faces/card-profile5-square.jpg'
+import face8 from 'Assets/Images/faces/card-profile2-square.jpg'
 
-import styles from '../Assets/JSS/material-kit-pro-react/views/componentsSections/footerStyle';
+import styles from 'Assets/JSS/material-kit-pro-react/views/componentsSections/footerStyle'
 
-const SectionFooter = (props) => {
-  const { classes } = props;
+const SectionFooter = props => {
+  const { classes } = props
   return (
     <div className={classes.section}>
       <Footer
-        theme="dark"
-        content={(
+        theme='dark'
+        content={
           <div>
             <div className={classes.left}>
               <List className={classes.list}>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/apps" className={classes.block}>Apps</a>
+                  <a href='/apps' className={classes.block}>
+                    Apps
+                  </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/news" className={classes.block}>In News</a>
+                  <a href='/news' className={classes.block}>
+                    In News
+                  </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/hacks" className={classes.block}>Hacks</a>
+                  <a href='/hacks' className={classes.block}>
+                    Hacks
+                  </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/faqs" className={classes.block}>FAQs</a>
+                  <a href='/faqs' className={classes.block}>
+                    FAQs
+                  </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/privacy" className={classes.block}>Privacy Policy</a>
+                  <a href='/privacy' className={classes.block}>
+                    Privacy Policy
+                  </a>
                 </ListItem>
                 <ListItem className={classes.inlineBlock}>
-                  <a href="/cancel" className={classes.block}>Cancellation Policy</a>
+                  <a href='/cancel' className={classes.block}>
+                    Cancellation Policy
+                  </a>
                 </ListItem>
               </List>
             </div>
             <div className={classes.right}>
-              Copyright &copy;
-              {' '}
-              {1900 + new Date().getYear()}
-              {' '}
-              <a href="/" className={classes.aClasses}>Coliving.ai</a>
-              {' '}
+              Copyright &copy; {1900 + new Date().getYear()}{' '}
+              <a href='/' className={classes.aClasses}>
+                Coliving.ai
+              </a>{' '}
               All Rights Reserved.
             </div>
           </div>
-        )}
-      >
+        }>
         <GridContainer>
           <GridItem xs={12} sm={4} md={4}>
             <h5>About Us</h5>
@@ -73,15 +82,15 @@ const SectionFooter = (props) => {
             <h5>Social Feed</h5>
             <div className={classes.socialFeed}>
               <div>
-                <i className="fab fa-twitter"/>
+                <i className='fab fa-twitter' />
                 <p>How to handle ethical disagreements with your clients.</p>
               </div>
               <div>
-                <i className="fab fa-twitter"/>
+                <i className='fab fa-twitter' />
                 <p>The tangible benefits of designing at 1x pixel density.</p>
               </div>
               <div>
-                <i className="fab fa-facebook-square"/>
+                <i className='fab fa-facebook-square' />
                 <p>A collection of 25 stunning sites that you can use for inspiration.</p>
               </div>
             </div>
@@ -89,20 +98,52 @@ const SectionFooter = (props) => {
           <GridItem xs={12} sm={4} md={4}>
             <h5>Instagram Feed</h5>
             <div className={classes.galleryFeed}>
-              <img src={face1} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face2} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face3} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face4} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face5} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face6} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face7} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
-              <img src={face8} className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)} alt="..."/>
+              <img
+                src={face1}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face2}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face3}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face4}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face5}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face6}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face7}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
+              <img
+                src={face8}
+                className={classNames(classes.img, classes.imgRaised, classes.imgRoundedCircle)}
+                alt='...'
+              />
             </div>
           </GridItem>
         </GridContainer>
       </Footer>
     </div>
-  );
-};
+  )
+}
 
-export default withStyles(styles)(SectionFooter);
+export default withStyles(styles)(SectionFooter)

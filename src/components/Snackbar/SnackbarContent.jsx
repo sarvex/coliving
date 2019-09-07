@@ -1,16 +1,16 @@
-import React from 'Components/Snackbar/node_modules/react';
+import React from 'react';
 // nodejs library to set properties for components
-import PropTypes from 'Components/Snackbar/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Components/Snackbar/node_modules/@material-ui/core/styles/withStyles';
-import Snack from 'Components/Snackbar/node_modules/@material-ui/core/SnackbarContent';
-import IconButton from 'Components/Snackbar/node_modules/@material-ui/core/IconButton';
-import Icon from 'Components/Snackbar/node_modules/@material-ui/core/Icon';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Snack from '@material-ui/core/SnackbarContent';
+import IconButton from '@material-ui/core/IconButton';
+import Icon from '@material-ui/core/Icon';
 // @material-ui/icons
-import Close from 'Components/Snackbar/node_modules/@material-ui/icons/Close';
+import Close from '@material-ui/icons/Close';
 // core components
 
-import snackbarContentStyle from 'Components/Snackbar/node_modules/assets/jss/material-kit-pro-react/components/snackbarContentStyle';
+import snackbarContentStyle from 'Assets/JSS/material-kit-pro-react/components/snackbarContentStyle';
 
 class SnackbarContent extends React.Component {
   constructor(props) {

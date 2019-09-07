@@ -1,16 +1,16 @@
-import React from 'Components/Table/node_modules/react';
-import cx from 'Components/Table/node_modules/classnames';
-import PropTypes from 'Components/Table/node_modules/prop-types';
+import React from 'react';
+import cx from 'classnames';
+import PropTypes from 'prop-types';
 
 // @material-ui/core components
-import withStyles from 'Components/Table/node_modules/@material-ui/core/styles/withStyles';
-import Table from 'Components/Table/node_modules/@material-ui/core/Table';
-import TableBody from 'Components/Table/node_modules/@material-ui/core/TableBody';
-import TableCell from 'Components/Table/node_modules/@material-ui/core/TableCell';
-import TableHead from 'Components/Table/node_modules/@material-ui/core/TableHead';
-import TableRow from 'Components/Table/node_modules/@material-ui/core/TableRow';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
 
-import style from 'Components/Table/node_modules/assets/jss/material-kit-pro-react/components/tableStyle';
+import style from 'Assets/JSS/material-kit-pro-react/components/tableStyle';
 
 function CustomTable({ ...props }) {
   const {

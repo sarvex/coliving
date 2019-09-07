@@ -1,38 +1,38 @@
-import React from 'Pages/Profile/node_modules/Pages/profile/node_modules/react';
-import classNames from 'Pages/Profile/node_modules/Pages/profile/node_modules/classnames';
-import withStyles from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/core/styles/withStyles';
-import Tooltip from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/core/Tooltip';
-import Camera from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/icons/Camera';
-import Palette from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/icons/Palette';
-import People from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/icons/People';
-import Add from 'Pages/Profile/node_modules/Pages/profile/node_modules/@material-ui/icons/Add';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import NavPills from '../../Components/NavPills/NavPills';
-import Card from '../../Components/Card/Card';
-import CardBody from '../../Components/Card/CardBody';
-import CardHeader from '../../Components/Card/CardHeader';
-import Badge from '../../Components/Badge/Badge';
-import Muted from '../../Components/Typography/Muted';
-import Parallax from '../../Components/Parallax/Parallax';
-import Clearfix from '../../Components/Clearfix/Clearfix';
-import Button from '../../Components/CustomButtons/Button';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Tooltip from '@material-ui/core/Tooltip';
+import Camera from '@material-ui/icons/Camera';
+import Palette from '@material-ui/icons/Palette';
+import People from '@material-ui/icons/People';
+import Add from '@material-ui/icons/Add';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import NavPills from 'Components/NavPills/NavPills';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardHeader from 'Components/Card/CardHeader';
+import Badge from 'Components/Badge/Badge';
+import Muted from 'Components/Typography/Muted';
+import Parallax from 'Components/Parallax/Parallax';
+import Clearfix from 'Components/Clearfix/Clearfix';
+import Button from 'Components/CustomButtons/Button';
 
-import christian from '../../assets/img/faces/christian.jpg';
-import oluEletu from '../../assets/img/examples/olu-eletu.jpg';
-import clemOnojeghuo from '../../assets/img/examples/clem-onojeghuo.jpg';
-import cynthiaDelRio from '../../assets/img/examples/cynthia-del-rio.jpg';
-import mariyaGeorgieva from '../../assets/img/examples/mariya-georgieva.jpg';
-import clemOnojegaw from '../../assets/img/examples/clem-onojegaw.jpg';
-import darrenColeshill from '../../assets/img/examples/darren-coleshill.jpg';
-import avatar from '../../assets/img/faces/avatar.jpg';
-import marc from '../../assets/img/faces/marc.jpg';
-import kendall from '../../assets/img/faces/kendall.jpg';
-import cardProfile2Square from '../../assets/img/faces/card-profile2-square.jpg';
+import christian from 'Assets/Images/faces/christian.jpg';
+import oluEletu from 'Assets/Images/examples/olu-eletu.jpg';
+import clemOnojeghuo from 'Assets/Images/examples/clem-onojeghuo.jpg';
+import cynthiaDelRio from 'Assets/Images/examples/cynthia-del-rio.jpg';
+import mariyaGeorgieva from 'Assets/Images/examples/mariya-georgieva.jpg';
+import clemOnojegaw from 'Assets/Images/examples/clem-onojegaw.jpg';
+import darrenColeshill from 'Assets/Images/examples/darren-coleshill.jpg';
+import avatar from 'Assets/Images/faces/avatar.jpg';
+import marc from 'Assets/Images/faces/marc.jpg';
+import kendall from 'Assets/Images/faces/kendall.jpg';
+import cardProfile2Square from 'Assets/Images/faces/card-profile2-square.jpg';
 
-import profilePageStyle from '../../Assets/JSS/material-kit-pro-react/views/profilePageStyle';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import profilePageStyle from 'Assets/JSS/material-kit-pro-react/views/profilePageStyle';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -47,7 +47,7 @@ class Profile extends React.Component {
     return (
       <div>
         <NavBar />
-        <Parallax image={require('assets/img/examples/city.jpg')} filter='dark' className={classes.parallax}/>
+        <Parallax image={require('Assets/Images/examples/city.jpg')} filter='dark' className={classes.parallax}/>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <GridContainer justify='center'>

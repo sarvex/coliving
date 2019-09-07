@@ -1,12 +1,12 @@
-import React from 'Pages/Hacks/sections/node_modules/Pages/hacks/sections/node_modules/react';
-import withStyles from 'Pages/Hacks/sections/node_modules/Pages/hacks/sections/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import CustomInput from '../../../Components/CustomInput/CustomInput';
-import Button from '../../../Components/CustomButtons/Button';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import Button from 'Components/CustomButtons/Button';
 
-import workStyle from '../../../Assets/JSS/material-kit-pro-react/views/landingPageSections/workStyle';
+import workStyle from 'Assets/JSS/material-kit-pro-react/views/landingPageSections/workStyle';
 
 class SectionWork extends React.Component {
   render() {

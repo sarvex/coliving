@@ -1,10 +1,10 @@
-import React from 'Components/Badge/node_modules/react';
-import classNames from 'Components/Badge/node_modules/classnames';
-import PropTypes from 'Components/Badge/node_modules/prop-types';
+import React from 'react';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
-import withStyles from 'Components/Badge/node_modules/@material-ui/core/styles/withStyles';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import badgeStyle from '../../Assets/JSS/material-kit-pro-react/components/badgeStyle';
+import badgeStyle from 'Assets/JSS/material-kit-pro-react/components/badgeStyle';
 
 const Badge = ({ ...props }) => {
   const {

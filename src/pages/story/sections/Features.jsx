@@ -1,16 +1,16 @@
-import React from 'Pages/Story/sections/node_modules/Pages/story/sections/node_modules/react';
-import withStyles from 'Pages/Story/sections/node_modules/Pages/story/sections/node_modules/@material-ui/core/styles/withStyles';
-import ChildFriendly from 'Pages/Story/sections/node_modules/Pages/story/sections/node_modules/@material-ui/icons/ChildFriendly';
-import WatchLater from 'Pages/Story/sections/node_modules/Pages/story/sections/node_modules/@material-ui/icons/WatchLater';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import ChildFriendly from '@material-ui/icons/ChildFriendly';
+import WatchLater from '@material-ui/icons/WatchLater';
 
-import Extension from 'Pages/Story/sections/node_modules/Pages/story/sections/node_modules/@material-ui/icons/Extension';
-import iphone from 'assets/img/sections/iphone.png';
-import iphone2 from 'assets/img/sections/iphone2.png';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import featuresStyle from '../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
+import Extension from '@material-ui/icons/Extension';
+import iphone from 'Assets/Images/sections/iphone.png';
+import iphone2 from 'Assets/Images/sections/iphone2.png';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import featuresStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
 
-import InfoArea from '../../../Components/InfoArea/InfoArea';
+import InfoArea from 'Components/InfoArea/InfoArea';
 
 function SectionFeatures({ ...props }) {
   const { classes, ...rest } = props;

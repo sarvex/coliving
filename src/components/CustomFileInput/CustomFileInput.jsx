@@ -1,13 +1,13 @@
-import React from 'Components/CustomFileInput/node_modules/react';
+import React from 'react';
 // used for making the prop types of this component
-import PropTypes from 'Components/CustomFileInput/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Components/CustomFileInput/node_modules/@material-ui/core/styles/withStyles';
+import withStyles from '@material-ui/core/styles/withStyles';
 // core components
+import styles from 'Assets/JSS/material-kit-pro-react/components/customFileInputStyle';
 import CustomInput from '../CustomInput/CustomInput';
 import Button from '../CustomButtons/Button';
 
-import styles from '../../Assets/JSS/material-kit-pro-react/components/customFileInputStyle';
 
 class CustomFileInput extends React.Component {
   state = {

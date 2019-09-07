@@ -1,21 +1,21 @@
-import React from 'Components/Header/node_modules/react';
+import React from 'react';
 // nodejs library that concatenates classes
-import classNames from 'Components/Header/node_modules/classnames';
+import classNames from 'classnames';
 // nodejs library to set properties for components
-import PropTypes from 'Components/Header/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Components/Header/node_modules/@material-ui/core/styles/withStyles';
-import AppBar from 'Components/Header/node_modules/@material-ui/core/AppBar';
-import Toolbar from 'Components/Header/node_modules/@material-ui/core/Toolbar';
-import IconButton from 'Components/Header/node_modules/@material-ui/core/IconButton';
-import Button from 'Components/Header/node_modules/@material-ui/core/Button';
-import Hidden from 'Components/Header/node_modules/@material-ui/core/Hidden';
-import Drawer from 'Components/Header/node_modules/@material-ui/core/Drawer';
+import withStyles from '@material-ui/core/styles/withStyles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import IconButton from '@material-ui/core/IconButton';
+import Button from '@material-ui/core/Button';
+import Hidden from '@material-ui/core/Hidden';
+import Drawer from '@material-ui/core/Drawer';
 // @material-ui/icons
-import Menu from 'Components/Header/node_modules/@material-ui/icons/Menu';
-import Close from 'Components/Header/node_modules/@material-ui/icons/Close';
+import Menu from '@material-ui/icons/Menu';
+import Close from '@material-ui/icons/Close';
 // core components
-import headerStyle from '../../Assets/JSS/material-kit-pro-react/components/headerStyle';
+import headerStyle from 'Assets/JSS/material-kit-pro-react/components/headerStyle';
 
 class Header extends React.Component {
   constructor(props) {

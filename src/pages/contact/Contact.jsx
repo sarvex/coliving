@@ -1,25 +1,20 @@
-import React from 'Pages/Contact/node_modules/Pages/contact/node_modules/react';
-import classNames from 'Pages/Contact/node_modules/Pages/contact/node_modules/classnames';
-import {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  Marker,
-} from 'react-google-maps';
-import withStyles from 'Pages/Contact/node_modules/Pages/contact/node_modules/@material-ui/core/styles/withStyles';
-import PinDrop from 'Pages/Contact/node_modules/Pages/contact/node_modules/@material-ui/icons/PinDrop';
-import Phone from 'Pages/Contact/node_modules/Pages/contact/node_modules/@material-ui/icons/Phone';
-import BusinessCenter from 'Pages/Contact/node_modules/Pages/contact/node_modules/@material-ui/icons/BusinessCenter';
+import React from 'react';
+import classNames from 'classnames';
+import { withScriptjs, withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
+import withStyles from '@material-ui/core/styles/withStyles';
+import PinDrop from '@material-ui/icons/PinDrop';
+import Phone from '@material-ui/icons/Phone';
+import BusinessCenter from '@material-ui/icons/BusinessCenter';
 // core components
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import InfoArea from '../../Components/InfoArea/InfoArea';
-import CustomInput from '../../Components/CustomInput/CustomInput';
-import Button from '../../Components/CustomButtons/Button';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import InfoArea from 'Components/InfoArea/InfoArea';
+import CustomInput from 'Components/CustomInput/CustomInput';
+import Button from 'Components/CustomButtons/Button';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
-import contactUsStyle from '../../Assets/JSS/material-kit-pro-react/views/contactUsStyle';
+import contactUsStyle from 'Assets/JSS/material-kit-pro-react/views/contactUsStyle';
 
 const CustomSkinMap = withScriptjs(
   withGoogleMap(() => (

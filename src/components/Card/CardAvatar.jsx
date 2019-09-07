@@ -1,9 +1,9 @@
-import React from 'Components/Card/node_modules/react';
-import classNames from 'Components/Card/node_modules/classnames';
-import PropTypes from 'Components/Card/node_modules/prop-types';
-import withStyles from 'Components/Card/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import classNames from 'classnames';
+import PropTypes from 'prop-types';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import cardAvatarStyle from '../../Assets/JSS/material-kit-pro-react/components/cardAvatarStyle';
+import cardAvatarStyle from 'Assets/JSS/material-kit-pro-react/components/cardAvatarStyle';
 
 const CardAvatar = ({ ...props }) => {
   const {

@@ -1,19 +1,19 @@
-import React from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/react';
-import withStyles from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/core/styles/withStyles';
-import Tooltip from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/core/Tooltip';
-import FormatAlignLeft from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/icons/FormatAlignLeft';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import NavPills from '../../../Components/NavPills/NavPills';
-import Card from '../../../Components/Card/Card';
-import CardBody from '../../../Components/Card/CardBody';
-import Button from '../../../Components/CustomButtons/Button';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Tooltip from '@material-ui/core/Tooltip';
+import FormatAlignLeft from '@material-ui/icons/FormatAlignLeft';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import NavPills from 'Components/NavPills/NavPills';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import Button from 'Components/CustomButtons/Button';
 
-import office2 from '../../../assets/img/examples/office2.jpg';
-import blog8 from '../../../assets/img/examples/blog8.jpg';
-import cardProject6 from '../../../assets/img/examples/card-project6.jpg';
+import office2 from 'Assets/Images/examples/office2.jpg';
+import blog8 from 'Assets/Images/examples/blog8.jpg';
+import cardProject6 from 'Assets/Images/examples/card-project6.jpg';
 
-import sectionPillsStyle from '../../../Assets/JSS/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle';
+import sectionPillsStyle from 'Assets/JSS/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle';
 
 function SectionPills({ ...props }) {
   const { classes } = props;

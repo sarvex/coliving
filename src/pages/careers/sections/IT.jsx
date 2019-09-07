@@ -1,24 +1,24 @@
-import React from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/react';
-import withStyles from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/core/styles/withStyles';
-import Icon from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/core/Icon';
-import Favorite from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Favorite';
-import Share from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Share';
-import Subject from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Subject';
-import Delete from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Delete';
-import Bookmark from 'Pages/Careers/sections/node_modules/Pages/careers/sections/node_modules/@material-ui/icons/Bookmark';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Icon from '@material-ui/core/Icon';
+import Favorite from '@material-ui/icons/Favorite';
+import Share from '@material-ui/icons/Share';
+import Subject from '@material-ui/icons/Subject';
+import Delete from '@material-ui/icons/Delete';
+import Bookmark from '@material-ui/icons/Bookmark';
 
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import Card from '../../../Components/Card/Card';
-import CardBody from '../../../Components/Card/CardBody';
-import CardFooter from '../../../Components/Card/CardFooter';
-import Success from '../../../Components/Typography/Success';
-import Button from '../../../Components/CustomButtons/Button';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import CardFooter from 'Components/Card/CardFooter';
+import Success from 'Components/Typography/Success';
+import Button from 'Components/CustomButtons/Button';
 
-import styles from '../../../Assets/JSS/material-kit-pro-react/views/componentsSections/sectionCards';
+import styles from 'Assets/JSS/material-kit-pro-react/views/componentsSections/sectionCards';
 
-import cardBlog5 from '../../../assets/img/examples/card-blog5.jpg';
-import avatar from '../../../assets/img/faces/avatar.jpg';
+import cardBlog5 from 'Assets/Images/examples/card-blog5.jpg';
+import avatar from 'Assets/Images/faces/avatar.jpg';
 
 class IT extends React.Component {
   componentDidMount() {

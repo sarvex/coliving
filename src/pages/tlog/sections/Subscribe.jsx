@@ -1,16 +1,16 @@
-import React from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/react';
-import withStyles from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/core/styles/withStyles';
-import InputAdornment from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/core/InputAdornment';
-import Mail from 'Pages/Tlog/sections/node_modules/Pages/tlog/sections/node_modules/@material-ui/icons/Mail';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import Card from '../../../Components/Card/Card';
-import CardBody from '../../../Components/Card/CardBody';
-import Button from '../../../Components/CustomButtons/Button';
-import CustomInput from '../../../Components/CustomInput/CustomInput';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import Mail from '@material-ui/icons/Mail';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Card from 'Components/Card/Card';
+import CardBody from 'Components/Card/CardBody';
+import Button from 'Components/CustomButtons/Button';
+import CustomInput from 'Components/CustomInput/CustomInput';
 
 import sectionSubscribeLineStyle
-  from '../../../Assets/JSS/material-kit-pro-react/views/blogPostsSections/sectionSubscribeLineStyle';
+  from 'Assets/JSS/material-kit-pro-react/views/blogPostsSections/sectionSubscribeLineStyle';
 
 function SubscribeLine({ ...props }) {
   const { classes } = props;

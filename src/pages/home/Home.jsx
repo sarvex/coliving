@@ -1,19 +1,19 @@
-import React from 'Pages/Home/node_modules/Pages/home/node_modules/react';
-import classNames from 'Pages/Home/node_modules/Pages/home/node_modules/classnames';
-import withStyles from 'Pages/Home/node_modules/Pages/home/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
 
+import Cover from 'Assets/Images/examples/city.jpg'
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
+import Parallax from 'Components/Parallax/Parallax';
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
 import presentationStyle from '../../Assets/JSS/material-kit-pro-react/views/presentationStyle';
 import About from './sections/About';
 import Features from './sections/Features';
 import Community from './sections/Community';
 import Credits from './sections/Credits';
 import PreFooter from './sections/PreFooter';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
-import Parallax from '../../Components/Parallax/Parallax';
-import GridContainer from "../../Components/Grid/GridContainer";
-import GridItem from "../../Components/Grid/GridItem";
-import Cover from '../../assets/img/examples/city.jpg'
 
 class Home extends React.Component {
   componentDidMount() {

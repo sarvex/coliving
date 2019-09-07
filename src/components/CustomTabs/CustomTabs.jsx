@@ -1,22 +1,22 @@
-import React from "Components/CustomTabs/node_modules/react";
+import React from "react";
 // nodejs library that concatenates classes
-import classNames from "Components/CustomTabs/node_modules/classnames";
+import classNames from "classnames";
 // nodejs library to set properties for components
-import PropTypes from "Components/CustomTabs/node_modules/prop-types";
+import PropTypes from "prop-types";
 
 // @material-ui/core components
-import withStyles from "Components/CustomTabs/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 // import Card from "@material-ui/core/Card";
 // import CardContent from "@material-ui/core/Card/CardContent";
 // import CardHeader from "@material-ui/core/Card/CardHeader";
-import Tabs from "Components/CustomTabs/node_modules/@material-ui/core/Tabs";
-import Tab from "Components/CustomTabs/node_modules/@material-ui/core/Tab";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
 
 // core components
-import Card from "Components/CustomTabs/node_modules/components/Card/Card";
-import CardBody from "Components/CustomTabs/node_modules/components/Card/CardBody";
-import CardHeader from "Components/CustomTabs/node_modules/components/Card/CardHeader";
-import customTabsStyle from "Components/CustomTabs/node_modules/assets/jss/material-kit-pro-react/components/customTabsStyle";
+import Card from "Components/Card/Card";
+import CardBody from "Components/Card/CardBody";
+import CardHeader from "Components/Card/CardHeader";
+import customTabsStyle from "Assets/JSS/material-kit-pro-react/components/customTabsStyle";
 
 class CustomTabs extends React.Component {
   state = {

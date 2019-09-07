@@ -1,16 +1,16 @@
-import React from 'Pages/Gurugram/node_modules/Pages/gurugram/node_modules/react';
-import withStyles from 'Pages/Gurugram/node_modules/Pages/gurugram/node_modules/@material-ui/core/styles/withStyles';
-import FormatAlignLeft from 'Pages/Gurugram/node_modules/Pages/gurugram/node_modules/@material-ui/icons/FormatAlignLeft';
-import Parallax from '../../Components/Parallax/Parallax';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Button from '../../Components/CustomButtons/Button';
-import SectionText from './sections/Description';
-import SectionSimilarStories from './sections/Similar';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import FormatAlignLeft from '@material-ui/icons/FormatAlignLeft';
+import Parallax from 'Components/Parallax/Parallax';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Button from 'Components/CustomButtons/Button';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
-import blogPostPageStyle from '../../Assets/JSS/material-kit-pro-react/views/blogPostPageStyle';
+import blogPostPageStyle from 'Assets/JSS/material-kit-pro-react/views/blogPostPageStyle';
+import SectionSimilarStories from './sections/Similar';
+import SectionText from './sections/Description';
 
 class Gurugram extends React.Component {
   componentDidMount() {
@@ -23,7 +23,7 @@ class Gurugram extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Parallax image={require('assets/img/cover-gurgaon.webp')} filter="dark">
+        <Parallax image={require('Assets/Images/cover-gurgaon.webp')} filter="dark">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={8} className={classes.textCenter}>

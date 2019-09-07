@@ -1,14 +1,14 @@
-import React from 'Components/Card/node_modules/react';
+import React from 'react';
 // nodejs library that concatenates classes
-import classNames from 'Components/Card/node_modules/classnames';
+import classNames from 'classnames';
 // nodejs library to set properties for components
-import PropTypes from 'Components/Card/node_modules/prop-types';
+import PropTypes from 'prop-types';
 // @material-ui/core components
-import withStyles from 'Components/Card/node_modules/@material-ui/core/styles/withStyles';
+import withStyles from '@material-ui/core/styles/withStyles';
 // @material-ui/icons
 
 // core components
-import cardHeaderStyle from '../../Assets/JSS/material-kit-pro-react/components/cardHeaderStyle';
+import cardHeaderStyle from 'Assets/JSS/material-kit-pro-react/components/cardHeaderStyle';
 
 function CardHeader({ ...props }) {
   const {

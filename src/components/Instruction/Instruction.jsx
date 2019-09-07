@@ -1,15 +1,15 @@
-import React from "Components/Instruction/node_modules/react";
-import PropTypes from "Components/Instruction/node_modules/prop-types";
-import cx from "Components/Instruction/node_modules/classnames";
+import React from "react";
+import PropTypes from "prop-types";
+import cx from "classnames";
 
 // @material-ui/core components
-import withStyles from "Components/Instruction/node_modules/@material-ui/core/styles/withStyles";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import GridContainer from "Components/Instruction/node_modules/components/Grid/GridContainer";
-import GridItem from "Components/Instruction/node_modules/components/Grid/GridItem";
+import GridContainer from "Components/Grid/GridContainer";
+import GridItem from "Components/Grid/GridItem";
 
-import instructionStyle from "Components/Instruction/node_modules/assets/jss/material-kit-pro-react/components/instructionStyle";
+import instructionStyle from "Assets/JSS/material-kit-pro-react/components/instructionStyle";
 
 function Instruction({ ...props }) {
   const {

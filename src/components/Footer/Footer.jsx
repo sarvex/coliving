@@ -1,9 +1,9 @@
-import React from 'Components/Footer/node_modules/react';
-import PropTypes from 'Components/Footer/node_modules/prop-types';
-import classNames from 'Components/Footer/node_modules/classnames';
-import withStyles from 'Components/Footer/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import footerStyle from 'Components/Footer/node_modules/assets/jss/material-kit-pro-react/components/footerStyle';
+import footerStyle from 'Assets/JSS/material-kit-pro-react/components/footerStyle';
 
 function Footer(props) {
   const { children, content, classes, theme, big, className } = props;

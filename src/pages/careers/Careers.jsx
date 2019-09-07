@@ -1,12 +1,15 @@
-import React from 'Pages/Careers/node_modules/Pages/careers/node_modules/react';
-import PropTypes from 'Pages/Careers/node_modules/Pages/careers/node_modules/prop-types';
-import classNames from 'Pages/Careers/node_modules/Pages/careers/node_modules/classnames';
-import withStyles from 'Pages/Careers/node_modules/Pages/careers/node_modules/@material-ui/core/styles/withStyles';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import React from 'react';
+import PropTypes from 'prop-types';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
-import contactUsStyle from '../../Assets/JSS/material-kit-pro-react/views/contactUsStyle';
+import contactUsStyle from 'Assets/JSS/material-kit-pro-react/views/contactUsStyle';
 
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
 import BusinessDevelopment from './sections/Others';
 import Transformation from './sections/Transformation';
 import Sales from './sections/Sales';
@@ -14,9 +17,6 @@ import Marketing from './sections/Marketing';
 import Technology from './sections/Technology';
 import HumanResource from './sections/HumanResource';
 import Administration from './sections/Administration';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Parallax from '../../Components/Parallax/Parallax';
 import Finance from './sections/Finance';
 
 class Careers extends React.Component {
@@ -31,7 +31,7 @@ class Careers extends React.Component {
       <div>
         <NavBar />
         <Parallax
-          image={require('assets/img/bg4.jpg')}
+          image={require('Assets/Images/bg4.jpg')}
           className={classes.parallax}
           small
         >

@@ -1,9 +1,9 @@
-import React from 'Pages/Way/sections/node_modules/Pages/way/sections/node_modules/react';
-import withStyles from 'Pages/Way/sections/node_modules/Pages/way/sections/node_modules/@material-ui/core/styles/withStyles';
-import iphone from 'assets/img/sections/iphone.png';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import featuresStyle from '../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import iphone from 'Assets/Images/sections/iphone.png';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import featuresStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/featuresStyle';
 
 function SectionFeatures({ ...props }) {
   const { classes, ...rest } = props;

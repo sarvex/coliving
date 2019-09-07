@@ -1,15 +1,15 @@
-import React from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/react';
-import withStyles from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/@material-ui/core/styles/withStyles';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
 
-import Key from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/@material-ui/icons/VpnKey';
-import { Link } from 'Pages/Home/sections/node_modules/Pages/home/sections/node_modules/react-router-dom';
-import Button from '../../../Components/CustomButtons/Button';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
+import Key from '@material-ui/icons/VpnKey';
+import { Link } from 'react-router-dom';
+import Button from 'Components/CustomButtons/Button';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
 
-import headersStyle from '../../../Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle';
+import headersStyle from 'Assets/JSS/material-kit-pro-react/views/sectionsSections/headersStyle';
 
-import cover from '../../../assets/img/examples/city.jpg';
+import cover from 'Assets/Images/examples/city.jpg';
 
 function SectionHeaders({ ...props }) {
   const { classes, ...rest } = props;

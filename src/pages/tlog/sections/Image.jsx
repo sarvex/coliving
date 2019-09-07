@@ -1,13 +1,13 @@
-import React from 'Pages/tlog/sections/node_modules/react';
-import withStyles from 'Pages/tlog/sections/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import Card from '../../../Components/Card/Card';
-import CardHeader from '../../../Components/Card/CardHeader';
-import CardBody from '../../../Components/Card/CardBody';
-import CardFooter from '../../../Components/Card/CardFooter';
-import Muted from '../../../Components/Typography/Muted';
-import Button from '../../../Components/CustomButtons/Button';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Card from 'Components/Card/Card';
+import CardHeader from 'Components/Card/CardHeader';
+import CardBody from 'Components/Card/CardBody';
+import CardFooter from 'Components/Card/CardFooter';
+import Muted from 'Components/Typography/Muted';
+import Button from 'Components/CustomButtons/Button';
 
 import bg10 from 'Assets/Images/bg10.jpg';
 

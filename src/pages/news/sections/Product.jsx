@@ -1,13 +1,13 @@
-import React from 'Pages/News/sections/node_modules/Pages/news/sections/node_modules/react';
-import withStyles from 'Pages/News/sections/node_modules/Pages/news/sections/node_modules/@material-ui/core/styles/withStyles';
-import Chat from 'Pages/News/sections/node_modules/Pages/news/sections/node_modules/@material-ui/icons/Chat';
-import VerifiedUser from 'Pages/News/sections/node_modules/Pages/news/sections/node_modules/@material-ui/icons/VerifiedUser';
-import Fingerprint from 'Pages/News/sections/node_modules/Pages/news/sections/node_modules/@material-ui/icons/Fingerprint';
-import GridContainer from '../../../Components/Grid/GridContainer';
-import GridItem from '../../../Components/Grid/GridItem';
-import InfoArea from '../../../Components/InfoArea/InfoArea';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import Chat from '@material-ui/icons/Chat';
+import VerifiedUser from '@material-ui/icons/VerifiedUser';
+import Fingerprint from '@material-ui/icons/Fingerprint';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import InfoArea from 'Components/InfoArea/InfoArea';
 
-import productStyle from '../../../Assets/JSS/material-kit-pro-react/views/landingPageSections/productStyle';
+import productStyle from 'Assets/JSS/material-kit-pro-react/views/landingPageSections/productStyle';
 
 class Product extends React.Component {
   render() {

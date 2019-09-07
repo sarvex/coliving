@@ -1,16 +1,16 @@
-import React from 'Pages/Events/node_modules/Pages/events/node_modules/react';
-import classNames from 'Pages/Events/node_modules/Pages/events/node_modules/classnames';
-import withStyles from 'Pages/Events/node_modules/Pages/events/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import Parallax from '../../Components/Parallax/Parallax';
-import aboutUsStyle from '../../Assets/JSS/material-kit-pro-react/views/aboutUsStyle';
+import React from 'react';
+import classNames from 'classnames';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import Parallax from 'Components/Parallax/Parallax';
+import aboutUsStyle from 'Assets/JSS/material-kit-pro-react/views/aboutUsStyle';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 import SectionDescription from './sections/Description';
 import SectionTeam from './sections/Team';
 import SectionServices from './sections/Services';
 import SectionOffice from './sections/Office';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
 
 
 class AboutUsPage extends React.Component {
@@ -24,7 +24,7 @@ class AboutUsPage extends React.Component {
     return (
       <div>
         <NavBar/>
-        <Parallax image={require('assets/img/bg9.jpg')} filter="dark">
+        <Parallax image={require('Assets/Images/bg9.jpg')} filter="dark">
           <div className={classes.container}>
             <GridContainer justify="center">
               <GridItem md={8} sm={8} className={classNames(classes.mlAuto, classes.mrAuto, classes.textCenter)}>

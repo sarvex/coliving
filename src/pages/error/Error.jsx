@@ -1,11 +1,11 @@
-import React from 'Pages/Error/node_modules/Pages/error/node_modules/react';
-import withStyles from 'Pages/Error/node_modules/Pages/error/node_modules/@material-ui/core/styles/withStyles';
-import GridContainer from '../../Components/Grid/GridContainer';
-import GridItem from '../../Components/Grid/GridItem';
-import errorPageStyle from '../../Assets/JSS/material-kit-pro-react/views/errorPageStyles';
-import image from '../../assets/img/clint-mckoy.jpg';
-import NavBar from '../../Sections/NavBar';
-import Footer from '../../Sections/Footer';
+import React from 'react';
+import withStyles from '@material-ui/core/styles/withStyles';
+import GridContainer from 'Components/Grid/GridContainer';
+import GridItem from 'Components/Grid/GridItem';
+import errorPageStyle from 'Assets/JSS/material-kit-pro-react/views/errorPageStyles';
+import image from 'Assets/Images/clint-mckoy.jpg';
+import NavBar from 'Sections/NavBar';
+import Footer from 'Sections/Footer';
 
 
 class ErrorPage extends React.Component {
