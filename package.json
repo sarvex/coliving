@@ -30,7 +30,7 @@
 		"mobx": "^5.13.0",
 		"moment": "^2.29.4",
 		"node-sass": "^7.0.0",
-		"nouislider": "^14.0.2",
+		"nouislider": "^15.0.0",
 		"prop-types": "^15.7.2",
 		"react": "^16.9.0",
 		"react-animate-on-scroll": "^2.1.5",
