@@ -24,7 +24,7 @@
 		"enzyme": "^3.10.0",
 		"eslint-import-resolver-babel-module": "^5.1.0",
 		"firebase": "^9.0.0",
-		"graphql": "^14.5.4",
+		"graphql": "^16.0.0",
 		"graphql-tag": "^2.10.1",
 		"history": "^4.9.0",
 		"mobx": "^5.13.0",
