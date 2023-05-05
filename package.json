@@ -65,7 +65,7 @@
 		"eslint-plugin-promise": "^6.0.0",
 		"eslint-plugin-react": "^7.14.3",
 		"prettier": "^2.0.0",
-		"prettier-eslint": "^9.0.0",
+		"prettier-eslint": "^15.0.0",
 		"prettier-eslint-cli": "^7.0.0"
 	},
 	"scripts": {
