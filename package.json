@@ -47,7 +47,7 @@
 		"react-slick": "^0.29.0",
 		"react-swipeable-views": "^0.14.0",
 		"react-tagsinput": "^3.19.0",
-		"typescript": "^3.6.2"
+		"typescript": "^5.0.0"
 	},
 	"devDependencies": {
 		"@babel/cli": "^7.21.5",
