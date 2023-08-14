@@ -9,7 +9,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@mui/material": "5.14.3",
+		"@mui/material": "5.14.4",
 		"@mui/icons-material": "5.14.3",
 		"@types/googlemaps": "3.43.3",
 		"@types/jest": "29.5.3",
@@ -50,9 +50,9 @@
 		"typescript": "5.1.6"
 	},
 	"devDependencies": {
-		"@babel/cli": "7.22.9",
-		"@babel/core": "7.22.9",
-		"@babel/preset-env": "7.22.9",
+		"@babel/cli": "7.22.10",
+		"@babel/core": "7.22.10",
+		"@babel/preset-env": "7.22.10",
 		"@babel/preset-react": "7.22.5",
 		"babel-loader": "9.1.3",
 		"core-js": "3.32.0",
@@ -64,7 +64,7 @@
 		"eslint-plugin-prettier": "5.0.0",
 		"eslint-plugin-promise": "6.1.1",
 		"eslint-plugin-react": "7.33.1",
-		"prettier": "3.0.0",
+		"prettier": "3.0.1",
 		"prettier-eslint": "15.0.1",
 		"prettier-eslint-cli": "7.1.0"
 	},
