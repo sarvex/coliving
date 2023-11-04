@@ -16,7 +16,7 @@
 		"@types/markerclustererplus": "2.1.33",
 		"@types/node": "20.8.10",
 		"@types/prop-types": "15.7.9",
-		"@types/react": "18.2.33",
+		"@types/react": "18.2.34",
 		"@types/react-dom": "18.2.14",
 		"animate.css": "4.1.1",
 		"apollo-boost": "0.4.9",
