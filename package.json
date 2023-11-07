@@ -9,7 +9,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
-		"@mui/material": "5.14.16",
+		"@mui/material": "5.14.17",
 		"@mui/icons-material": "5.14.16",
 		"@types/googlemaps": "3.43.3",
 		"@types/jest": "29.5.7",
