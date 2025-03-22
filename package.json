@@ -14,7 +14,7 @@
 		"@types/googlemaps": "3.43.3",
 		"@types/jest": "29.5.14",
 		"@types/markerclustererplus": "2.1.33",
-		"@types/node": "20.14.13",
+		"@types/node": "20.17.25",
 		"@types/prop-types": "15.7.14",
 		"@types/react": "18.3.18",
 		"@types/react-dom": "18.3.5",
